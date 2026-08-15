@@ -1,0 +1,15 @@
+name: Debug km77 access
+on:
+  workflow_dispatch: {}
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl km77
+        run: |
+          curl -s -o /tmp/resp.html -w "HTTP_STATUS:%{http_code}\n" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" "https://www.km77.com/revista/wp-json/wp/v2/posts?per_page=1"
+          echo "--- body head ---"
+          head -c 1000 /tmp/resp.html
+          echo ""
+          echo "--- runner IP ---"
+          curl -s https://api.ipify.org
