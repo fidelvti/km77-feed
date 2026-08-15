@@ -9,6 +9,7 @@ HTML = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <title>km77 feed</title>
+<link rel="alternate" type="application/rss+xml" title="km77 - Revista (noticias y novedades)" href="feed.xml">
 </head>
 <body>
 <h1>Feed no oficial de km77.com</h1>

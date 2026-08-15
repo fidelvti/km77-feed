@@ -1,220 +1,290 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>km77 - Revista (noticias y novedades)</title>
-    <link>https://www.km77.com/revista/</link>
-    <description>Feed no oficial generado a partir de la revista de km77.com</description>
+    <title>km77 - Portada (noticias y novedades)</title>
+    <link>https://www.km77.com/</link>
+    <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sat, 15 Aug 2026 12:27:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 12:35:26 +0000</lastBuildDate>
     <item>
-      <title>Del Frégate al Vel Satis: las grandes berlinas insignia de Renault</title>
+      <title>Honda Prelude e:HEV 184 CV | Prueba</title>
+      <link>https://www.km77.com/coches/honda/prelude/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/honda/prelude/2026/estandar/informacion</guid>
+      <pubDate>Fri, 14 Aug 2026 15:35:25 +0000</pubDate>
+      <description>Con este coche se disfruta al volante sin necesidad de una potencia demasiado elevada. Tiene una carrocería cupé que mide 4,52 metros y el mismo sistema híbrido no enchufable del Civic, de 184 caballos. Cuesta 49 500 euros, un precio alto.</description>
+    </item>
+    <item>
+      <title>Koenigsegg CCGT1 (2027)</title>
+      <link>https://www.km77.com/coches/koenigsegg/ccgt1/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/koenigsegg/ccgt1/2027/estandar/informacion</guid>
+      <pubDate>Fri, 14 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Es un deportivo que homenajea al Koenigsegg CCGT, un vehículo de carreras creado en 2007 que no llegó a competir por un cambio en el reglamento. El CCGT1 tiene un motor V8 biturbo que puede generar 1600 caballos. Se fabricarán 70 unidades.</description>
+    </item>
+    <item>
+      <title>Ferrari CZ26 (2026)</title>
+      <link>https://www.km77.com/coches/ferrari/cz26/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/ferrari/cz26/2026/estandar/informacion</guid>
+      <pubDate>Fri, 14 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Este vehículo, del que solo existe una unidad, es fruto del programa Special Projects de Ferrari. Su punto de partida es el SF90 Stradale y está movido por un sistema de propulsión híbrido enchufable de 1000 caballos.</description>
+    </item>
+    <item>
+      <title>Kia EV4 | Imágenes interiores</title>
+      <link>https://www.km77.com/coches/kia/ev4/2025/estandar/imagenes/interiores</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/kia/ev4/2025/estandar/imagenes/interiores</guid>
+      <pubDate>Fri, 14 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Galería con la sesión de 24 fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 81 kWh 204 CV GT-Line.</description>
+    </item>
+    <item>
+      <title>Del Frégate al Vel Satis: las grandes berlinas de Renault</title>
       <link>https://www.km77.com/revista/engendro-mecanico/del-fregate-al-vel-satis-las-grandes-berlinas-insignia-de-renault/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/del-fregate-al-vel-satis-las-grandes-berlinas-insignia-de-renault/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:25:10 +0000</pubDate>
-      <description>A día de hoy, más de la mitad de los turismos vendidos en Europa son SUV. El éxito arrollador de este tipo de automóviles ha ido arrinconando a otros tipos de carrocería, como pueden ser los monovolúmenes y los sedanes. Incluso los compactos del segmento C están perdiendo terreno, y solo los utilitarios del segmento […]</description>
+      <pubDate>Fri, 14 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Hoy el día, en Europa reinan los SUV, pero en décadas pasadas el panorama era muy distinto. Las berlinas tenían un gran peso en el mercado y Renault siempre tuvo modelos de este tipo. Desde el Frégate hasta el Vel Satis, hacemos un repaso a todos ellos.</description>
     </item>
     <item>
-      <title>Tres características que diferencian a los coches chinos de los europeos (y una cuarta que todavía no conocemos)</title>
+      <title>Coches chinos frente a coches europeos</title>
       <link>https://www.km77.com/revista/opinion/tres-caracteristicas-que-diferencian-a-los-coches-chinos-de-los-europeos-y-una-cuarta-que-todavia-no-conocemos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/opinion/tres-caracteristicas-que-diferencian-a-los-coches-chinos-de-los-europeos-y-una-cuarta-que-todavia-no-conocemos/</guid>
-      <pubDate>Thu, 13 Aug 2026 09:20:57 +0000</pubDate>
-      <description>Los coches chinos ya no llaman la atención únicamente por su precio. Entre otras cosas, porque también hay coches chinos caros. Pero basta conducir unos cuantos modelos para descubrir que detrás de ellos hay una forma distinta de entender el automóvil. No digo que sea mejor ni peor que la europea. Simplemente es distinta. Hay […]</description>
+      <pubDate>Thu, 13 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Detrás de los coches chinos hay una forma distinta de entender el automóvil. Ni mejor ni peor, distinta. Con frecuencia se repiten tres características que los distinguen de los modelos europeos: tecnología, suspensión y plazas traseras.</description>
     </item>
     <item>
-      <title>¿Puede el sistema de frenado automático confundir sombras con objetos reales?</title>
+      <title>La frenada automática de emergencia y sus falsos positivos</title>
       <link>https://www.km77.com/revista/engendro-mecanico/sistemas-frenado-autonomo-confundir-sombras/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/sistemas-frenado-autonomo-confundir-sombras/</guid>
-      <pubDate>Thu, 13 Aug 2026 06:09:46 +0000</pubDate>
-      <description>El sistema de frenada automática de emergencia (AEB, por sus siglas en inglés) se ha consolidado como uno de los asistentes de seguridad activa más importantes de la automoción moderna. Capaz de reducir drásticamente las colisiones por alcance y los atropellos urbanos, este dispositivo supervisa de manera ininterrumpida el entorno frontal del vehículo para actuar […]</description>
+      <pubDate>Thu, 13 Aug 2026 12:35:25 +0000</pubDate>
+      <description>Este sistema es uno de los asistentes más importantes hoy en día, ya que reduce de manera drástica las colisiones por alcance. No obstante, en determinadas situaciones, su funcionamiento no es el adecuado. Te explicamos por qué ocurre.</description>
     </item>
     <item>
-      <title>Desvelado el interior del Jaguar Type 01: ¡Oh, sorpresa!</title>
+      <title>Desvelado el interior del Jaguar Type 01</title>
       <link>https://www.km77.com/revista/noticias/desvelado-el-interior-del-jaguar-type-01-oh-sorpresa/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/desvelado-el-interior-del-jaguar-type-01-oh-sorpresa/</guid>
-      <pubDate>Wed, 12 Aug 2026 12:22:01 +0000</pubDate>
-      <description>Jaguar acaba de enseñar el interior del Type 01 y, para sorpresa de absolutamente nadie, no se parece a un Jaguar tradicional ni por accidente. Olvídense de la madera oscura, del cuero de club británico de fumadores y de esa sensación que en cualquier momento va a aparecer un señor llamado George con el Financial […]</description>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Estaba claro que este nuevo Jaguar no iba a parecerse a ninguno anterior. Su interior huye de la tradición británica. Una apuesta arriesgada y extravagante que podrá salvar la marca o no.</description>
     </item>
     <item>
-      <title>Si el eclipse solar te pilla conduciendo, esto es lo que debes hacer</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/si-el-eclipse-solar-te-pilla-conduciendo-esto-es-lo-que-debes-hacer/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/si-el-eclipse-solar-te-pilla-conduciendo-esto-es-lo-que-debes-hacer/</guid>
-      <pubDate>Wed, 12 Aug 2026 09:27:00 +0000</pubDate>
-      <description>La DGT (Dirección General de Tráfico) estima que, con motivo del eclipse solar que tendrá lugar el día 12 de agosto de 2026 (es decir, hoy), se producirán entre 400 000 y 1,5 millones de desplazamientos adicionales para observar el fenómeno, lo que equivale a un aumento del tráfico de entre el 30 % y el […]</description>
-    </item>
-    <item>
-      <title>Qué es el testigo TWI de los neumáticos</title>
+      <title>¿Qué es el testigo TWI?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/testigo-twi-neumaticos-que-es/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/testigo-twi-neumaticos-que-es/</guid>
-      <pubDate>Wed, 12 Aug 2026 06:17:49 +0000</pubDate>
-      <description>El neumático es la única superficie de contacto entre el vehículo y el asfalto. A través de la huella de pisada se transmiten la totalidad de las fuerzas de aceleración, retención y guiado lateral. Para que el compuesto mantenga sus propiedades dinámicas, la banda de rodadura requiere una profundidad mínima en sus canales que garantice […]</description>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Estas pequeñas protuberancias se encuentran en la banda de rodadura de los neumáticos y dan a conocer el nivel de desgaste de los mismos.</description>
     </item>
     <item>
-      <title>El Lamborghini Diablo de los años 90 vuelve a la vida a través del nuevo Eccentrica V12 Roadster</title>
-      <link>https://www.km77.com/revista/noticias/el-lamborghini-diablo-de-los-anos-90-vuelve-a-la-vida-a-traves-del-nuevo-eccentrica-v12-roadster/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/el-lamborghini-diablo-de-los-anos-90-vuelve-a-la-vida-a-traves-del-nuevo-eccentrica-v12-roadster/</guid>
-      <pubDate>Tue, 11 Aug 2026 14:37:52 +0000</pubDate>
-      <description>Eccentrica, una empresa de restomods (es decir, especializada en la restauración y preparación de automóviles) radicada en San Marino, ha presentado el nuevo Eccentrica V12 Roadster, un modelo que toma la base del Lamborghini Diablo de los años 90 y lo lleva al presente mediante una serie de modificaciones que lo transforman en un vehículo muy diferente […]</description>
+      <title>Volkswagen T-Roc Hybrid | Precio</title>
+      <link>https://www.km77.com/coches/volkswagen/t-roc/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/t-roc/2026/estandar/informacion</guid>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Volkswagen añade a la gama T-Roc una versión híbrida no enchufable de 170 caballos. Tiene mejores prestaciones y menor consumo que las híbridas ligeras que están a la venta en la actualidad y su precio de partida es de 36 150 euros (superior al de sus alternativas).</description>
     </item>
     <item>
-      <title>Problemas del Plan Auto+: ¡mi Tesla no aparece!</title>
+      <title>Eccentrica V12 Roadster</title>
+      <link>https://www.km77.com/revista/noticias/el-lamborghini-diablo-de-los-anos-90-vuelve-a-la-vida-a-traves-del-nuevo-eccentrica-v12-roadster</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/el-lamborghini-diablo-de-los-anos-90-vuelve-a-la-vida-a-traves-del-nuevo-eccentrica-v12-roadster</guid>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El Lamborghini Diablo vuelve a la vida a través del nuevo Eccentrica V12 Roadster, un restomod que trae al presente al legendario deportivo de los años 90.</description>
+    </item>
+    <item>
+      <title>Plan Auto+: ¡mi Tesla no aparece!</title>
       <link>https://www.km77.com/revista/engendro-mecanico/desastre-general-problemas-plan-auto/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/desastre-general-problemas-plan-auto/</guid>
-      <pubDate>Tue, 11 Aug 2026 09:30:25 +0000</pubDate>
-      <description>El Plan Auto+ —el programa público destinado a incentivar la adquisición de vehículos eléctricos e híbridos enchufable— ha venido acompañado por la polémica debido a los plazos. Se anunció el 3 de diciembre de 2025, el 3 de febrero se hicieron públicas las condiciones principales, el 20 de marzo se crea jurídicamente mediante un Real […]</description>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El Plan Auto+ ha arrancado con más problemas de los previstos. Tras meses de espera y retrasos en su tramitación, la apertura de la plataforma telemática ha estado marcada por saturaciones, fallos de acceso y errores que han impedido solicitar ayudas para determinados modelos.</description>
     </item>
     <item>
-      <title>​Qué pasa si usas el agua del grifo en lugar de anticongelante</title>
+      <title>Qué pasa si usas agua del grifo en lugar de anticongelante</title>
       <link>https://www.km77.com/revista/engendro-mecanico/usar-agua-grifo-anticongelante/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/usar-agua-grifo-anticongelante/</guid>
-      <pubDate>Tue, 11 Aug 2026 06:10:26 +0000</pubDate>
-      <description>En el sistema de refrigeración del automóvil, la función del fluido circulante es crucial para la estabilidad termodinámica del motor. Su misión consiste en absorber el exceso de calor generado por la combustión en la culata y los cilindros para transportarlo hacia el radiador frontal, donde se disipa a la atmósfera. Ante una bajada imprevista […]</description>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Lo que necesitas saber sobre los efectos de la calcificación, la corrosión interna, la ebullición y la cavitación en la bomba de agua.</description>
     </item>
     <item>
-      <title>Mitsubishi presenta el ASX eléctrico, que ya no deriva del Renault Captur… sino del Foxtron Bria</title>
+      <title>Maserati GranTurismo (2027) | Precios</title>
+      <link>https://www.km77.com/coches/maserati/granturismo/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/maserati/granturismo/2027/estandar/informacion</guid>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Este cupé de casi 5 metros de longitud recibe una ligera actualización estética y de equipamiento. También hay cambios en el motor de la variante Trofeo —ahora tiene 590 CV, 40 más— y en la autonomía de la eléctrica Folgore —542 kilómetros, 85 más—. Se puede adquirir desde 159 500 euros.</description>
+    </item>
+    <item>
+      <title>Mitsubishi ASX VR-e</title>
       <link>https://www.km77.com/revista/noticias/mitsubishi-presenta-el-asx-electrico-que-ya-no-deriva-del-renault-captur-sino-del-foxtron-bria/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/mitsubishi-presenta-el-asx-electrico-que-ya-no-deriva-del-renault-captur-sino-del-foxtron-bria/</guid>
-      <pubDate>Mon, 10 Aug 2026 14:57:07 +0000</pubDate>
-      <description>En el año 2020, Mitsubishi anunció su intención de abandonar el mercado europeo debido a sus problemas financieros. Sin embargo, apenas un año más tarde decidió dar marcha atrás. El motivo detrás de este cambio de parecer fue la firma de un acuerdo de colaboración con Renault, que se encargaría de suministrar nuevos modelos a […]</description>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La versión eléctrica del ASX, a diferencia de lo que ocurre con la híbrida, no está basada en ningún Renault sino que deriva de un modelo ya existente: el Foxtron Bria, de origen taiwanés.</description>
     </item>
     <item>
-      <title>Si compra un coche de ocasión, aproveche: «Diesel el gustazo»</title>
+      <title>«Diesel el gustazo»</title>
       <link>https://www.km77.com/revista/noticias/si-compra-un-coche-de-ocasion-aproveche-diesel-el-gustazo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/si-compra-un-coche-de-ocasion-aproveche-diesel-el-gustazo/</guid>
-      <pubDate>Mon, 10 Aug 2026 12:11:30 +0000</pubDate>
-      <description>Los más veteranos del lugar recordarán aquellos fantásticos anuncios de Citroën sobre sus modelos de gasóleo con el lema «Diesel el gustazo». Esto me sirve de entrada para comentar un fenómeno que está ocurriendo con los coches de segunda mano. El mercado de ocasión muestra una creciente demanda de vehículos con etiqueta ECO, pero también […]</description>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El mercado de ocasión está cambiando: mientras crece la demanda de coches con etiqueta ECO, los modelos de gasolina y, especialmente, los Diesel se abaratan con fuerza. Para muchos compradores, prescindir de la etiqueta puede convertirse en una oportunidad de ahorro.</description>
     </item>
     <item>
-      <title>Qué es el barrido de gases</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/que-es-barrido-gases/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/que-es-barrido-gases/</guid>
-      <pubDate>Mon, 10 Aug 2026 06:06:47 +0000</pubDate>
-      <description>En la búsqueda constante por maximizar la eficiencia volumétrica y el rendimiento de los motores de combustión interna, los ingenieros de desarrollo recurren a una serie de fenómenos de la dinámica de fluidos que optimizan el llenado y la evacuación del cilindro. En este sentido, uno de los más relevantes es el barrido de gases. […]</description>
+      <title>Volkswagen T7 Multivan y California (2027) | Novedad y precios</title>
+      <link>https://www.km77.com/coches/volkswagen/t7/2027/california/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/t7/2027/california/informacion</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Tienen un nuevo diseño, más elementos de equipamiento y una gama de motores más reducida. La Multivan, que se puede adquirir desde 58 825 euros, se puede elegir con dos longitudes de carrocería; la California, en venta desde 63 940 euros, solo está disponible con la más larga.</description>
     </item>
     <item>
-      <title>Qué tipos de carretera desgastan más los neumáticos</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/tipos-carretera-desgaste-neumaticos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/tipos-carretera-desgaste-neumaticos/</guid>
-      <pubDate>Fri, 07 Aug 2026 06:09:39 +0000</pubDate>
-      <description>El neumático es la única superficie de contacto entre el vehículo y el asfalto. A través de su banda de rodadura se transmiten todas las fuerzas de aceleración, frenada y guiado lateral necesarias para mantener la trayectoria. Aunque factores como la presión de inflado, la alineación de las cotas de la suspensión o la agresividad […]</description>
+      <title>Maserati GranCabrio (2027) | Precios</title>
+      <link>https://www.km77.com/coches/maserati/grancabrio/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/maserati/grancabrio/2027/estandar/informacion</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La variante descapotable del GranTurismo recibe una ligera actualización estética y de equipamiento. También hay cambios en el motor de la variante Trofeo —ahora tiene 590 CV, 40 más— y en la autonomía de la eléctrica Folgore —509 kilómetros, 84 más—. Está a la venta desde 169 800 euros, unos 10 000 más que la variante de tipo cupé.</description>
     </item>
     <item>
-      <title>El Mercedes-AMG CLA 45 da una vuelta a Nürburgring en 7:32,070 minutos, estableciendo un nuevo récord en su categoría</title>
-      <link>https://www.km77.com/revista/noticias/el-mercedes-amg-cla-45-da-una-vuelta-a-nurburgring-en-732070-minutos-estableciendo-un-nuevo-record-en-su-categoria/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/el-mercedes-amg-cla-45-da-una-vuelta-a-nurburgring-en-732070-minutos-estableciendo-un-nuevo-record-en-su-categoria/</guid>
-      <pubDate>Thu, 06 Aug 2026 14:50:55 +0000</pubDate>
-      <description>El pasado 28 de julio, Mercedes-AMG estableció un récord en Nürburgring con su último modelo eléctrico, el CLA 45 4MATIC+. El piloto Kevin Berger logró dar una vuelta al circuito alemán en un tiempo de 7:32,070 minutos, lo que según la marca lo convierte en el automóvil más rápido de su categoría. Mercedes-AMG señala en su perfil de LinkedIn que el récord se estableció […]</description>
+      <title>Bugatti Destrier (2026)</title>
+      <link>https://www.km77.com/coches/bugatti/destrier/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/bugatti/destrier/2026/estandar/informacion</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Es un deportivo biplaza del que Bugatti solo va a fabricar una unidad. El motor es uno de gasolina con 16 cilindros que desarrolla 1600 caballos, el mismo empleado en el Mistral.</description>
     </item>
     <item>
-      <title>Datos de ventas de coches en España. Julio 2026</title>
-      <link>https://www.km77.com/revista/ventas-de-coches/datos-de-ventas-de-coches-en-espana-julio-2026/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/ventas-de-coches/datos-de-ventas-de-coches-en-espana-julio-2026/</guid>
-      <pubDate>Thu, 06 Aug 2026 11:38:13 +0000</pubDate>
-      <description>El mercado de ventas de coches modera su ritmo en julio España alcanzó 101 949 ventas de coches en julio de 2026, según datos de ANFAC. Un 3,7 % más que en julio de 2025, el crecimiento mensual más moderado de los últimos meses. El acumulado del año llega a las 749 656 unidades (+5,8 […]</description>
+      <title>BYD Seal 6 DM-i Comfort | Prueba</title>
+      <link>https://www.km77.com/coches/byd/seal-6/2024/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/byd/seal-6/2024/estandar/informacion</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Esta berlina de 4,84 metros de longitud tiene un habitáculo amplio, bien acabado y con mucho equipamiento. Con el sistema propulsor híbrido enchufable de 212 caballos el consumo es bajo y las prestaciones buenas; además, la autonomía eléctrica real queda cercana a la homologada. Dinámicamente es correcto, pero menos refinado que sus rivales. En venta desde 34 790 euros, un precio bajo.</description>
     </item>
     <item>
-      <title>​Cómo sabe el coche que estás tocando el volante</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/sensores-volante-manos-como-funcionan/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/sensores-volante-manos-como-funcionan/</guid>
-      <pubDate>Thu, 06 Aug 2026 06:07:50 +0000</pubDate>
-      <description>En el marco de los sistemas avanzados de asistencia a la conducción (ADAS) y de la normativa europea sobre seguridad vehicular, la supervisión del conductor sigue siendo un requisito indispensable. Aunque tecnologías como el control de crucero adaptativo combinado con el sistema de mantenimiento de carril, el llamado Nivel 2 de conducción automatizada, son capaces […]</description>
+      <title>Volkswagen Caddy (2027) | Precios</title>
+      <link>https://www.km77.com/coches/volkswagen/caddy/2027/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/caddy/2027/informacion</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Volkswagen actualiza ligeramente esta furgoneta, la más pequeña de su gama. Sigue estando disponible con dos longitudes de carrocería, pero ahora su aspecto es distinto gracias al rediseño del parachoques delantero y las llantas. En la gama de motores hay dos versiones Diesel  y una híbrida enchufable. Su precio de partida es de 33 470 euros, superior al de muchas alternativas.</description>
     </item>
     <item>
-      <title>Hennessey Blackbird: un deportivo de la vieja escuela con motor atmosférico y cambio manual</title>
-      <link>https://www.km77.com/revista/noticias/hennessey-blackbird-un-deportivo-de-la-vieja-escuela-con-motor-atmosferico-y-caja-manual/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/hennessey-blackbird-un-deportivo-de-la-vieja-escuela-con-motor-atmosferico-y-caja-manual/</guid>
-      <pubDate>Wed, 05 Aug 2026 10:06:13 +0000</pubDate>
-      <description>La marca estadounidense Hennessey ha presentado su tercer deportivo tras los Venom GT y Venom F5: el nuevo Blackbird, un modelo que debe su nombre (que significa «mirlo» en castellano) a uno de los aviones más rápidos de la historia, el famoso Lockheed SR-71 Blackbird. En una era en la que la mayoría de fabricantes apuestan […]</description>
+      <title>Mercedes-Benz GLA (2027) | Precios</title>
+      <link>https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Es un SUV de 4,57 metros de longitud del que, por ahora, solo se pueden pedir dos versiones eléctricas (272 CV y un solo motor o 354 CV con dos motores); más adelante llegarán más versiones de este tipo y otras dos con motor de gasolina. Aunque el espacio interior es bueno, no supera a sus rivales directos. A la venta desde 54 726 euros, un precio intermedio frente a sus rivales.</description>
     </item>
     <item>
-      <title>Lamborghini Revuelto Miura 60º Homage: ¡larga vida al Miura!</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/lamborghini-revuelto-miura-60o-homage-larga-vida-al-miura/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/lamborghini-revuelto-miura-60o-homage-larga-vida-al-miura/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:30:56 +0000</pubDate>
-      <description>El Miura es uno de esos coches que no necesitan presentación. El que por muchos aficionados es considerado como el primer superdeportivo de la historia llegó al mercado en 1966, una época en la que por las calles italianas de más renombre circulaban modelos tan espectaculares como el Ferrari 365 GTB Daytona y por los […]</description>
+      <title>EVO 6 HEV 245 CV | Novedad y precio</title>
+      <link>https://www.km77.com/coches/evo/6/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/evo/6/2025/estandar/informacion</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>EVO añade una versión híbrida no enchufable a este SUV de 4,59 metros de longitud. Tiene 245 caballos de potencia máxima combinada y se puede adquirir por 33 900 euros, un precio intermedio frente a sus alternativas.</description>
     </item>
     <item>
-      <title>¿Se debe levantar el limpiaparabrisas al lavar el coche?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/levantar-parabrisas-lavar-coche-realidad/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/levantar-parabrisas-lavar-coche-realidad/</guid>
-      <pubDate>Mon, 03 Aug 2026 06:20:16 +0000</pubDate>
-      <description>Durante el proceso de limpieza exterior del automóvil, no son pocos los conductores que, de forma manual, levantan los brazos del limpiaparabrisas para facilitar la limpieza de la luna delantera y trasera y evitar que las escobillas de goma acumulen suciedad jabonosa. Aunque a simple vista este gesto parece un hábito inofensivo para mejorar el […]</description>
+      <title>Audi A2 e-tron (2027)</title>
+      <link>https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>En otoño de 2026, Audi presentará el A2 e-tron, un vehículo eléctrico de pequeño tamaño que reemplazará al A1 y Q2. Habrá versiones de entre 170 y 326 caballos. La autonomía homologada será, en el caso más favorable, de 649 kilómetros.</description>
     </item>
     <item>
-      <title>La diosa de la Odisea que dio nombre al Citroën más famoso de todos los tiempos</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/la-diosa-de-la-odisea-que-dio-nombre-al-citroen-mas-famoso-de-todos-los-tiempos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/la-diosa-de-la-odisea-que-dio-nombre-al-citroen-mas-famoso-de-todos-los-tiempos/</guid>
-      <pubDate>Sat, 01 Aug 2026 13:33:18 +0000</pubDate>
-      <description>La Odisea de Christopher Nolan es una de las películas más taquilleras del año. La enésima reinterpretación de la milenaria epopeya de Homero es uno de los temas más comentados del momento, y no podíamos dejar pasar la oportunidad para llevarla a nuestro terreno: el automóvil. Más de un lector se preguntará de qué diantres […]</description>
+      <title>Geely E2 (2026) | Precio</title>
+      <link>https://www.km77.com/coches/geely/e2/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/geely/e2/2026/estandar/informacion</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Es un coche eléctrico de 4,1 metros de longitud y 82 caballos que se puede adquirir con dos baterías diferentes que proporcionan 252 o 345 kilómetros de autonomía homologada. Tiene un precio de partida de 20 280 euros; solo hay un modelo similar que cueste menos.</description>
     </item>
     <item>
-      <title>Vuelve Galloper con dos todoterrenos de origen chino y tecnología de Nissan y Mitsubishi</title>
-      <link>https://www.km77.com/revista/noticias/vuelve-galloper-con-dos-todoterrenos-de-origen-chino-y-tecnologia-de-nissan-y-mitsubishi/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/vuelve-galloper-con-dos-todoterrenos-de-origen-chino-y-tecnologia-de-nissan-y-mitsubishi/</guid>
-      <pubDate>Fri, 31 Jul 2026 13:15:32 +0000</pubDate>
-      <description>Galloper es un nombre que todavía resuena en el imaginario colectivo español. Esta es la denominación por la que se conocía en Corea del Sur a un todoterreno fabricado por Hyundai a partir del Mitsubishi Montero de primera generación. Sin embargo, en nuestro mercado este vehículo no se vendió como Hyundai Galloper, sino que fue comercializado […]</description>
+      <title>Omoda 7 SHS PHEV 279 CV | Prueba</title>
+      <link>https://www.km77.com/coches/omoda/7/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/omoda/7/2025/estandar/informacion</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Este SUV de 4,66 metros de longitud tiene un sistema de impulsión híbrido enchufable de 279 caballos (92 kilómetros de autonomía eléctrica) que funciona con suavidad y proporciona una buena aceleración. El habitáculo es amplio y confortable, de aspecto moderno y realizado con materiales de buena calidad. Está a la venta desde 40 900 euros.</description>
     </item>
     <item>
-      <title>Entrega de un coche nuevo en Gamboa: mucho más que recibir unas llaves</title>
-      <link>https://www.km77.com/revista/contenido-patrocinado/entrega-de-un-coche-nuevo-en-gamboa-mucho-mas-que-recibir-unas-llaves/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/contenido-patrocinado/entrega-de-un-coche-nuevo-en-gamboa-mucho-mas-que-recibir-unas-llaves/</guid>
-      <pubDate>Fri, 31 Jul 2026 08:12:14 +0000</pubDate>
-      <description>Un Kia Sportage espera impecablemente preparado en la zona de entregas de Kia Shuma Gamboa, en Sinesio Delgado, 36 (Madrid). En unos minutos llegará su nueva propietaria. La carrocería acaba de recibir el último lavado, el interior luce impecable, la documentación está preparada y no falta ninguno de los accesorios solicitados en el pedido. Para […]</description>
+      <title>Sportequipe 7 GTW | Precios</title>
+      <link>https://www.km77.com/coches/sportequipe/7-gtw/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/sportequipe/7-gtw/2025/estandar/informacion</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es un SUV de 4,72 metros de longitud disponible con cinco o siete plazas y dos motores de gasolina de 186 y 182 CV, este último compatible con GLP. Está a la venta desde 36 900 euros.</description>
     </item>
     <item>
-      <title>Cómo sabe el coche que has pinchado neumático</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/deteccion-pinchazo-neumatico-coche/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/deteccion-pinchazo-neumatico-coche/</guid>
-      <pubDate>Fri, 31 Jul 2026 07:13:43 +0000</pubDate>
-      <description>La presión de inflado de los neumáticos es uno de los factores más determinantes en la seguridad activa de un automóvil. Un neumático rodando por debajo de la presión recomendada por el fabricante incrementa el consumo de combustible y acelera el desgaste de los hombros de la banda de rodadura, además de que compromete la […]</description>
+      <title>ICH-X K2 | Precio</title>
+      <link>https://www.km77.com/coches/ich-x/k2/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/ich-x/k2/2025/estandar/informacion</guid>
+      <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es un todoterreno con chasis de largueros, tracción total y reductora. Mide 4,65 metros y tiene un motor Diesel de 162 CV. Está en venta por 58 500 euros.</description>
     </item>
     <item>
-      <title>CUPRA Raval vs. MINI Aceman: ¿cuál elijo?</title>
-      <link>https://www.km77.com/revista/comparativas/cupra-raval-vs-mini-aceman-se-cual-elijo/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/comparativas/cupra-raval-vs-mini-aceman-se-cual-elijo/</guid>
-      <pubDate>Thu, 30 Jul 2026 11:29:11 +0000</pubDate>
-      <description>Enfrentamos al CUPRA Raval Endurance y al MINI Aceman SE , dos eléctricos compactos con diferentes características El CUPRA Raval Endurance y el MINI Aceman SE compiten en el mismo segmento de eléctricos compactos con personalidad, pero apuntan a compradores distintos. El Raval, fabricado en España, prioriza la autonomía y el espacio. El Aceman, desarrollado […]</description>
+      <title>Zeekr 9X (2026)</title>
+      <link>https://www.km77.com/coches/zeekr/9x/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/zeekr/9x/2026/estandar/informacion</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es un SUV híbrido enchufable de 5,24 metros de longitud y seis plazas. Su sistema de impulsión tiene 897 CV y está compuesto por dos motores eléctricos y uno de gasolina. La batería tiene una capacidad de 55 kWh y proporciona una autonomía eléctrica de 179 kilómetros.</description>
     </item>
     <item>
-      <title>¿Se puede quedar el coche sin batería mientras circulas?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/agotar-bateria-en-marcha-posibilidades/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/agotar-bateria-en-marcha-posibilidades/</guid>
-      <pubDate>Thu, 30 Jul 2026 06:31:09 +0000</pubDate>
-      <description>Se suele creer, erróneamente, que la batería de doce voltios del automóvil cumple una función única y exclusiva: proporcionar el pico de corriente inicial para poner en marcha el motor de combustión. Bajo esta premisa, se suele asumir que, una vez que el motor está girando, la batería pasa a un plano totalmente irrelevante y […]</description>
+      <title>Audi Q9 (2027) | Precio</title>
+      <link>https://www.km77.com/coches/audi/q9/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/audi/q9/2027/estandar/informacion</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+      <description>El Audi Q9 es el SUV más grande de Audi. Mide 5,31 metros y compite con modelos como el BMW X7 y el Mercedes-Benz GLS. Inicialmente está disponible con un motor Diesel de 299 caballos y su precio parte de 126 090 euros.</description>
     </item>
     <item>
-      <title>Por qué la tapicería de cuero sintético se calienta más que la piel natural</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/tapiceria-cuero-sintetico-mas-calor/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/tapiceria-cuero-sintetico-mas-calor/</guid>
-      <pubDate>Thu, 30 Jul 2026 06:09:40 +0000</pubDate>
-      <description>En la industria del automóvil actual, el uso de tapicerías sintéticas, frecuentemente denominadas piel vegana, cuero ecológico o polipiel, se ha extendido de forma notable. La mejora en las técnicas de confección ha permitido que estas alternativas ofrezcan un aspecto visual y un tacto superficial casi indistinguibles de la piel de origen animal. Sin embargo, […]</description>
+      <title>Mercedes-Benz Clase C Eléctrico (2027) | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/mercedes/clase-c-electrico/2027/berlina/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c-electrico/2027/berlina/informacion</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Tiene un rodar silencioso, suave y confortable. Con la suspensión neumática y las ruedas traseras direccionales, disimula muy bien su masa (2,5 toneladas) y tamaño (4,88 metros de longitud). El habitáculo no sobresale por su amplitud. Por el momento, solo hay una versión de 489 caballos y 743 kilómetros de autonomía, cuyo precio de partida es 69 800 euros.</description>
     </item>
     <item>
-      <title>Cómo influye el estado de la carretera en el desgaste de los neumáticos</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/importancia-estado-carretera-desgaste-neumaticos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/importancia-estado-carretera-desgaste-neumaticos/</guid>
-      <pubDate>Wed, 29 Jul 2026 06:11:36 +0000</pubDate>
-      <description>El neumático es el único punto de contacto entre el automóvil y la carretera. A través de una superficie equivalente a la palma de una mano en cada rueda, se transmiten las fuerzas de aceleración, frenado y guiado lateral de la dirección. Aunque los conductores acostumbran a asociar la duración de la cubierta exclusivamente a […]</description>
+      <title>DR 6 (2026) | Precios</title>
+      <link>https://www.km77.com/coches/dr/6/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/dr/6/2026/estandar/informacion</guid>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es un SUV de 4,52 metros de longitud que se puede pedir con un motor de gasolina de 188 caballos o con una variante del mismo que desarrolla 178 CV y que puede funcionar tanto con gasolina como con GLP. La caja de cambios es siempre automática y la tracción, en las ruedas delanteras. Está a la venta desde 28 900 euros.</description>
     </item>
     <item>
-      <title>Datos de ventas de coches en Europa. Junio de 2026</title>
-      <link>https://www.km77.com/revista/ventas-de-coches/datos-de-ventas-de-coches-en-europa-junio-de-2026/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/ventas-de-coches/datos-de-ventas-de-coches-en-europa-junio-de-2026/</guid>
-      <pubDate>Tue, 28 Jul 2026 10:01:24 +0000</pubDate>
-      <description>Las ventas en Europa crecen con fuerza en junio y los chinos aceleran su avance El mercado europeo cerró junio de 2026 con 1 407 332 ventas, un 13,1 % más que en el mismo mes de 2025, según datos de ACEA. El acumulado del primer semestre alcanza los 7 232 066 vehículos (+6,1 %). […]</description>
+      <title>Mercedes-Benz GLE y GLE Coupé (2026) | Precios</title>
+      <link>https://www.km77.com/coches/mercedes/gle/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/gle/2026/estandar/informacion</guid>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Mercedes-Benz actualiza este SUV de gran tamaño, el cual sigue estando disponible con dos tipos de carrocería. Tiene cambios de aspecto, de equipamiento y en el sistema multimedia, que es nuevo y más avanzado. También hay novedades en la gama de motores, que va de 286 a 585 caballos. Está en venta desde 96 150 euros.</description>
     </item>
     <item>
-      <title>Por qué al lavar el coche se sigue viendo sucio</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/coche-lavado-sigue-sucio-motivos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coche-lavado-sigue-sucio-motivos/</guid>
-      <pubDate>Tue, 28 Jul 2026 08:14:01 +0000</pubDate>
-      <description>Para la mayoría de los conductores, lavar el automóvil parece una tarea sencilla: aplicar agua a alta presión, jabón y realizar un aclarado final. Sin embargo, es una experiencia común ver que, una vez que la carrocería se seca, la pintura conserva un velo grisáceo, matizado o mate que desluce el acabado original. Este residuo […]</description>
+      <title>Mazda CX-5 2.5 e-SKYACTIV-G 141 CV | Prueba</title>
+      <link>https://www.km77.com/coches/mazda/cx-5/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mazda/cx-5/2026/estandar/informacion</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
+      <description>La tercera generación de este SUV es más grande, tiene un habitáculo más amplio y un maletero de mayor capacidad. Dinámicamente ha mejorado en cuanto a confort de marcha y calidad de rodadura, pero ya no tiene el tacto de conducción tan característico de generaciones previas y sus prestaciones son justas. En venta desde 35 200 euros, un precio intermedio frente a sus alternativas.</description>
     </item>
     <item>
-      <title>Nissan LEAF Nismo: un extra de deportividad sin potencia adicional</title>
-      <link>https://www.km77.com/revista/noticias/nissan-leaf-nismo-un-extra-de-deportividad-sin-potencia-adicional/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/nissan-leaf-nismo-un-extra-de-deportividad-sin-potencia-adicional/</guid>
-      <pubDate>Mon, 27 Jul 2026 13:48:35 +0000</pubDate>
-      <description>Nissan ha presentado en Japón el nuevo LEAF Nismo, un modelo cuya llegada al mercado europeo todavía no ha sido confirmada. Sin embargo, dado que la marca comercializa el Ariya Nismo en el viejo continente, no sería de extrañar que ocurriera lo mismo con su hermano pequeño. El Nissan LEAF Nismo se distingue del resto de versiones de la gama por […]</description>
+      <title>Volkswagen ID. Polo 116 CV 37 kWh | Precio</title>
+      <link>https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Volkswagen pone a la venta el ID. Polo de 116 caballos y batería de 37 kWh de capacidad. Su precio parte de 25 635 euros. No es el más asequible de su segmento, pero está cerca de los más baratos.</description>
+    </item>
+    <item>
+      <title>Jeep Avenger (2027) | Precios</title>
+      <link>https://www.km77.com/coches/jeep/avenger/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/jeep/avenger/2027/estandar/informacion</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es una puesta al día que afecta al diseño de la carrocería y al equipamiento. La gama de motores apenas recibe cambios y está compuesta por uno de gasolina, dos híbridos no enchufables y uno eléctrico. Ya se puede adquirir desde 21 988 euros, un precio intermedio entre sus alternativas.</description>
+    </item>
+    <item>
+      <title>Suzuki Across (2026) | Precio</title>
+      <link>https://www.km77.com/coches/suzuki/across/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/suzuki/across/2026/estandar/informacion</guid>
+      <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+      <description>El nuevo Across es como un Toyota RAV4, pero con una gama de motores más reducida. Solo está disponible con un sistema propulsor híbrido enchufable de 309 caballos asociado a un sistema de tracción total. Cuesta 49 375 euros.</description>
+    </item>
+    <item>
+      <title>EVO Spazio (2025) | Precios</title>
+      <link>https://www.km77.com/coches/evo/spazio/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/evo/spazio/2025/estandar/informacion</guid>
+      <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Es un monovolumen de 4,85 metros de longitud con un habitáculo en el que se pueden acomodar hasta siete personas. Está disponible con un motor de gasolina de 176 caballos o con uno que puede funcionar tanto con gasolina como con GLP y que desarrolla 167 CV. Está a la venta desde 33 400 euros.</description>
+    </item>
+    <item>
+      <title>Range Rover GT (2027)</title>
+      <link>https://www.km77.com/coches/range-rover/gt/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/range-rover/gt/2027/estandar/informacion</guid>
+      <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+      <description>El quinto modelo de la marca tiene una silueta distinta a la habitual, más baja y afilada que la de un SUV. Inicialmente estará disponible con una variante eléctrica, pero más adelante habrá versiones con motor de combustión. Range Rover dará más información a finales de año.</description>
+    </item>
+    <item>
+      <title>Mercedes-Maybach GLS (2026)</title>
+      <link>https://www.km77.com/coches/mercedes/clase-gls/2026/estandar/maybach/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-gls/2026/estandar/maybach/informacion</guid>
+      <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
+      <description>La versión más lujosa del Mercedes-Benz GLS tiene un motor V8 de 612 caballos y numerosos detalles específicos. Su interior se puede elegir con cuatro o cinco plazas. Es una alternativa a modelos como el Bentley Bentayga y Rolls-Royce Cullinan.</description>
     </item>
   </channel>
 </rss>

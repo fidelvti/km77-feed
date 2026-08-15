@@ -1,66 +1,112 @@
 #!/usr/bin/env python3
-import html
 import re
-import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import urljoin
 from xml.sax.saxutils import escape
 
 import requests
+from bs4 import BeautifulSoup
 
-API_URL = "https://www.km77.com/revista/wp-json/wp/v2/posts"
-FEED_TITLE = "km77 - Revista (noticias y novedades)"
-FEED_LINK = "https://www.km77.com/revista/"
-FEED_DESCRIPTION = "Feed no oficial generado a partir de la revista de km77.com"
+BASE_URL = "https://www.km77.com"
+PAGE_URLS = [f"{BASE_URL}/", f"{BASE_URL}/page/2"]
+FEED_TITLE = "km77 - Portada (noticias y novedades)"
+FEED_LINK = f"{BASE_URL}/"
+FEED_DESCRIPTION = (
+    "Feed no oficial generado a partir de la portada de km77.com: "
+    "noticias, pruebas y novedades de modelos"
+)
 OUTPUT_PATH = Path("docs/feed.xml")
-PER_PAGE = 30
+MAX_ITEMS = 40
 USER_AGENT = (
-    "km77-feed-bot/1.0 (+https://github.com/fidelvti/km77-feed; "
-    "personal RSS generator, contact: fidelvti@gmail.com)"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
 
 
-def fetch_posts():
-    params = {
-        "per_page": PER_PAGE,
-        "_fields": "id,date_gmt,link,title,excerpt",
-    }
-    resp = requests.get(
-        API_URL, params=params, headers={"User-Agent": USER_AGENT}, timeout=20
-    )
+def fetch_html(url):
+    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=20)
     resp.raise_for_status()
-    return resp.json()
+    return resp.text
 
 
-def clean_excerpt(raw_html):
-    text = re.sub(r"<[^>]+>", "", raw_html)
-    text = html.unescape(text)
-    text = text.replace("\xa0", " ").strip()
-    text = re.sub(r"\s+", " ", text)
-    return text
+def parse_relative_date(text, now):
+    text = text.strip().lower()
+    m = re.match(r"hace (\d+) minuto", text)
+    if m:
+        return now - timedelta(minutes=int(m.group(1)))
+    m = re.match(r"hace (\d+) hora", text)
+    if m:
+        return now - timedelta(hours=int(m.group(1)))
+    m = re.match(r"hace (\d+) d[ií]a", text)
+    if m:
+        return now - timedelta(days=int(m.group(1)))
+    m = re.match(r"(\d{2})/(\d{2})/(\d{4})", text)
+    if m:
+        day, month, year = (int(x) for x in m.groups())
+        return datetime(year, month, day, 12, 0, tzinfo=timezone.utc)
+    return now
 
 
-def build_rss(posts):
+def parse_items(html, now):
+    soup = BeautifulSoup(html, "html.parser")
     items = []
-    for post in posts:
-        title = html.unescape(post["title"]["rendered"])
-        link = post["link"]
-        pub_date = datetime.fromisoformat(post["date_gmt"] + "+00:00")
-        description = clean_excerpt(post["excerpt"]["rendered"])
+    for li in soup.select("li.js-relocation-destination"):
+        content_a = li.find("a", class_="order-3") or li.find("a", href=True)
+        if content_a is None:
+            continue
+        href = content_a.get("href")
+        title_tag = content_a.find("h2")
+        title = title_tag.get_text(strip=True) if title_tag else None
+        if not href or not title:
+            continue
+        date_tag = content_a.find("p", class_="publish-date")
+        date_text = date_tag.get_text(strip=True) if date_tag else ""
+        summary_tag = content_a.find("p", class_="summary")
+        summary = summary_tag.get_text(strip=True) if summary_tag else ""
         items.append(
+            {
+                "title": title,
+                "link": urljoin(BASE_URL, href),
+                "description": summary,
+                "pub_date": parse_relative_date(date_text, now),
+            }
+        )
+    return items
+
+
+def fetch_all_items():
+    now = datetime.now(timezone.utc)
+    seen = set()
+    items = []
+    for url in PAGE_URLS:
+        html = fetch_html(url)
+        for item in parse_items(html, now):
+            if item["link"] in seen:
+                continue
+            seen.add(item["link"])
+            items.append(item)
+    items.sort(key=lambda i: i["pub_date"], reverse=True)
+    return items[:MAX_ITEMS]
+
+
+def build_rss(items):
+    entries = []
+    for item in items:
+        entries.append(
             f"""
     <item>
-      <title>{escape(title)}</title>
-      <link>{escape(link)}</link>
-      <guid isPermaLink="true">{escape(link)}</guid>
-      <pubDate>{format_datetime(pub_date)}</pubDate>
-      <description>{escape(description)}</description>
+      <title>{escape(item['title'])}</title>
+      <link>{escape(item['link'])}</link>
+      <guid isPermaLink="true">{escape(item['link'])}</guid>
+      <pubDate>{format_datetime(item['pub_date'])}</pubDate>
+      <description>{escape(item['description'])}</description>
     </item>"""
         )
 
     now = format_datetime(datetime.now(timezone.utc))
-    items_xml = "".join(items)
+    entries_xml = "".join(entries)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
@@ -68,25 +114,21 @@ def build_rss(posts):
     <link>{escape(FEED_LINK)}</link>
     <description>{escape(FEED_DESCRIPTION)}</description>
     <language>es-ES</language>
-    <lastBuildDate>{now}</lastBuildDate>{items_xml}
+    <lastBuildDate>{now}</lastBuildDate>{entries_xml}
   </channel>
 </rss>
 """
 
 
 def main():
-    posts = fetch_posts()
-    if not posts:
-        print(
-            "No posts fetched, aborting to avoid overwriting feed with empty content",
-            file=sys.stderr,
-        )
-        sys.exit(1)
+    items = fetch_all_items()
+    if not items:
+        raise SystemExit("No items parsed, aborting to avoid overwriting feed with empty content")
 
-    rss = build_rss(posts)
+    rss = build_rss(items)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(rss, encoding="utf-8")
-    print(f"Wrote {len(posts)} items to {OUTPUT_PATH}")
+    print(f"Wrote {len(items)} items to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
