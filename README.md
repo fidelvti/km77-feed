@@ -59,3 +59,22 @@ python3 -m venv .venv
   `~/Library/Logs/km77-feed.log`.
 - Las fechas de los artículos son aproximadas: se derivan de texto relativo ("hace X
   horas/días") tal y como lo muestra la web, no de una marca de tiempo exacta.
+
+## Si un lector RSS muestra contenido desactualizado (p. ej. Feedly)
+
+Servicios como Feedly no leen tu XML en directo cada vez que refrescas la app: mantienen
+una caché propia por URL de feed, compartida entre todos sus usuarios, que rastrean en su
+propio ciclo (a veces horas). Si cambias significativamente el contenido del feed (como
+pasó al cambiar de la API de WordPress a hacer scraping de la portada) y el lector se
+quedó con una versión vieja, quitar y volver a añadir la misma URL no sirve — te
+re-vincula a la misma caché desactualizada.
+
+Solución: añade un parámetro cualquiera a la URL para que el lector la trate como una
+fuente nueva y la rastree desde cero, por ejemplo:
+
+```
+https://fidelvti.github.io/km77-feed/feed.xml?v=2
+```
+
+(Puedes comprobar antes qué tiene cacheado Feedly para una URL, sin necesidad de cuenta,
+con `https://cloud.feedly.com/v3/streams/contents?streamId=feed%2F<URL-codificada>`.)
