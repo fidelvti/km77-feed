@@ -1,7 +1,7 @@
 # km77-feed
 
 Feed RSS no oficial de la revista de [km77.com](https://www.km77.com/revista/), publicado
-con GitHub Pages y actualizado automáticamente cada 3 horas desde un `launchd` local.
+con GitHub Pages y actualizado automáticamente una vez al día (20:00) desde un `launchd` local.
 
 km77.com no ofrece un feed RSS propio. Este proyecto consulta la API REST pública de su
 WordPress (`https://www.km77.com/revista/wp-json/wp/v2/posts`), que expone las últimas
@@ -30,8 +30,9 @@ sube a GitHub. GitHub Pages sirve ese archivo desde la carpeta `docs/` de la ram
 - `scripts/write_index.py`: genera una página `docs/index.html` mínima con enlace al feed.
 - `scripts/update_and_push.sh`: ejecuta ambos scripts y, si hay cambios, hace commit y push.
 - `~/Library/LaunchAgents/com.fidelvti.km77feed.plist`: agente de `launchd` que llama a
-  `update_and_push.sh` cada 3 horas. Requiere que el Mac esté encendido y con red en ese
-  momento; si estaba dormido, se actualizará en el siguiente ciclo tras despertar.
+  `update_and_push.sh` todos los días a las 20:00 (`StartCalendarInterval`). Requiere que
+  el Mac esté encendido y con red en ese momento; si estaba dormido, macOS lo ejecuta en
+  cuanto despierta.
 
 ## Ejecutar en local
 
