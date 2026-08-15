@@ -13,7 +13,7 @@ API_URL = "https://www.km77.com/revista/wp-json/wp/v2/posts"
 FEED_TITLE = "km77 - Revista (noticias y novedades)"
 FEED_LINK = "https://www.km77.com/revista/"
 FEED_DESCRIPTION = "Feed no oficial generado a partir de la revista de km77.com"
-OUTPUT_PATH = Path("public/feed.xml")
+OUTPUT_PATH = Path("docs/feed.xml")
 PER_PAGE = 30
 USER_AGENT = (
     "km77-feed-bot/1.0 (+https://github.com/fidelvti/km77-feed; "

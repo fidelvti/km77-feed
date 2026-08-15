@@ -2,7 +2,7 @@
 from datetime import datetime, timezone
 from pathlib import Path
 
-OUTPUT_PATH = Path("public/index.html")
+OUTPUT_PATH = Path("docs/index.html")
 
 HTML = """<!doctype html>
 <html lang="es">
