@@ -78,3 +78,57 @@ https://fidelvti.github.io/km77-feed/feed.xml?v=2
 
 (Puedes comprobar antes qué tiene cacheado Feedly para una URL, sin necesidad de cuenta,
 con `https://cloud.feedly.com/v3/streams/contents?streamId=feed%2F<URL-codificada>`.)
+
+
+
+
+## Para forzar un rastreo nuevo (cuando cambies el feed o notes que Feedly no se entera):
+
+Añade un parámetro nuevo a la URL, por ejemplo cambia ?v=3 por ?v=4 (solo incrementa el número).
+En Feedly: quita la suscripción antigua y añade la nueva URL con ese parámetro.
+
+Como Feedly nunca ha visto esa URL exacta antes, la rastrea desde cero al instante.
+
+Para comprobar qué tiene Feedly cacheado ahora mismo (sin necesidad de cuenta ni login):
+Abre esta URL en el navegador, cambiando solo la parte final por tu feed actual:
+
+`https://cloud.feedly.com/v3/streams/contents?streamId=feed%2Fhttps%3A%2F%2Ffidelvti.github.io%2Fkm77-feed%2Ffeed.xml%3Fv%3D3&count=5`
+
+Si el ?v= de tu URL cambia, tienes que codificar esa parte también: ? → %3F, = → %3D. Si te resulta confuso, dímelo y te lo compruebo yo en el momento — pero para el "cambiar a v=4 y re-suscribirte" no hace falta nada mío.
+
+
+
+
+
+
+## Reinicio del proceso
+
+Estos son los comandos, en orden, para reiniciar el proceso:
+
+1. Ver las últimas ejecuciones y detectar cuál falló:
+
+```
+gh run list --repo fidelvti/km77-feed --limit 5
+```
+
+Busca la que diga failure y copia su ID (la columna numérica larga).
+
+2. Relanzarla:
+
+```
+gh run rerun <RUN_ID> --repo fidelvti/km77-feed
+```
+
+3. (Opcional) Verla en directo hasta que termine:
+
+```
+gh run watch <RUN_ID> --repo fidelvti/km77-feed --exit-status
+```
+
+Por ejemplo, con el caso de hoy habría sido:
+
+```
+gh run rerun 32052847874 --repo fidelvti/km77-feed
+```
+
+Necesitas tener gh autenticado (ya lo está en tu Mac) y ejecutarlo desde cualquier carpeta, no hace falta estar dentro del repo ya que uso --repo explícito.
