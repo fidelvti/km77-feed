@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>km77 - Portada (noticias y novedades)</title>
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 18 Aug 2026 18:06:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 19:00:53 +0000</lastBuildDate>
+    <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
       <title>Kia Sportage HEV | Imágenes interiores</title>
       <link>https://www.km77.com/coches/kia/sportage/2026/estandar/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/kia/sportage/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Tue, 18 Aug 2026 15:06:50 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 15:00:51 +0000</pubDate>
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 1.6 HEV 4x2 239 CV GT Line.</description>
     </item>
     <item>
       <title>¿Tu coche tiene una campaña de revisión pendiente?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/campana-revision-coche-como-saber/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/campana-revision-coche-como-saber/</guid>
-      <pubDate>Tue, 18 Aug 2026 13:06:50 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 14:00:51 +0000</pubDate>
       <description>Las campañas de revisión permiten a los fabricantes corregir defectos en determinados vehículos sin coste para el usuario. Te explicamos cómo saber si tu coche está afectado y qué hacer si tiene una revisión pendiente.</description>
     </item>
     <item>
       <title>Mercedes-Benz Clase C Berlina y Estate (2027)</title>
       <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
-      <pubDate>Tue, 18 Aug 2026 08:06:50 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 08:00:51 +0000</pubDate>
       <description>La actual generación del Clase C recibe una puesta al día que afecta, principalmente, al diseño frontal y la gama de motores. Hay versiones de gasolina, Diesel e híbridas enchufables. Se puede pedir con carrocería sedán y familiar.</description>
     </item>
     <item>
       <title>McLaren McL 6GT (prototipo)</title>
       <link>https://www.km77.com/coches/mclaren/mcl-6gt-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mclaren/mcl-6gt-prototipo/informacion</guid>
-      <pubDate>Mon, 17 Aug 2026 18:06:50 +0000</pubDate>
+      <pubDate>Mon, 17 Aug 2026 19:00:51 +0000</pubDate>
       <description>Es un prototipo que anticipa un modelo de producción que McLaren tiene previsto lanzar en 2028. Está inspirado en el M6GT, un coche que nunca llegó a fabricarse.</description>
     </item>
     <item>
       <title>Lamborghini Revuelto SV (2027)</title>
       <link>https://www.km77.com/coches/lamborghini/revuelto/2024/coupe/sv/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/lamborghini/revuelto/2024/coupe/sv/informacion</guid>
-      <pubDate>Mon, 17 Aug 2026 18:06:50 +0000</pubDate>
+      <pubDate>Mon, 17 Aug 2026 19:00:51 +0000</pubDate>
       <description>Tiene 1065 caballos, por lo que es 50 caballos más potente que el Revuelto. No hay una reducción de peso respecto a este, pero Lamborghini ha trabajado para mejorar la aerodinámica y elementos como la suspensión y los frenos. Su producción está limitada a 1963 unidades.</description>
     </item>
     <item>
       <title>Aston Martin Valen (2027)</title>
       <link>https://www.km77.com/coches/aston-martin/valen/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/aston-martin/valen/2027/estandar/informacion</guid>
-      <pubDate>Mon, 17 Aug 2026 18:06:50 +0000</pubDate>
+      <pubDate>Mon, 17 Aug 2026 19:00:51 +0000</pubDate>
       <description>Es un cupé de 850 CV derivado del Vanquish con una puesta a punto específica para ganar agilidad, así como otros cambios para reducir el peso y mejorar las prestaciones. Su producción estará limitada a 150 unidades.</description>
     </item>
     <item>
       <title>Mazda CX-5 (2026) - Maniobra de esquiva y eslalon</title>
       <link>https://www.youtube.com/watch?v=nrGaorsPVvM</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=nrGaorsPVvM</guid>
-      <pubDate>Sun, 16 Aug 2026 18:06:50 +0000</pubDate>
+      <pubDate>Sun, 16 Aug 2026 19:00:51 +0000</pubDate>
       <description>La actual generación de CX-5 ha ganado en confort y ha perdido agilidad. Estas han sido sus reacciones en las pruebas de circuito.</description>
     </item>
     <item>

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+import sys
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -17,6 +18,8 @@ FEED_DESCRIPTION = (
     "Feed no oficial generado a partir de la portada de km77.com: "
     "noticias, pruebas y novedades de modelos"
 )
+FEED_SELF_URL = "https://fidelvti.github.io/km77-feed/feed.xml?v=5"
+HUB_URL = "https://pubsubhubbub.appspot.com/"
 OUTPUT_PATH = Path("docs/feed.xml")
 MAX_ITEMS = 40
 USER_AGENT = (
@@ -108,19 +111,38 @@ def build_rss(items):
     now = format_datetime(datetime.now(timezone.utc))
     entries_xml = "".join(entries)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{escape(FEED_TITLE)}</title>
     <link>{escape(FEED_LINK)}</link>
     <description>{escape(FEED_DESCRIPTION)}</description>
     <language>es-ES</language>
-    <lastBuildDate>{now}</lastBuildDate>{entries_xml}
+    <lastBuildDate>{now}</lastBuildDate>
+    <atom:link rel="self" type="application/rss+xml" href="{escape(FEED_SELF_URL)}" />
+    <atom:link rel="hub" href="{escape(HUB_URL)}" />{entries_xml}
   </channel>
 </rss>
 """
 
 
+def ping_hub():
+    try:
+        resp = requests.post(
+            HUB_URL,
+            data={"hub.mode": "publish", "hub.url": FEED_SELF_URL},
+            headers={"User-Agent": USER_AGENT},
+            timeout=20,
+        )
+        print(f"Pinged hub {HUB_URL}: HTTP {resp.status_code}")
+    except requests.RequestException as exc:
+        print(f"Hub ping failed (non-fatal): {exc}")
+
+
 def main():
+    if "--ping-only" in sys.argv:
+        ping_hub()
+        return
+
     items = fetch_all_items()
     if not items:
         raise SystemExit("No items parsed, aborting to avoid overwriting feed with empty content")

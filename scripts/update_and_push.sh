@@ -14,6 +14,10 @@ if [ -n "$(/usr/bin/git status --porcelain -- docs)" ]; then
   /usr/bin/git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%M:%SZ)" -q
   /usr/bin/git push -q
   echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) updated and pushed"
+
+  # Give GitHub Pages time to deploy the new content before the hub re-fetches it
+  sleep 90
+  "$REPO_DIR/.venv/bin/python" scripts/generate_feed.py --ping-only
 else
   echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) no changes"
 fi
