@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -21,6 +22,9 @@ FEED_DESCRIPTION = (
 FEED_SELF_URL = "https://fidelvti.github.io/km77-feed/feed.xml?v=5"
 HUB_URL = "https://pubsubhubbub.appspot.com/"
 OUTPUT_PATH = Path("docs/feed.xml")
+SEEN_STATE_PATH = Path("state/seen_links.json")
+NTFY_TOPIC = "km77-feed-a0efcc40"
+NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}"
 MAX_ITEMS = 40
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -125,6 +129,51 @@ def build_rss(items):
 """
 
 
+def load_seen_links():
+    if not SEEN_STATE_PATH.exists():
+        return None
+    try:
+        return set(json.loads(SEEN_STATE_PATH.read_text(encoding="utf-8")))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def save_seen_links(links):
+    SEEN_STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    SEEN_STATE_PATH.write_text(json.dumps(sorted(links), ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def send_push(item):
+    try:
+        resp = requests.post(
+            NTFY_URL,
+            headers={
+                "Title": item["title"].encode("utf-8"),
+                "Click": item["link"].encode("utf-8"),
+            },
+            data=item["description"].encode("utf-8"),
+            timeout=20,
+        )
+        print(f"Pushed '{item['title']}': HTTP {resp.status_code}")
+    except requests.RequestException as exc:
+        print(f"Push failed for '{item['title']}' (non-fatal): {exc}")
+
+
+def notify_new_items(items):
+    seen = load_seen_links()
+    current_links = {item["link"] for item in items}
+
+    if seen is None:
+        print("No previous state found, bootstrapping without sending pushes")
+    else:
+        new_items = [item for item in items if item["link"] not in seen]
+        for item in reversed(new_items):
+            send_push(item)
+        print(f"Sent {len(new_items)} push notification(s) for new items")
+
+    save_seen_links(current_links)
+
+
 def ping_hub():
     try:
         resp = requests.post(
@@ -151,6 +200,8 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(rss, encoding="utf-8")
     print(f"Wrote {len(items)} items to {OUTPUT_PATH}")
+
+    notify_new_items(items)
 
 
 if __name__ == "__main__":

@@ -103,6 +103,34 @@ ciclo de rastreo habitual. No hay garantía de que Feedly lo respete para un fee
 tan pequeño — es lo más parecido a una solución de fondo que existe dentro del estándar RSS,
 pero no dejar de tener el truco del `?v=N` como respaldo si no funciona.
 
+**Resultado:** probado durante varios días y Feedly siguió sin enterarse pese al aviso al
+hub — no implementan el lado suscriptor de WebSub para este feed (o no de forma fiable).
+Se mantiene el `atom:link rel="hub"` en el feed porque no hace daño y podría ayudar a otros
+lectores, pero para uso real se pasó a notificaciones push (siguiente sección), que no
+dependen de que ningún tercero decida escuchar.
+
+## Notificaciones push (ntfy.sh) — la solución que sí funciona
+
+En vez de depender de que un lector RSS decida rastrear el feed, `scripts/generate_feed.py`
+compara los artículos de cada ejecución contra `state/seen_links.json` (el estado de la
+ejecución anterior, guardado en el repo) y envía una notificación push por cada artículo
+genuinamente nuevo, vía [ntfy.sh](https://ntfy.sh) (gratis, sin cuenta). La primera vez que
+corre (sin `state/seen_links.json` previo) no envía nada — solo guarda el estado inicial,
+para no bombardear con 40 notificaciones del historial ya existente.
+
+Cada push lleva el título del artículo como título de la notificación y enlaza
+directamente a él (tocar la notificación abre el artículo en km77.com).
+
+**Para recibirlas en el móvil:**
+1. Instala la app **ntfy** (gratis, App Store / Play Store — sin necesidad de cuenta).
+2. Añade una suscripción al topic: `km77-feed-a0efcc40`
+
+El topic es como una "sala" pública de ntfy.sh identificada solo por ese nombre (no hay
+autenticación) — cualquiera que conozca el nombre exacto podría suscribirse o publicar en
+él, por eso es una cadena aleatoria y no algo adivinable como "km77". No contiene
+información sensible, así que el riesgo es solo que alguien más reciba las mismas
+notificaciones de coches, no una preocupación real de seguridad.
+
 ## Comandos útiles
 
 Ver las últimas ejecuciones del despliegue de GitHub Pages y detectar si alguna falló:

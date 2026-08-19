@@ -9,8 +9,8 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
 "$REPO_DIR/.venv/bin/python" scripts/generate_feed.py
 "$REPO_DIR/.venv/bin/python" scripts/write_index.py
 
-if [ -n "$(/usr/bin/git status --porcelain -- docs)" ]; then
-  /usr/bin/git add docs
+if [ -n "$(/usr/bin/git status --porcelain -- docs state)" ]; then
+  /usr/bin/git add docs state
   /usr/bin/git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%M:%SZ)" -q
   /usr/bin/git push -q
   echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) updated and pushed"
