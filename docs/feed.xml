@@ -5,70 +5,98 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Thu, 20 Aug 2026 18:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 18:00:07 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>ZEEKR X Long Range RWD 340 CV | Prueba</title>
+      <link>https://www.km77.com/coches/zeekr/x/2024/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/zeekr/x/2024/estandar/informacion</guid>
+      <pubDate>Fri, 21 Aug 2026 16:00:05 +0000</pubDate>
+      <description>Es un SUV eléctrico de 4,43 metros que destaca por su confort de marcha y la calidad del habitáculo, además de ofrecer un precio competitivo (desde 37 1737 €). Aunque sus prestaciones son sobradas no se trata de un coche deportivo que invite a ir rápido en curva. Entre sus puntos menos favorables están un consumo elevado en carretera y un maletero de solo 362 litros.</description>
+    </item>
+    <item>
+      <title>Genesis GV90</title>
+      <link>https://www.km77.com/coches/genesis/gv90/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/genesis/gv90/2027/estandar/informacion</guid>
+      <pubDate>Fri, 21 Aug 2026 12:00:05 +0000</pubDate>
+      <description>Es un enorme SUV eléctrico de lujo con hasta siete plazas. Tiene 666 CV, tracción total, una batería de 123,5 kWh y una autonomía estimada de 500 kilómetros. Habrá una versión —llamada Neolun— sin pilar central.</description>
+    </item>
+    <item>
+      <title>Por qué los bajos de los coches están cubiertos</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/cubiertas-plastico-bajos-coches/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/cubiertas-plastico-bajos-coches/</guid>
+      <pubDate>Fri, 21 Aug 2026 07:00:05 +0000</pubDate>
+      <description>Los paneles que cubren los bajos del coche no solo protegen la mecánica: también mejoran la aerodinámica y reducen el ruido.</description>
+    </item>
     <item>
       <title>Honda CR-V vs Toyota RAV4</title>
       <link>https://www.km77.com/revista/comparativas/toyota-rav4-vs-honda-cr-v-cual-elijo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/comparativas/toyota-rav4-vs-honda-cr-v-cual-elijo/</guid>
-      <pubDate>Thu, 20 Aug 2026 17:00:04 +0000</pubDate>
+      <pubDate>Thu, 20 Aug 2026 18:00:05 +0000</pubDate>
       <description>Son dos SUV híbridos de tamaño y potencia similares, pero con diferencias en precio, consumo, espacio y equipamiento. En esta comparativa analizamos sus versiones de acceso para ver qué ofrece cada uno y cuál interesa más.</description>
+    </item>
+    <item>
+      <title>Citroën C3 Aircross | Imágenes interiores</title>
+      <link>https://www.km77.com/coches/citroen/c3-aircross/2024/estandar/imagenes/interiores</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/citroen/c3-aircross/2024/estandar/imagenes/interiores</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:05 +0000</pubDate>
+      <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión Hybrid 145 Automática Max.</description>
     </item>
     <item>
       <title>Contrapesos de equilibrado de las llantas</title>
       <link>https://www.km77.com/revista/engendro-mecanico/contrapesos-llantas-que-son/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/contrapesos-llantas-que-son/</guid>
-      <pubDate>Thu, 20 Aug 2026 06:00:04 +0000</pubDate>
+      <pubDate>Thu, 20 Aug 2026 18:00:05 +0000</pubDate>
       <description>Una pequeña diferencia de masa en una rueda puede provocar importantes vibraciones a alta velocidad. Te explicamos cómo funciona el equilibrado y qué ocurre cuando se pierde un contrapeso.</description>
     </item>
     <item>
       <title>GMA S1 (2027)</title>
       <link>https://www.km77.com/coches/gordon-murray-automotive/s1/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/gordon-murray-automotive/s1/2027/estandar/informacion</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2026 18:00:05 +0000</pubDate>
       <description>Este deportivo tiene un motor V12 atmosférico de 690 caballos, una caja de cambios manual de seis relaciones y tracción trasera. Su chasis está ajustado para proporcionar un buen confort de marcha en viajes largos. Se fabricarán 64 unidades.</description>
     </item>
     <item>
       <title>Hyundai Tucson (2027)</title>
       <link>https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2026 18:00:05 +0000</pubDate>
       <description>La quinta generación de este SUV mide 4,70 metros de longitud y dispone de cinco plazas. Su diseño es diferente al del actual Tucson, tanto en el exterior como en el habitáculo. Por el momento, Hyundai no ha comunicado cuándo comenzará su comercialización en España.</description>
     </item>
     <item>
       <title>Malos olores al conectar el climatizador</title>
       <link>https://www.km77.com/revista/engendro-mecanico/evaporador-condensacion-agua-hongos-circuito/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/evaporador-condensacion-agua-hongos-circuito/</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2026 18:00:05 +0000</pubDate>
       <description>El mal olor del aire acondicionado suele deberse a la humedad acumulada en el evaporador, que favorece la proliferación de microorganismos. Explicamos cómo prevenirlo y eliminarlo.</description>
     </item>
     <item>
       <title>BYD Atto 2 DM-i | Prueba</title>
       <link>https://www.km77.com/coches/byd/atto-2/2025/estandar/informacion/byd-atto-2-dm-i-2025-</link>
       <guid isPermaLink="true">https://www.km77.com/coches/byd/atto-2/2025/estandar/informacion/byd-atto-2-dm-i-2025-</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>De la versión híbrida enchufable nos ha gustado la suavidad de funcionamiento del sistema propulsor y su aceleración. No su lentitud de respuesta al acelerador y la brusquedad de la suspensión trasera. Está en venta por 25 990 euros.</description>
     </item>
     <item>
       <title>Mercedes-Benz Clase C Berlina y Estate (2027)</title>
       <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>La actual generación del Clase C recibe una puesta al día que afecta, principalmente, al diseño frontal y la gama de motores. Hay versiones de gasolina, Diesel e híbridas enchufables. Se puede pedir con carrocería sedán y familiar.</description>
     </item>
     <item>
       <title>Kia Sportage HEV | Imágenes interiores</title>
       <link>https://www.km77.com/coches/kia/sportage/2026/estandar/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/kia/sportage/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 1.6 HEV 4x2 239 CV GT Line.</description>
     </item>
     <item>
       <title>¿Tu coche tiene una campaña de revisión pendiente?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/campana-revision-coche-como-saber/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/campana-revision-coche-como-saber/</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:04 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>Las campañas de revisión permiten a los fabricantes corregir defectos en determinados vehículos sin coste para el usuario. Te explicamos cómo saber si tu coche está afectado y qué hacer si tiene una revisión pendiente.</description>
     </item>
     <item>
@@ -259,34 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/mazda/cx-5/2026/estandar/informacion</guid>
       <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
       <description>La tercera generación de este SUV es más grande, tiene un habitáculo más amplio y un maletero de mayor capacidad. Dinámicamente ha mejorado en cuanto a confort de marcha y calidad de rodadura, pero ya no tiene el tacto de conducción tan característico de generaciones previas y sus prestaciones son justas. En venta desde 35 200 euros, un precio intermedio frente a sus alternativas.</description>
-    </item>
-    <item>
-      <title>Volkswagen ID. Polo 116 CV 37 kWh | Precio</title>
-      <link>https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</guid>
-      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Volkswagen pone a la venta el ID. Polo de 116 caballos y batería de 37 kWh de capacidad. Su precio parte de 25 635 euros. No es el más asequible de su segmento, pero está cerca de los más baratos.</description>
-    </item>
-    <item>
-      <title>Jeep Avenger (2027) | Precios</title>
-      <link>https://www.km77.com/coches/jeep/avenger/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/jeep/avenger/2027/estandar/informacion</guid>
-      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Es una puesta al día que afecta al diseño de la carrocería y al equipamiento. La gama de motores apenas recibe cambios y está compuesta por uno de gasolina, dos híbridos no enchufables y uno eléctrico. Ya se puede adquirir desde 21 988 euros, un precio intermedio entre sus alternativas.</description>
-    </item>
-    <item>
-      <title>Suzuki Across (2026) | Precio</title>
-      <link>https://www.km77.com/coches/suzuki/across/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/suzuki/across/2026/estandar/informacion</guid>
-      <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El nuevo Across es como un Toyota RAV4, pero con una gama de motores más reducida. Solo está disponible con un sistema propulsor híbrido enchufable de 309 caballos asociado a un sistema de tracción total. Cuesta 49 375 euros.</description>
-    </item>
-    <item>
-      <title>EVO Spazio (2025) | Precios</title>
-      <link>https://www.km77.com/coches/evo/spazio/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/evo/spazio/2025/estandar/informacion</guid>
-      <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Es un monovolumen de 4,85 metros de longitud con un habitáculo en el que se pueden acomodar hasta siete personas. Está disponible con un motor de gasolina de 176 caballos o con uno que puede funcionar tanto con gasolina como con GLP y que desarrolla 167 CV. Está a la venta desde 33 400 euros.</description>
     </item>
   </channel>
 </rss>
