@@ -1,13 +1,15 @@
 # km77-feed
 
-Feed RSS no oficial de la portada de [km77.com](https://www.km77.com/), publicado
-con GitHub Pages y actualizado automáticamente una vez al día (20:00) desde un `launchd` local.
+Notificaciones push (vía [ntfy.sh](https://ntfy.sh)) con las novedades de la portada de
+[km77.com](https://www.km77.com/), generadas automáticamente una vez al día (20:00) desde
+un `launchd` local. Como subproducto también se publica un `docs/feed.xml` (RSS 2.0) vía
+GitHub Pages, aunque en la práctica no es una vía fiable — ver "Nota histórica" más abajo.
 
-km77.com no ofrece un feed RSS propio. La portada mezcla en una sola lista cronológica
-artículos de la revista (WordPress), fichas de "novedades" de modelos nuevos
+km77.com no ofrece ni RSS ni notificaciones propias. La portada mezcla en una sola lista
+cronológica artículos de la revista (WordPress), fichas de "novedades" de modelos nuevos
 (`/coches/.../informacion`, que no son posts de WordPress) y galerías de imágenes. Este
-proyecto hace scraping de la portada (`/` y `/page/2`) y la convierte en un `docs/feed.xml`
-en formato RSS 2.0.
+proyecto hace scraping de la portada (`/` y `/page/2`) y, por cada artículo genuinamente
+nuevo respecto a la ejecución anterior, envía un push a ntfy.sh.
 
 > Nota: se probó primero con la API REST de WordPress
 > (`/revista/wp-json/wp/v2/posts`), más robusta que el scraping, pero esa API solo expone
@@ -16,31 +18,43 @@ en formato RSS 2.0.
 
 ## Uso
 
-Añade esta URL a tu lector RSS:
+**Notificaciones push (la vía que funciona):**
+1. Instala la app **ntfy** (gratis, App Store / Play Store — sin necesidad de cuenta).
+2. Añade una suscripción al topic: `km77-feed-a0efcc40`
+
+Cada push lleva el título del artículo como título de la notificación y enlaza
+directamente a él (tocar la notificación abre el artículo en km77.com). La primera vez
+que corre el generador (sin estado previo) no envía nada, solo guarda el estado inicial,
+para no bombardear con notificaciones de todo el historial ya existente.
+
+El topic es como una "sala" pública de ntfy.sh identificada solo por ese nombre (sin
+autenticación) — cualquiera que lo conozca podría suscribirse o publicar en él, por eso es
+una cadena aleatoria y no algo adivinable como "km77". No contiene información sensible,
+así que el riesgo es solo que alguien más reciba las mismas notificaciones de coches.
+
+**Vía alternativa, RSS (poco fiable, ver nota histórica):**
 
 ```
 https://fidelvti.github.io/km77-feed/feed.xml?v=5
 ```
 
-(El `?v=5` no es decorativo: ver la sección de WebSub más abajo — es la URL exacta que el
-feed anuncia como su propia identidad y a la que se avisa el hub cuando hay contenido
-nuevo. Si algún día se cambia, hay que actualizar `FEED_SELF_URL` en
-`scripts/generate_feed.py` a la vez que la URL usada en el lector.)
-
 ## Por qué no corre en GitHub Actions
 
 km77.com está detrás de Cloudflare, cuyo desafío anti-bot devuelve 403 a cualquier
 petición que llegue desde las IPs de los runners de GitHub-hosted Actions (todo el
-dominio, no solo la API). Por eso la generación del feed corre en local (este Mac, con
-IP residencial) mediante un `launchd` agent, y solo el resultado (`docs/feed.xml`) se
-sube a GitHub. GitHub Pages sirve ese archivo desde la carpeta `docs/` de la rama `main`.
+dominio, no solo la API). Por eso la generación corre en local (este Mac, con IP
+residencial) mediante un `launchd` agent, y solo el resultado (`docs/feed.xml`,
+`state/seen_links.json`) se sube a GitHub. GitHub Pages sirve `feed.xml` e `index.html`
+desde la carpeta `docs/` de la rama `main`.
 
 ## Cómo funciona
 
 - `scripts/generate_feed.py`: descarga la portada (`/` y `/page/2`), extrae cada tarjeta
   (`li.js-relocation-destination`) con título, enlace, resumen y fecha relativa ("hace X
-  horas/días"), y genera `docs/feed.xml`. También sabe avisar al hub de WebSub con
-  `--ping-only` (ver más abajo).
+  horas/días"). Compara contra `state/seen_links.json` (estado de la ejecución anterior) y
+  envía un push a ntfy.sh por cada artículo genuinamente nuevo. También genera
+  `docs/feed.xml` con la lista completa y sabe avisar al hub de WebSub con `--ping-only`
+  (ver nota histórica más abajo).
 - `scripts/write_index.py`: genera una página `docs/index.html` mínima con enlace al feed.
 - `scripts/update_and_push.sh`: ejecuta ambos scripts, y si hay cambios hace commit, push,
   espera ~90s a que GitHub Pages despliegue, y avisa al hub de WebSub.
@@ -61,75 +75,35 @@ python3 -m venv .venv
 
 ## Notas
 
-- Este feed no es oficial ni está afiliado a km77.com. Solo incluye título, enlace, fecha
-  y un resumen breve de cada entrada (no el contenido completo del artículo).
+- Este proyecto no es oficial ni está afiliado a km77.com.
 - Al ser scraping de HTML (no una API estable), si km77.com cambia las clases CSS de su
   plantilla el parser puede romperse o dejar de encontrar tarjetas; revisa los logs en
   `~/Library/Logs/km77-feed.log`.
 - Las fechas de los artículos son aproximadas: se derivan de texto relativo ("hace X
   horas/días") tal y como lo muestra la web, no de una marca de tiempo exacta.
 
-## Por qué Feedly tarda en enterarse de contenido nuevo (y qué se intentó)
+## Nota histórica: por qué RSS no fue suficiente
 
 RSS es por diseño un modelo "pull": el lector decide cuándo volver a mirar la URL, no el
-publicador. Feedly mantiene una caché de cada feed **compartida entre todos sus usuarios**,
-y decide con qué frecuencia rastrearla según un algoritmo interno de popularidad — para un
-feed personal con un único suscriptor, ese ciclo puede ser de muchas horas o más, y no hay
-ningún ajuste desde nuestro lado (cabeceras, `ttl`) que lo fuerce a mirar más a menudo.
-Confirmado consultando directamente su caché pública (sin necesidad de cuenta):
+publicador. Feedly mantiene una caché de cada feed compartida entre todos sus usuarios y
+decide con qué frecuencia rastrearla según un algoritmo interno de popularidad — para un
+feed personal con un único suscriptor ese ciclo puede ser de muchas horas, sin ningún
+ajuste desde nuestro lado (cabeceras, `ttl`) que lo fuerce a mirar más a menudo.
 
-```
-https://cloud.feedly.com/v3/streams/contents?streamId=feed%2F<URL-codificada>&count=5
-```
+Se probó WebSub (antes PubSubHubbub) para que el feed avisara activamente al hub tras cada
+push — el XML declara `<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />` y
+`update_and_push.sh` hace un POST a ese hub tras cada `git push` exitoso — pero tras varios
+días Feedly siguió sin enterarse: no implementa el lado "suscriptor" de WebSub para este
+feed (o no de forma fiable). Se mantiene el aviso al hub porque no hace daño, pero para uso
+real se pasó a las notificaciones push de ntfy.sh descritas en "Uso", que no dependen de
+que ningún tercero decida escuchar.
 
-**Truco manual (siempre funciona, pero hay que repetirlo):** cambiar el `?v=N` de la URL a
-un número que Feedly nunca haya visto, y volver a suscribirse con esa URL — al ser
-desconocida, Feedly la rastrea desde cero al instante. Quitar y volver a añadir la *misma*
-URL no sirve, porque te reconecta a la misma caché vieja.
-
-**Intento de solución de fondo — WebSub (antes PubSubHubbub):** en vez de esperar a que
-Feedly pregunte, el feed avisa activamente cuando hay contenido nuevo. El feed declara:
-
-```xml
-<atom:link rel="self" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
-<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
-```
-
-y tras cada `git push` exitoso, `update_and_push.sh` hace un POST a ese hub
-(`hub.mode=publish&hub.url=<FEED_SELF_URL>`), que es exactamente el mecanismo que usan por
-defecto los sitios de WordPress.com para notificar en tiempo real. Si el lector implementa
-el lado "suscriptor" de WebSub, debería enterarse casi al instante en vez de esperar su
-ciclo de rastreo habitual. No hay garantía de que Feedly lo respete para un feed personal
-tan pequeño — es lo más parecido a una solución de fondo que existe dentro del estándar RSS,
-pero no dejar de tener el truco del `?v=N` como respaldo si no funciona.
-
-**Resultado:** probado durante varios días y Feedly siguió sin enterarse pese al aviso al
-hub — no implementan el lado suscriptor de WebSub para este feed (o no de forma fiable).
-Se mantiene el `atom:link rel="hub"` en el feed porque no hace daño y podría ayudar a otros
-lectores, pero para uso real se pasó a notificaciones push (siguiente sección), que no
-dependen de que ningún tercero decida escuchar.
-
-## Notificaciones push (ntfy.sh) — la solución que sí funciona
-
-En vez de depender de que un lector RSS decida rastrear el feed, `scripts/generate_feed.py`
-compara los artículos de cada ejecución contra `state/seen_links.json` (el estado de la
-ejecución anterior, guardado en el repo) y envía una notificación push por cada artículo
-genuinamente nuevo, vía [ntfy.sh](https://ntfy.sh) (gratis, sin cuenta). La primera vez que
-corre (sin `state/seen_links.json` previo) no envía nada — solo guarda el estado inicial,
-para no bombardear con 40 notificaciones del historial ya existente.
-
-Cada push lleva el título del artículo como título de la notificación y enlaza
-directamente a él (tocar la notificación abre el artículo en km77.com).
-
-**Para recibirlas en el móvil:**
-1. Instala la app **ntfy** (gratis, App Store / Play Store — sin necesidad de cuenta).
-2. Añade una suscripción al topic: `km77-feed-a0efcc40`
-
-El topic es como una "sala" pública de ntfy.sh identificada solo por ese nombre (no hay
-autenticación) — cualquiera que conozca el nombre exacto podría suscribirse o publicar en
-él, por eso es una cadena aleatoria y no algo adivinable como "km77". No contiene
-información sensible, así que el riesgo es solo que alguien más reciba las mismas
-notificaciones de coches, no una preocupación real de seguridad.
+Truco manual si aún así quieres forzar a Feedly a rastrear el feed RSS: cambia el `?v=N` de
+la URL a un número que nunca haya visto y vuelve a suscribirte con esa URL — al ser
+desconocida, la rastrea desde cero al instante (quitar y volver a añadir la *misma* URL no
+sirve, te reconecta a la caché vieja). Si algún día se cambia ese número, hay que
+actualizar `FEED_SELF_URL` en `scripts/generate_feed.py` a la vez que la URL usada en el
+lector.
 
 ## Comandos útiles
 
