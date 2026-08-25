@@ -63,13 +63,22 @@ desde la carpeta `docs/` de la rama `main`.
   el Mac esté encendido y con red en ese momento; si estaba dormido, macOS lo ejecuta en
   cuanto despierta. Si el Mac está despierto pero por lo que sea `launchd` no dispara ese
   día en concreto (ha pasado alguna vez, sin causa clara), simplemente no hay actualización
-  ese día — no hay ahora mismo un mecanismo de reintento automático para ese caso.
+  ese día — no hay ahora mismo un mecanismo de reintento automático para ese caso. Si te lo
+  has perdido (por ejemplo, el Mac estaba apagado a las 20:00), lánzalo a mano en cualquier
+  momento con el comando de ejecución manual de abajo.
 
 ## Ejecutar en local
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
+./scripts/update_and_push.sh
+```
+
+Si el venv ya existe (uso normal, para recuperar una ejecución que te hayas perdido), basta
+con la última línea:
+
+```bash
 ./scripts/update_and_push.sh
 ```
 
