@@ -5,56 +5,84 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 25 Aug 2026 22:18:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 18:08:49 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
-      <title>Contenido patrocinado | Tecnología híbrida enchufable DM-i de BYD</title>
-      <link>https://www.km77.com/revista/contenido-patrocinado/esta-es-la-tecnologia-hibrida-enchufable-dm-i-de-byd-en-2026/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/contenido-patrocinado/esta-es-la-tecnologia-hibrida-enchufable-dm-i-de-byd-en-2026/</guid>
-      <pubDate>Tue, 25 Aug 2026 22:18:10 +0000</pubDate>
-      <description>La tecnología DM-i de BYD combina la conducción silenciosa y fluida de un eléctrico con la autonomía de un motor de gasolina. Explicamos cómo funciona este sistema híbrido enchufable y repasamos todos los modelos de la gama que lo utilizan.</description>
+      <title>Contenido patrocinado | Comprar coche: las preguntas que pueden evitar una mala elección</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/comprar-un-coche-preguntas-que-pueden-evitar-mala-eleccion/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/comprar-un-coche-preguntas-que-pueden-evitar-mala-eleccion/</guid>
+      <pubDate>Wed, 26 Aug 2026 18:08:42 +0000</pubDate>
+      <description>Elegir coche no consiste solo en comparar ofertas. Un buen asesor debe escuchar, preguntar y entender cómo vamos a utilizarlo. Acompañamos paso a paso a un comprador para descubrir qué puede marcar la diferencia entre acertar con la elección o arrepentirse después.</description>
+    </item>
+    <item>
+      <title>Renault 5 E-Tech | Cambios</title>
+      <link>https://www.km77.com/coches/renault/5/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/renault/5/2025/estandar/informacion</guid>
+      <pubDate>Wed, 26 Aug 2026 13:08:42 +0000</pubDate>
+      <description>Renault actualiza este modelo. Hay cambios en la parte eléctrica para aumentar ligeramente la autonomía, una nueva versión de acceso, mejoras en el equipamiento y detalles de diseño nuevos en algunas versiones.</description>
+    </item>
+    <item>
+      <title>Suzuki e-Sky</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/suzuki-e-sky/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/suzuki-e-sky/</guid>
+      <pubDate>Wed, 26 Aug 2026 10:08:42 +0000</pubDate>
+      <description>Suzuki prepara para 2027 un eléctrico urbano de solo 3,39 metros de longitud. El e-Sky, basado en la filosofía de los kei cars japoneses, tendrá cuatro plazas, una batería de 26 kWh.</description>
+    </item>
+    <item>
+      <title>Bestune T90 | Precio</title>
+      <link>https://www.km77.com/coches/bestune/t90/2023/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/bestune/t90/2023/estandar/informacion</guid>
+      <pubDate>Wed, 26 Aug 2026 08:08:42 +0000</pubDate>
+      <description>Es un SUV de 4,72 metros y cinco plazas. Está disponible con un motor de gasolina de 2,0 litros y 252 CV, cambio automático de ocho relaciones y tracción delantera. Su precio parte de 31 990 euros, más bajo que la mayor parte de sus alternativas.</description>
+    </item>
+    <item>
+      <title>Norma ACEA de la garrafa del aceite</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/normas-acea-aceite-motor-significado/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/normas-acea-aceite-motor-significado/</guid>
+      <pubDate>Wed, 26 Aug 2026 07:08:42 +0000</pubDate>
+      <description>La clasificación ACEA permite identificar qué lubricante es adecuado para cada motor según sus requisitos de protección, emisiones y sistemas anticontaminación. Elegir una especificación incorrecta puede causar daños.</description>
     </item>
     <item>
       <title>Hyundai IONIQ 6 | Imágenes interiores</title>
       <link>https://www.km77.com/coches/hyundai/ioniq-6/2026/estandar/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/hyundai/ioniq-6/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Tue, 25 Aug 2026 20:18:10 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 20:08:42 +0000</pubDate>
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 228 CV 84 kWh N Line.</description>
     </item>
     <item>
       <title>Porsche 911 GT3 100 Jahre Nürburgring</title>
       <link>https://www.km77.com/revista/engendro-mecanico/para-100-afortunados-clientes-del-mercado-aleman/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/para-100-afortunados-clientes-del-mercado-aleman/</guid>
-      <pubDate>Tue, 25 Aug 2026 11:18:10 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 18:08:42 +0000</pubDate>
       <description>Es una edición especial del 911 GT3 para conmemorar los 100 años del circuito de Nürburgring. Limitada a 100 unidades destinadas a Alemania, combina detalles exclusivos con algunos elementos apropiados para su uso en circuito.</description>
     </item>
     <item>
       <title>Mercedes-Benz GLS (2026) | Precios</title>
       <link>https://www.km77.com/coches/mercedes/clase-gls/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-gls/2026/estandar/informacion</guid>
-      <pubDate>Tue, 25 Aug 2026 09:18:10 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 18:08:42 +0000</pubDate>
       <description>Mercedes-Benz actualiza de nuevo su modelo de tipo SUV más grande y lujoso, el GLS. Tiene cambios en el diseño exterior e interior, nuevos elementos de equipamiento y una gama de motores parcialmente renovada. Está en venta desde 127 050 euros con un motor Diesel de 367 caballos.</description>
     </item>
     <item>
       <title>Convertir un vehículo de gasolina a GLP</title>
       <link>https://www.km77.com/revista/engendro-mecanico/coste-conversion-coche-glp/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coste-conversion-coche-glp/</guid>
-      <pubDate>Tue, 25 Aug 2026 07:18:10 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 18:08:42 +0000</pubDate>
       <description>Transformar un coche de gasolina para que también pueda consumir GLP permite reducir el coste de uso, pero requiere una instalación homologada, pasar la ITV y cumplir determinados requisitos técnicos y administrativos.</description>
     </item>
     <item>
       <title>Mazda CX-30 vs Volkswagen T-Roc</title>
       <link>https://youtu.be/StjI-lj5L-E</link>
       <guid isPermaLink="true">https://youtu.be/StjI-lj5L-E</guid>
-      <pubDate>Mon, 24 Aug 2026 22:18:10 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 18:08:42 +0000</pubDate>
       <description>Enfrentamos a estos dos SUV compactos de planteamiento diferente que compiten por el mismo tipo de comprador. Analizamos qué ofrece cada uno y cuáles son sus principales diferencias.</description>
     </item>
     <item>
       <title>Fallos de las cámaras al salir de túneles</title>
       <link>https://www.km77.com/revista/engendro-mecanico/fallos-camaras-adas-tuneles/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/fallos-camaras-adas-tuneles/</guid>
-      <pubDate>Mon, 24 Aug 2026 22:18:10 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 18:08:42 +0000</pubDate>
       <description>Las cámaras de los ADAS pueden perder temporalmente capacidad de percepción ante cambios extremos de luz, como al salir de un túnel. Te explicamos cómo responde el vehículo.</description>
     </item>
     <item>
@@ -93,13 +121,6 @@
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión Hybrid 145 Automática Max.</description>
     </item>
     <item>
-      <title>Contrapesos de equilibrado de las llantas</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/contrapesos-llantas-que-son/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/contrapesos-llantas-que-son/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Una pequeña diferencia de masa en una rueda puede provocar importantes vibraciones a alta velocidad. Te explicamos cómo funciona el equilibrado y qué ocurre cuando se pierde un contrapeso.</description>
-    </item>
-    <item>
       <title>GMA S1 (2027)</title>
       <link>https://www.km77.com/coches/gordon-murray-automotive/s1/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/gordon-murray-automotive/s1/2027/estandar/informacion</guid>
@@ -107,25 +128,11 @@
       <description>Este deportivo tiene un motor V12 atmosférico de 690 caballos, una caja de cambios manual de seis relaciones y tracción trasera. Su chasis está ajustado para proporcionar un buen confort de marcha en viajes largos. Se fabricarán 64 unidades.</description>
     </item>
     <item>
-      <title>Malos olores al conectar el climatizador</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/evaporador-condensacion-agua-hongos-circuito/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/evaporador-condensacion-agua-hongos-circuito/</guid>
-      <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El mal olor del aire acondicionado suele deberse a la humedad acumulada en el evaporador, que favorece la proliferación de microorganismos. Explicamos cómo prevenirlo y eliminarlo.</description>
-    </item>
-    <item>
       <title>Hyundai Tucson (2027)</title>
       <link>https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</guid>
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
       <description>La quinta generación de este SUV mide 4,70 metros de longitud y dispone de cinco plazas. Su diseño es diferente al del actual Tucson, tanto en el exterior como en el habitáculo. Por el momento, Hyundai no ha comunicado cuándo comenzará su comercialización en España.</description>
-    </item>
-    <item>
-      <title>BYD Atto 2 DM-i | Prueba</title>
-      <link>https://www.km77.com/coches/byd/atto-2/2025/estandar/informacion/byd-atto-2-dm-i-2025-</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/byd/atto-2/2025/estandar/informacion/byd-atto-2-dm-i-2025-</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>De la versión híbrida enchufable nos ha gustado la suavidad de funcionamiento del sistema propulsor y su aceleración. No su lentitud de respuesta al acelerador y la brusquedad de la suspensión trasera. Está en venta por 25 990 euros.</description>
     </item>
     <item>
       <title>Mercedes-Benz Clase C Berlina y Estate (2027)</title>
@@ -280,13 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/zeekr/9x/2026/estandar/informacion</guid>
       <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV híbrido enchufable de 5,24 metros de longitud y seis plazas. Su sistema de impulsión tiene 897 CV y está compuesto por dos motores eléctricos y uno de gasolina. La batería tiene una capacidad de 55 kWh y proporciona una autonomía eléctrica de 179 kilómetros.</description>
-    </item>
-    <item>
-      <title>Audi Q9 (2027) | Precio</title>
-      <link>https://www.km77.com/coches/audi/q9/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/audi/q9/2027/estandar/informacion</guid>
-      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El Audi Q9 es el SUV más grande de Audi. Mide 5,31 metros y compite con modelos como el BMW X7 y el Mercedes-Benz GLS. Inicialmente está disponible con un motor Diesel de 299 caballos y su precio parte de 126 090 euros.</description>
     </item>
   </channel>
 </rss>
