@@ -5,64 +5,85 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 01 Sep 2026 19:38:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 18:48:47 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Polestar 4 SUV (2027)</title>
+      <link>https://www.km77.com/coches/polestar/4/2027/suv/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/polestar/4/2027/suv/informacion</guid>
+      <pubDate>Wed, 02 Sep 2026 12:40:06 +0000</pubDate>
+      <description>Es una carrocería más alta y práctica que la del 4 Coupe que cuesta entre 3000 y 4210 euros más. Tiene 272 o 544 CV, hasta 630 kilómetros de autonomía. El precio de partida es de 54 390 euros.</description>
+    </item>
+    <item>
+      <title>Range Rover Eléctrico (2027) | Precio</title>
+      <link>https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</guid>
+      <pubDate>Wed, 02 Sep 2026 10:40:06 +0000</pubDate>
+      <description>La versión eléctrica del Range Rover está a la venta desde 163 250 € con 449 CV; más adelante habrá otra versión con 551. La batería de 118 kWh proporciona una autonomía homologada de 600 kilómetros.</description>
+    </item>
+    <item>
+      <title>Mitsubishi Montero (2027)</title>
+      <link>https://www.km77.com/coches/mitsubishi/montero/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mitsubishi/montero/2027/estandar/informacion</guid>
+      <pubDate>Wed, 02 Sep 2026 08:40:06 +0000</pubDate>
+      <description>Mitsubishi recupera una de las denominaciones históricas de la marca con una propuesta claramente todoterreno: chasis de largueros, motor Diesel y reductora. Por tamaño y planteamiento, su rival más directo es el Toyota Land Cruiser.</description>
+    </item>
+    <item>
+      <title>Volkswagen ID. California Cruise (2027)</title>
+      <link>https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</guid>
+      <pubDate>Wed, 02 Sep 2026 07:40:06 +0000</pubDate>
+      <description>Es una camper eléctrica derivada del ID. Buzz Pro. Tiene 286 CV, baterías de 79 u 86 kWh según la longitud de la carrocería, cama doble, , accesorios para acampar y una función de climatización prolongada. Las primeras entregas están previstas para 2027.</description>
+    </item>
     <item>
       <title>Lexus NX (2027)</title>
       <link>https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</guid>
-      <pubDate>Tue, 01 Sep 2026 12:36:59 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
       <description>Es una actualización del SUV híbrido de la marca japonesa que se comercializa desde 2021. Estrena cambios de diseño, mejoras en el chasis, tecnología y el equipamiento. También hay cambios en los sistemas híbridos, entre ellos una autonomía eléctrica de 100 kilómetros en el caso de la versión enchufable.</description>
-    </item>
-    <item>
-      <title>Renault Scenic E-Tech | Novedades</title>
-      <link>https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</guid>
-      <pubDate>Tue, 01 Sep 2026 10:36:59 +0000</pubDate>
-      <description>Renault hace cambios en la gama. El único motor disponible (218 caballos) se puede combinar con dos baterías nuevas, que proporcionan 467 y 642 kilómetros de autonomía, respectivamente. También hay cambios en el equipamiento.</description>
     </item>
     <item>
       <title>Desgaste de los neumáticos en los coches eléctricos</title>
       <link>https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</guid>
-      <pubDate>Tue, 01 Sep 2026 06:36:59 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
       <description>Los coches eléctricos pueden acelerar el desgaste de los neumáticos por su mayor peso y entrega de par. Te explicamos por qué y qué características tienen las cubiertas específicas para ellos.</description>
+    </item>
+    <item>
+      <title>Renault Scenic E-Tech | Novedades</title>
+      <link>https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</guid>
+      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
+      <description>Renault hace cambios en la gama. El único motor disponible (218 caballos) se puede combinar con dos baterías nuevas, que proporcionan 467 y 642 kilómetros de autonomía, respectivamente. También hay cambios en el equipamiento.</description>
     </item>
     <item>
       <title>Honda y Nissan anuncian su alianza para desarrollar el coche del futuro</title>
       <link>https://www.km77.com/revista/noticias/honda-y-nissan-anuncian-su-alianza-para-desarrollar-el-coche-del-futuro/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/honda-y-nissan-anuncian-su-alianza-para-desarrollar-el-coche-del-futuro/</guid>
-      <pubDate>Mon, 31 Aug 2026 18:36:59 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
       <description>Estas marcas han llegado a un acuerdo para colaborar en el desarrollo de su próxima generación de vehículos definidos por software, que llegarán al mercado en 2029-2030.</description>
-    </item>
-    <item>
-      <title>Volkswagen Golf Hybrid | Precios</title>
-      <link>https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</guid>
-      <pubDate>Mon, 31 Aug 2026 18:36:59 +0000</pubDate>
-      <description>Ya está a la venta la variante híbrida no enchufable. Tiene 170 caballos y un precio de partida superior al de sus alternativas: desde 36 405 euros.</description>
     </item>
     <item>
       <title>Lamborghini presenta el Temerario Tricolore</title>
       <link>https://www.km77.com/revista/noticias/lamborghini-presenta-el-temerario-tricolore-un-homenaje-a-italia-inspirado-en-el-antiguo-gallardo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/lamborghini-presenta-el-temerario-tricolore-un-homenaje-a-italia-inspirado-en-el-antiguo-gallardo/</guid>
-      <pubDate>Mon, 31 Aug 2026 18:36:59 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
       <description>Lamborghini rinde homenaje a Italia con el nuevo Temerario Tricolore, que recupera una configuración estrenada por el Gallardo hace quince años.</description>
     </item>
     <item>
       <title>El Porsche 911 Turbo S | Esquiva y eslalon</title>
       <link>https://youtu.be/JIY74d2nAd0</link>
       <guid isPermaLink="true">https://youtu.be/JIY74d2nAd0</guid>
-      <pubDate>Mon, 31 Aug 2026 18:36:59 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
       <description>Volvemos a poner a prueba al Porsche 911 en las dos pruebas que hacemos en el circuito, ahora con el 992.2. ¿El chasis acompañará a los 711 caballos?</description>
     </item>
     <item>
-      <title>BMW i7 (2026) | Precios</title>
-      <link>https://www.km77.com/coches/bmw/i7/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/bmw/i7/2026/estandar/informacion</guid>
-      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El berlina eléctrica de lujo de BMW recibe una actualización con novedades importantes en el interior y en el sistema multimedia, así como una batería de mayor capacidad de proporciona más autonomía, de hasta 727 kilómetros. Su precio parte de 121 400 euros.</description>
+      <title>Volkswagen Golf Hybrid | Precios</title>
+      <link>https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</guid>
+      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
+      <description>Ya está a la venta la variante híbrida no enchufable. Tiene 170 caballos y un precio de partida superior al de sus alternativas: desde 36 405 euros.</description>
     </item>
     <item>
       <title>Fiat 500 Hybrid | Prueba</title>
@@ -86,6 +107,13 @@
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión e:HEV Advance.</description>
     </item>
     <item>
+      <title>BMW i7 (2026) | Precios</title>
+      <link>https://www.km77.com/coches/bmw/i7/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/bmw/i7/2026/estandar/informacion</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El berlina eléctrica de lujo de BMW recibe una actualización con novedades importantes en el interior y en el sistema multimedia, así como una batería de mayor capacidad de proporciona más autonomía, de hasta 727 kilómetros. Su precio parte de 121 400 euros.</description>
+    </item>
+    <item>
       <title>Desgaste en diente de sierra: qué es y por qué se da</title>
       <link>https://www.km77.com/revista/engendro-mecanico/desgaste-diente-sierra-neumatico-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/desgaste-diente-sierra-neumatico-motivos/</guid>
@@ -105,13 +133,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/bestune/t90/2023/estandar/informacion</guid>
       <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV de 4,72 metros y cinco plazas. Está disponible con un motor de gasolina de 2,0 litros y 252 CV, cambio automático de ocho relaciones y tracción delantera. Su precio parte de 31 990 euros, más bajo que la mayor parte de sus alternativas.</description>
-    </item>
-    <item>
-      <title>Suzuki e-Sky</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/suzuki-e-sky/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/suzuki-e-sky/</guid>
-      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Suzuki prepara para 2027 un eléctrico urbano de solo 3,39 metros de longitud. El e-Sky, basado en la filosofía de los kei cars japoneses, tendrá cuatro plazas, una batería de 26 kWh.</description>
     </item>
     <item>
       <title>Mercedes-Benz GLS (2026) | Precios</title>
@@ -266,27 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>En otoño de 2026, Audi presentará el A2 e-tron, un vehículo eléctrico de pequeño tamaño que reemplazará al A1 y Q2. Habrá versiones de entre 170 y 326 caballos. La autonomía homologada será, en el caso más favorable, de 649 kilómetros.</description>
-    </item>
-    <item>
-      <title>Geely E2 (2026) | Precio</title>
-      <link>https://www.km77.com/coches/geely/e2/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/geely/e2/2026/estandar/informacion</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es un coche eléctrico de 4,1 metros de longitud y 82 caballos que se puede adquirir con dos baterías diferentes que proporcionan 252 o 345 kilómetros de autonomía homologada. Tiene un precio de partida de 20 280 euros; solo hay un modelo similar que cueste menos.</description>
-    </item>
-    <item>
-      <title>Omoda 7 SHS PHEV 279 CV | Prueba</title>
-      <link>https://www.km77.com/coches/omoda/7/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/omoda/7/2025/estandar/informacion</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Este SUV de 4,66 metros de longitud tiene un sistema de impulsión híbrido enchufable de 279 caballos (92 kilómetros de autonomía eléctrica) que funciona con suavidad y proporciona una buena aceleración. El habitáculo es amplio y confortable, de aspecto moderno y realizado con materiales de buena calidad. Está a la venta desde 40 900 euros.</description>
-    </item>
-    <item>
-      <title>Sportequipe 7 GTW | Precios</title>
-      <link>https://www.km77.com/coches/sportequipe/7-gtw/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/sportequipe/7-gtw/2025/estandar/informacion</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de 4,72 metros de longitud disponible con cinco o siete plazas y dos motores de gasolina de 186 y 182 CV, este último compatible con GLP. Está a la venta desde 36 900 euros.</description>
     </item>
   </channel>
 </rss>
