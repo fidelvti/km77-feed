@@ -5,85 +5,113 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Wed, 02 Sep 2026 18:48:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:51:12 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Volkswagen estudia eliminar la marca española SEAT</title>
+      <link>https://www.km77.com/revista/noticias/volkswagen-estudia-eliminar-la-marca-espanola-seat/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/volkswagen-estudia-eliminar-la-marca-espanola-seat/</guid>
+      <pubDate>Thu, 03 Sep 2026 11:53:55 +0000</pubDate>
+      <description>De acuerdo con un informe publicado por la prensa alemana, el Grupo Volkswagen podría suprimir la marca SEAT como parte de un drástico plan de reducción de costes.</description>
+    </item>
+    <item>
+      <title>Volkswagen prepara su propio Land Cruiser</title>
+      <link>https://www.km77.com/revista/noticias/volkswagen-ultima-el-lanzamiento-de-su-propio-toyota-land-cruiser-con-dos-nuevos-prototipos-del-scout-traveler/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/volkswagen-ultima-el-lanzamiento-de-su-propio-toyota-land-cruiser-con-dos-nuevos-prototipos-del-scout-traveler/</guid>
+      <pubDate>Thu, 03 Sep 2026 10:53:55 +0000</pubDate>
+      <description>Volkswagen lanzará en el año 2028 un todoterreno que aspira a competir contra modelos como el Toyota Land Cruiser: el nuevo Scout Traveler, que se fabricará en Estados Unidos.</description>
+    </item>
+    <item>
+      <title>Renault Clio full hybrid E-Tech 159 CV | Prueba</title>
+      <link>https://www.km77.com/coches/renault/clio/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/renault/clio/2026/estandar/informacion</guid>
+      <pubDate>Thu, 03 Sep 2026 06:53:55 +0000</pubDate>
+      <description>La versión híbrida de 159 caballos tiene una excelente relación entre prestaciones y consumo en cualquier circunstancia, y un funcionamiento agradable especialmente en la ciudad. Parte de 23 269 euros, un precio intermedio entre sus alternativas.</description>
+    </item>
+    <item>
+      <title>Qué coches se fabrican en Canadá y van a tener un 50 % de aranceles</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/coche-fabricacion-canada-aranceles-eeuu/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coche-fabricacion-canada-aranceles-eeuu/</guid>
+      <pubDate>Thu, 03 Sep 2026 02:53:55 +0000</pubDate>
+      <description>Los aranceles de EE. UU. a los vehículos fabricados en Canadá amenazan con alterar una industria profundamente integrada entre ambos países. Estos son los modelos y fábricas más afectados.</description>
+    </item>
     <item>
       <title>Polestar 4 SUV (2027)</title>
       <link>https://www.km77.com/coches/polestar/4/2027/suv/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/polestar/4/2027/suv/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 12:40:06 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 18:53:55 +0000</pubDate>
       <description>Es una carrocería más alta y práctica que la del 4 Coupe que cuesta entre 3000 y 4210 euros más. Tiene 272 o 544 CV, hasta 630 kilómetros de autonomía. El precio de partida es de 54 390 euros.</description>
-    </item>
-    <item>
-      <title>Range Rover Eléctrico (2027) | Precio</title>
-      <link>https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 10:40:06 +0000</pubDate>
-      <description>La versión eléctrica del Range Rover está a la venta desde 163 250 € con 449 CV; más adelante habrá otra versión con 551. La batería de 118 kWh proporciona una autonomía homologada de 600 kilómetros.</description>
     </item>
     <item>
       <title>Mitsubishi Montero (2027)</title>
       <link>https://www.km77.com/coches/mitsubishi/montero/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mitsubishi/montero/2027/estandar/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 08:40:06 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 18:53:55 +0000</pubDate>
       <description>Mitsubishi recupera una de las denominaciones históricas de la marca con una propuesta claramente todoterreno: chasis de largueros, motor Diesel y reductora. Por tamaño y planteamiento, su rival más directo es el Toyota Land Cruiser.</description>
+    </item>
+    <item>
+      <title>Range Rover Eléctrico (2027) | Precio</title>
+      <link>https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</guid>
+      <pubDate>Wed, 02 Sep 2026 18:53:55 +0000</pubDate>
+      <description>La versión eléctrica del Range Rover está a la venta desde 163 250 € con 449 CV; más adelante habrá otra versión con 551. La batería de 118 kWh proporciona una autonomía homologada de 600 kilómetros.</description>
     </item>
     <item>
       <title>Volkswagen ID. California Cruise (2027)</title>
       <link>https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 07:40:06 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 18:53:55 +0000</pubDate>
       <description>Es una camper eléctrica derivada del ID. Buzz Pro. Tiene 286 CV, baterías de 79 u 86 kWh según la longitud de la carrocería, cama doble, , accesorios para acampar y una función de climatización prolongada. Las primeras entregas están previstas para 2027.</description>
-    </item>
-    <item>
-      <title>Lexus NX (2027)</title>
-      <link>https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</guid>
-      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
-      <description>Es una actualización del SUV híbrido de la marca japonesa que se comercializa desde 2021. Estrena cambios de diseño, mejoras en el chasis, tecnología y el equipamiento. También hay cambios en los sistemas híbridos, entre ellos una autonomía eléctrica de 100 kilómetros en el caso de la versión enchufable.</description>
     </item>
     <item>
       <title>Desgaste de los neumáticos en los coches eléctricos</title>
       <link>https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</guid>
-      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2026 18:53:55 +0000</pubDate>
       <description>Los coches eléctricos pueden acelerar el desgaste de los neumáticos por su mayor peso y entrega de par. Te explicamos por qué y qué características tienen las cubiertas específicas para ellos.</description>
+    </item>
+    <item>
+      <title>Lexus NX (2027)</title>
+      <link>https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/lexus/nx/2027/estandar/informacion</guid>
+      <pubDate>Tue, 01 Sep 2026 18:53:55 +0000</pubDate>
+      <description>Es una actualización del SUV híbrido de la marca japonesa que se comercializa desde 2021. Estrena cambios de diseño, mejoras en el chasis, tecnología y el equipamiento. También hay cambios en los sistemas híbridos, entre ellos una autonomía eléctrica de 100 kilómetros en el caso de la versión enchufable.</description>
     </item>
     <item>
       <title>Renault Scenic E-Tech | Novedades</title>
       <link>https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</guid>
-      <pubDate>Tue, 01 Sep 2026 18:40:06 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2026 18:53:55 +0000</pubDate>
       <description>Renault hace cambios en la gama. El único motor disponible (218 caballos) se puede combinar con dos baterías nuevas, que proporcionan 467 y 642 kilómetros de autonomía, respectivamente. También hay cambios en el equipamiento.</description>
     </item>
     <item>
       <title>Honda y Nissan anuncian su alianza para desarrollar el coche del futuro</title>
       <link>https://www.km77.com/revista/noticias/honda-y-nissan-anuncian-su-alianza-para-desarrollar-el-coche-del-futuro/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/honda-y-nissan-anuncian-su-alianza-para-desarrollar-el-coche-del-futuro/</guid>
-      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
       <description>Estas marcas han llegado a un acuerdo para colaborar en el desarrollo de su próxima generación de vehículos definidos por software, que llegarán al mercado en 2029-2030.</description>
     </item>
     <item>
       <title>Lamborghini presenta el Temerario Tricolore</title>
       <link>https://www.km77.com/revista/noticias/lamborghini-presenta-el-temerario-tricolore-un-homenaje-a-italia-inspirado-en-el-antiguo-gallardo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/lamborghini-presenta-el-temerario-tricolore-un-homenaje-a-italia-inspirado-en-el-antiguo-gallardo/</guid>
-      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
       <description>Lamborghini rinde homenaje a Italia con el nuevo Temerario Tricolore, que recupera una configuración estrenada por el Gallardo hace quince años.</description>
-    </item>
-    <item>
-      <title>El Porsche 911 Turbo S | Esquiva y eslalon</title>
-      <link>https://youtu.be/JIY74d2nAd0</link>
-      <guid isPermaLink="true">https://youtu.be/JIY74d2nAd0</guid>
-      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
-      <description>Volvemos a poner a prueba al Porsche 911 en las dos pruebas que hacemos en el circuito, ahora con el 992.2. ¿El chasis acompañará a los 711 caballos?</description>
     </item>
     <item>
       <title>Volkswagen Golf Hybrid | Precios</title>
       <link>https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/golf/2024/5-puertas/informacion</guid>
-      <pubDate>Mon, 31 Aug 2026 18:40:06 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
       <description>Ya está a la venta la variante híbrida no enchufable. Tiene 170 caballos y un precio de partida superior al de sus alternativas: desde 36 405 euros.</description>
+    </item>
+    <item>
+      <title>El Porsche 911 Turbo S | Esquiva y eslalon</title>
+      <link>https://youtu.be/JIY74d2nAd0</link>
+      <guid isPermaLink="true">https://youtu.be/JIY74d2nAd0</guid>
+      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Volvemos a poner a prueba al Porsche 911 en las dos pruebas que hacemos en el circuito, ahora con el 992.2. ¿El chasis acompañará a los 711 caballos?</description>
     </item>
     <item>
       <title>Fiat 500 Hybrid | Prueba</title>
@@ -259,34 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/byd/seal-6/2024/estandar/informacion</guid>
       <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
       <description>Esta berlina de 4,84 metros de longitud tiene un habitáculo amplio, bien acabado y con mucho equipamiento. Con el sistema propulsor híbrido enchufable de 212 caballos el consumo es bajo y las prestaciones buenas; además, la autonomía eléctrica real queda cercana a la homologada. Dinámicamente es correcto, pero menos refinado que sus rivales. En venta desde 34 790 euros, un precio bajo.</description>
-    </item>
-    <item>
-      <title>Volkswagen Caddy (2027) | Precios</title>
-      <link>https://www.km77.com/coches/volkswagen/caddy/2027/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/caddy/2027/informacion</guid>
-      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Volkswagen actualiza ligeramente esta furgoneta, la más pequeña de su gama. Sigue estando disponible con dos longitudes de carrocería, pero ahora su aspecto es distinto gracias al rediseño del parachoques delantero y las llantas. En la gama de motores hay dos versiones Diesel  y una híbrida enchufable. Su precio de partida es de 33 470 euros, superior al de muchas alternativas.</description>
-    </item>
-    <item>
-      <title>Mercedes-Benz GLA (2027) | Precios</title>
-      <link>https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</guid>
-      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de 4,57 metros de longitud del que, por ahora, solo se pueden pedir dos versiones eléctricas (272 CV y un solo motor o 354 CV con dos motores); más adelante llegarán más versiones de este tipo y otras dos con motor de gasolina. Aunque el espacio interior es bueno, no supera a sus rivales directos. A la venta desde 54 726 euros, un precio intermedio frente a sus rivales.</description>
-    </item>
-    <item>
-      <title>EVO 6 HEV 245 CV | Novedad y precio</title>
-      <link>https://www.km77.com/coches/evo/6/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/evo/6/2025/estandar/informacion</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-      <description>EVO añade una versión híbrida no enchufable a este SUV de 4,59 metros de longitud. Tiene 245 caballos de potencia máxima combinada y se puede adquirir por 33 900 euros, un precio intermedio frente a sus alternativas.</description>
-    </item>
-    <item>
-      <title>Audi A2 e-tron (2027)</title>
-      <link>https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-      <description>En otoño de 2026, Audi presentará el A2 e-tron, un vehículo eléctrico de pequeño tamaño que reemplazará al A1 y Q2. Habrá versiones de entre 170 y 326 caballos. La autonomía homologada será, en el caso más favorable, de 649 kilómetros.</description>
     </item>
   </channel>
 </rss>
