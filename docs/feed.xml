@@ -5,36 +5,64 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Mon, 07 Sep 2026 19:34:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 18:00:04 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Los Ford que podrás conducir o copilotar en MADRING</title>
+      <link>https://www.km77.com/revista/noticias/ford-llevara-algunos-de-sus-modelos-mas-emblematicos-a-madring-y-podras-conducir-o-copilotar-algunos-de-ellos/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/ford-llevara-algunos-de-sus-modelos-mas-emblematicos-a-madring-y-podras-conducir-o-copilotar-algunos-de-ellos/</guid>
+      <pubDate>Tue, 08 Sep 2026 14:00:02 +0000</pubDate>
+      <description>Este fin de semana se celebrará el Gran Premio de Fórmula 1 de España, y Ford contará con una FanZone en la que se podrán conocer más de cerca algunos de sus modelos más emblemáticos.</description>
+    </item>
+    <item>
+      <title>Datos de ventas de coches en España. Agosto de 2026</title>
+      <link>https://www.km77.com/revista/general/datos-de-ventas-de-coches-en-espana-agosto-2026/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/general/datos-de-ventas-de-coches-en-espana-agosto-2026/</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:02 +0000</pubDate>
+      <description>España cerró agosto con 68 544 turismos matriculados, un 11,8 % más que en 2025. Toyota volvió a liderar el mercado, mientras BYD y otras marcas chinas continúan ganando terreno y algunos fabricantes tradicionales, como Hyundai y Ford, han retrocedido.</description>
+    </item>
+    <item>
+      <title>BMW Serie 3 (2027)</title>
+      <link>https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</guid>
+      <pubDate>Tue, 08 Sep 2026 10:00:02 +0000</pubDate>
+      <description>La octava generación del Serie 3 tendrá un aspecto similar al del i3 eléctrico, pero su plataforma será distinta e incluirá motores de gasolina con cuatro y seis cilindros. La única versión de la que hay información es la M350 xDrive, que tendrá 443 caballos, una caja de cambios automática y tracción total.</description>
+    </item>
+    <item>
+      <title>Dacia Spring (2027) | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/dacia/spring/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/dacia/spring/2027/estandar/informacion</guid>
+      <pubDate>Tue, 08 Sep 2026 06:00:02 +0000</pubDate>
+      <description>Es un coche eléctrico urbano de cuatro plazas con 82 CV y 250 kilómetros de autonomía. Crece mucho respecto al modelo anterior y es más espacioso. Estará a la venta en noviembre.</description>
+    </item>
     <item>
       <title>Audi A2 e-tron (2027)</title>
       <link>https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
-      <pubDate>Mon, 07 Sep 2026 12:30:16 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 18:00:02 +0000</pubDate>
       <description>Está en venta este coche eléctrico de 4,32 metros de longitud desde 37 760 €. En su desarrollo, Audi ha dado importancia a que gaste poco, logrando un consumo homologado de 12,8 kWh/100 km. Hay versiones con 170, 190, 231 y 326 caballos, y tres tipos de batería.</description>
     </item>
     <item>
       <title>Mercedes-Benz Clase C (2027) | Precios</title>
       <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
-      <pubDate>Mon, 07 Sep 2026 09:30:16 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 18:00:02 +0000</pubDate>
       <description>Ya conocemos los precios del Mercedes-Benz Clase C 2027, que llega con cambios de diseño, una gama de motores revisada y un sistema multimedia más avanzado. Sigue disponible con carrocerías Berlina y Estate y versiones gasolina, Diesel e híbridas enchufables.</description>
     </item>
     <item>
       <title>ZEEKR X: 340 CV, tracción trasera… ¿pero deportivo? | Esquiva y eslalon</title>
       <link>https://www.youtube.com/watch?v=vPNIIE1uVqc</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=vPNIIE1uVqc</guid>
-      <pubDate>Mon, 07 Sep 2026 07:30:16 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 18:00:02 +0000</pubDate>
       <description>Ponemos a prueba al ZEEKR X en nuestros habituales ejercicios de eslalon y esquiva, concretamente la versión de tracción trasera de 340 caballos.</description>
     </item>
     <item>
-      <title>Nissan Ariya (2026) | Precios</title>
-      <link>https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Nissan actualiza este SUV eléctrico con cambios que afectan principalmente al diseño exterior, al equipamiento y al confort de marcha. Está disponible con 242 o 306 caballos y una batería de 87 kWh de capacidad. El precio parte de 59 350 euros, una cantidad elevada.</description>
+      <title>¿Los coches nuevos se empañan menos?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/coches-nuevos-empanan-menos-realidad/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coches-nuevos-empanan-menos-realidad/</guid>
+      <pubDate>Mon, 07 Sep 2026 18:00:02 +0000</pubDate>
+      <description>Los coches modernos pueden desempañarse mejor gracias a sus sistemas de climatización, pero los recién estrenados pueden acumular una película de residuos en el parabrisas que empeora la visibilidad.</description>
     </item>
     <item>
       <title>SEAT admite que su destino es incierto</title>
@@ -42,6 +70,13 @@
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/seat-admite-que-su-destino-es-incierto-el-futuro-de-la-marca-sigue-analizandose/</guid>
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
       <description>SEAT S.A. ha respondido a las informaciones que apuntan a la posible desaparición de su marca principal, señalando que, si bien el futuro de CUPRA está asegurado, el de SEAT todavía está analizándose.</description>
+    </item>
+    <item>
+      <title>Nissan Ariya (2026) | Precios</title>
+      <link>https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Nissan actualiza este SUV eléctrico con cambios que afectan principalmente al diseño exterior, al equipamiento y al confort de marcha. Está disponible con 242 o 306 caballos y una batería de 87 kWh de capacidad. El precio parte de 59 350 euros, una cantidad elevada.</description>
     </item>
     <item>
       <title>Volkswagen anuncia la mayor reestructuración de su historia</title>
@@ -119,13 +154,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/renault/scenic/2024/estandar/informacion</guid>
       <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
       <description>Renault hace cambios en la gama. El único motor disponible (218 caballos) se puede combinar con dos baterías nuevas, que proporcionan 467 y 642 kilómetros de autonomía, respectivamente. También hay cambios en el equipamiento.</description>
-    </item>
-    <item>
-      <title>Desgaste de los neumáticos en los coches eléctricos</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coches-electricos-desgastan-mas-neumaticos/</guid>
-      <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Los coches eléctricos pueden acelerar el desgaste de los neumáticos por su mayor peso y entrega de par. Te explicamos por qué y qué características tienen las cubiertas específicas para ellos.</description>
     </item>
     <item>
       <title>Volkswagen Golf Hybrid | Precios</title>
@@ -259,34 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/maserati/grancabrio/2027/estandar/informacion</guid>
       <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
       <description>La variante descapotable del GranTurismo recibe una ligera actualización estética y de equipamiento. También hay cambios en el motor de la variante Trofeo —ahora tiene 590 CV, 40 más— y en la autonomía de la eléctrica Folgore —509 kilómetros, 84 más—. Está a la venta desde 169 800 euros, unos 10 000 más que la variante de tipo cupé.</description>
-    </item>
-    <item>
-      <title>Bugatti Destrier (2026)</title>
-      <link>https://www.km77.com/coches/bugatti/destrier/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/bugatti/destrier/2026/estandar/informacion</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es un deportivo biplaza del que Bugatti solo va a fabricar una unidad. El motor es uno de gasolina con 16 cilindros que desarrolla 1600 caballos, el mismo empleado en el Mistral.</description>
-    </item>
-    <item>
-      <title>BYD Seal 6 DM-i Comfort | Prueba</title>
-      <link>https://www.km77.com/coches/byd/seal-6/2024/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/byd/seal-6/2024/estandar/informacion</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Esta berlina de 4,84 metros de longitud tiene un habitáculo amplio, bien acabado y con mucho equipamiento. Con el sistema propulsor híbrido enchufable de 212 caballos el consumo es bajo y las prestaciones buenas; además, la autonomía eléctrica real queda cercana a la homologada. Dinámicamente es correcto, pero menos refinado que sus rivales. En venta desde 34 790 euros, un precio bajo.</description>
-    </item>
-    <item>
-      <title>Volkswagen Caddy (2027) | Precios</title>
-      <link>https://www.km77.com/coches/volkswagen/caddy/2027/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/caddy/2027/informacion</guid>
-      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Volkswagen actualiza ligeramente esta furgoneta, la más pequeña de su gama. Sigue estando disponible con dos longitudes de carrocería, pero ahora su aspecto es distinto gracias al rediseño del parachoques delantero y las llantas. En la gama de motores hay dos versiones Diesel  y una híbrida enchufable. Su precio de partida es de 33 470 euros, superior al de muchas alternativas.</description>
-    </item>
-    <item>
-      <title>Mercedes-Benz GLA (2027) | Precios</title>
-      <link>https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/gla/2027/estandar/informacion</guid>
-      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de 4,57 metros de longitud del que, por ahora, solo se pueden pedir dos versiones eléctricas (272 CV y un solo motor o 354 CV con dos motores); más adelante llegarán más versiones de este tipo y otras dos con motor de gasolina. Aunque el espacio interior es bueno, no supera a sus rivales directos. A la venta desde 54 726 euros, un precio intermedio frente a sus rivales.</description>
     </item>
   </channel>
 </rss>
