@@ -5,99 +5,127 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Wed, 09 Sep 2026 18:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 20:12:05 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Robotaxis en Madrid</title>
+      <link>https://www.km77.com/revista/noticias/dgt-autoriza-uber-coches-autonomos-madrid/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/dgt-autoriza-uber-coches-autonomos-madrid/</guid>
+      <pubDate>Thu, 10 Sep 2026 15:10:05 +0000</pubDate>
+      <description>Uber ha recibido autorización de la DGT para ensayar en vías públicas vehículos autónomos de WeRide, inicialmente con un conductor de seguridad a bordo y con el objetivo de lanzar un servicio comercial en 2026.</description>
+    </item>
+    <item>
+      <title>Geely E2 (2026) | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/geely/e2/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/geely/e2/2026/estandar/informacion</guid>
+      <pubDate>Thu, 10 Sep 2026 10:10:05 +0000</pubDate>
+      <description>Es un coche pensado para ciudad por sus dimensiones, lo bien que gira y la capacidad de sus baterías. La amplitud del habitáculo es normal y la cantidad de espacios donde llevar carga y otros bultos, numerosos. Está a la venta desde 19 870 €, un precio muy asequible comparado con sus alternativas.</description>
+    </item>
+    <item>
+      <title>BMW ha eliminado un botón que no necesitamos</title>
+      <link>https://www.km77.com/revista/opinion/bmw-ha-eliminado-un-boton-que-no-necesitamos/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/opinion/bmw-ha-eliminado-un-boton-que-no-necesitamos/</guid>
+      <pubDate>Thu, 10 Sep 2026 06:10:05 +0000</pubDate>
+      <description>Hay avances que impresionan y otros que mejoran el coche precisamente por lo contrario. Un pequeño detalle demuestra que el verdadero confort también consiste en eliminar gestos que ya no tienen sentido.</description>
+    </item>
+    <item>
+      <title>Mazda CX-5 | Imágenes interiores</title>
+      <link>https://www.km77.com/coches/mazda/cx-5/2026/estandar/imagenes/interiores</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mazda/cx-5/2026/estandar/imagenes/interiores</guid>
+      <pubDate>Thu, 10 Sep 2026 05:10:05 +0000</pubDate>
+      <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 2.5 e-SKYACTIV G 141 CV AT Homura.</description>
+    </item>
     <item>
       <title>Si vas a ser padre, no te compres un SUV</title>
       <link>https://www.km77.com/revista/opinion/si-vas-a-ser-padre-y-eres-un-tieso-no-te-compres-un-suv/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/opinion/si-vas-a-ser-padre-y-eres-un-tieso-no-te-compres-un-suv/</guid>
-      <pubDate>Wed, 09 Sep 2026 15:04:19 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2026 18:10:05 +0000</pubDate>
       <description>¿Necesitas un SUV cuando tienes hijos? Un coche de cuatro metros demuestra que se puede viajar en familia, con carrito y equipaje.</description>
-    </item>
-    <item>
-      <title>Nissan Pixo (2027)</title>
-      <link>https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</guid>
-      <pubDate>Wed, 09 Sep 2026 12:04:19 +0000</pubDate>
-      <description>Próximamente Nissan presentará el nuevo Pixo, el coche eléctrico más pequeño de su gama europea y que tendrá orientación urbana. Compartirá plataforma con el Dacia Spring y el Renault Twingo.</description>
     </item>
     <item>
       <title>Volkswagen ID. Polo | Primeras impresiones</title>
       <link>https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-polo/2026/estandar/informacion</guid>
-      <pubDate>Wed, 09 Sep 2026 11:04:19 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2026 18:10:05 +0000</pubDate>
       <description>Es cómodo y tiene una buena puesta a punto de la suspensión. Su interior está bien presentado y es fácil de utilizar. Está en venta desde 25 635 euros con un motor de 116 caballos y 318 kilómetros de autonomía.</description>
     </item>
     <item>
       <title>Kia lanza los nuevos EV3 GT, EV4 GT y EV5 GT</title>
       <link>https://www.km77.com/revista/noticias/kia-lanza-en-europa-los-nuevos-ev3-gt-ev4-gt-y-ev5-gt/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/kia-lanza-en-europa-los-nuevos-ev3-gt-ev4-gt-y-ev5-gt/</guid>
-      <pubDate>Wed, 09 Sep 2026 10:04:19 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2026 18:10:05 +0000</pubDate>
       <description>Kia presenta en Europa tres nuevos coches eléctricos de altas prestaciones: los EV3 GT, EV4 GT y EV5 GT, que comparten mucho más que su ilustre apellido.</description>
     </item>
     <item>
       <title>Por qué los discos de freno se oxidan tan rápido</title>
       <link>https://www.km77.com/revista/engendro-mecanico/oxidacion-discos-freno-rapido-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/oxidacion-discos-freno-rapido-motivos/</guid>
-      <pubDate>Wed, 09 Sep 2026 07:04:19 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2026 18:10:05 +0000</pubDate>
       <description>Los discos de freno pueden cubrirse de óxido tras unas horas de humedad, pero normalmente se trata de corrosión superficial. Te explicamos por qué aparece y cuándo debería preocuparnos.</description>
+    </item>
+    <item>
+      <title>Nissan Pixo (2027)</title>
+      <link>https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</guid>
+      <pubDate>Wed, 09 Sep 2026 18:10:05 +0000</pubDate>
+      <description>Próximamente Nissan presentará el nuevo Pixo, el coche eléctrico más pequeño de su gama europea y que tendrá orientación urbana. Compartirá plataforma con el Dacia Spring y el Renault Twingo.</description>
     </item>
     <item>
       <title>Los Ford que podrás conducir o copilotar en MADRING</title>
       <link>https://www.km77.com/revista/noticias/ford-llevara-algunos-de-sus-modelos-mas-emblematicos-a-madring-y-podras-conducir-o-copilotar-algunos-de-ellos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/ford-llevara-algunos-de-sus-modelos-mas-emblematicos-a-madring-y-podras-conducir-o-copilotar-algunos-de-ellos/</guid>
-      <pubDate>Tue, 08 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 18:10:05 +0000</pubDate>
       <description>Este fin de semana se celebrará el Gran Premio de Fórmula 1 de España, y Ford contará con una FanZone en la que se podrán conocer más de cerca algunos de sus modelos más emblemáticos.</description>
     </item>
     <item>
       <title>Datos de ventas de coches en España. Agosto de 2026</title>
       <link>https://www.km77.com/revista/general/datos-de-ventas-de-coches-en-espana-agosto-2026/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/general/datos-de-ventas-de-coches-en-espana-agosto-2026/</guid>
-      <pubDate>Tue, 08 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 18:10:05 +0000</pubDate>
       <description>España cerró agosto con 68 544 turismos matriculados, un 11,8 % más que en 2025. Toyota volvió a liderar el mercado, mientras BYD y otras marcas chinas continúan ganando terreno y algunos fabricantes tradicionales, como Hyundai y Ford, han retrocedido.</description>
     </item>
     <item>
       <title>BMW Serie 3 (2027)</title>
       <link>https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</guid>
-      <pubDate>Tue, 08 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 18:10:05 +0000</pubDate>
       <description>La octava generación del Serie 3 tendrá un aspecto similar al del i3 eléctrico, pero su plataforma será distinta e incluirá motores de gasolina con cuatro y seis cilindros. La única versión de la que hay información es la M350 xDrive, que tendrá 443 caballos, una caja de cambios automática y tracción total.</description>
     </item>
     <item>
       <title>Dacia Spring (2027) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/dacia/spring/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/dacia/spring/2027/estandar/informacion</guid>
-      <pubDate>Tue, 08 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 18:10:05 +0000</pubDate>
       <description>Es un coche eléctrico urbano de cuatro plazas con 82 CV y 250 kilómetros de autonomía. Crece mucho respecto al modelo anterior y es más espacioso. Estará a la venta en noviembre.</description>
     </item>
     <item>
       <title>Audi A2 e-tron (2027)</title>
       <link>https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
-      <pubDate>Mon, 07 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>Está en venta este coche eléctrico de 4,32 metros de longitud desde 37 760 €. En su desarrollo, Audi ha dado importancia a que gaste poco, logrando un consumo homologado de 12,8 kWh/100 km. Hay versiones con 170, 190, 231 y 326 caballos, y tres tipos de batería.</description>
-    </item>
-    <item>
-      <title>Mercedes-Benz Clase C (2027) | Precios</title>
-      <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
-      <pubDate>Mon, 07 Sep 2026 18:04:19 +0000</pubDate>
-      <description>Ya conocemos los precios del Mercedes-Benz Clase C 2027, que llega con cambios de diseño, una gama de motores revisada y un sistema multimedia más avanzado. Sigue disponible con carrocerías Berlina y Estate y versiones gasolina, Diesel e híbridas enchufables.</description>
     </item>
     <item>
       <title>ZEEKR X: 340 CV, tracción trasera… ¿pero deportivo? | Esquiva y eslalon</title>
       <link>https://www.youtube.com/watch?v=vPNIIE1uVqc</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=vPNIIE1uVqc</guid>
-      <pubDate>Mon, 07 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>Ponemos a prueba al ZEEKR X en nuestros habituales ejercicios de eslalon y esquiva, concretamente la versión de tracción trasera de 340 caballos.</description>
     </item>
     <item>
       <title>¿Los coches nuevos se empañan menos?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/coches-nuevos-empanan-menos-realidad/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coches-nuevos-empanan-menos-realidad/</guid>
-      <pubDate>Mon, 07 Sep 2026 18:04:19 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>Los coches modernos pueden desempañarse mejor gracias a sus sistemas de climatización, pero los recién estrenados pueden acumular una película de residuos en el parabrisas que empeora la visibilidad.</description>
+    </item>
+    <item>
+      <title>Mercedes-Benz Clase C (2027) | Precios</title>
+      <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Ya conocemos los precios del Mercedes-Benz Clase C 2027, que llega con cambios de diseño, una gama de motores revisada y un sistema multimedia más avanzado. Sigue disponible con carrocerías Berlina y Estate y versiones gasolina, Diesel e híbridas enchufables.</description>
     </item>
     <item>
       <title>SEAT admite que su destino es incierto</title>
@@ -112,13 +140,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</guid>
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
       <description>Nissan actualiza este SUV eléctrico con cambios que afectan principalmente al diseño exterior, al equipamiento y al confort de marcha. Está disponible con 242 o 306 caballos y una batería de 87 kWh de capacidad. El precio parte de 59 350 euros, una cantidad elevada.</description>
-    </item>
-    <item>
-      <title>Volkswagen anuncia la mayor reestructuración de su historia</title>
-      <link>https://www.km77.com/revista/noticias/volkswagen-anuncia-la-mayor-reestructuracion-de-su-historia-y-muchos-modelos-no-viviran-para-contarlo/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/volkswagen-anuncia-la-mayor-reestructuracion-de-su-historia-y-muchos-modelos-no-viviran-para-contarlo/</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El Consejo de Supervisión del Grupo Volkswagen ha dado el visto bueno a un plan de reestructuración que conllevará la supresión de 50 000 puestos de trabajo y la discontinuación de la mitad de su oferta de modelos.</description>
     </item>
     <item>
       <title>Renault Clio full hybrid E-Tech 159 CV | Prueba</title>
@@ -266,27 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/koenigsegg/ccgt1/2027/estandar/informacion</guid>
       <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
       <description>Es un deportivo que homenajea al Koenigsegg CCGT, un vehículo de carreras creado en 2007 que no llegó a competir por un cambio en el reglamento. El CCGT1 tiene un motor V8 biturbo que puede generar 1600 caballos. Se fabricarán 70 unidades.</description>
-    </item>
-    <item>
-      <title>Ferrari CZ26 (2026)</title>
-      <link>https://www.km77.com/coches/ferrari/cz26/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/ferrari/cz26/2026/estandar/informacion</guid>
-      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Este vehículo, del que solo existe una unidad, es fruto del programa Special Projects de Ferrari. Su punto de partida es el SF90 Stradale y está movido por un sistema de propulsión híbrido enchufable de 1000 caballos.</description>
-    </item>
-    <item>
-      <title>Volkswagen T-Roc Hybrid | Precio</title>
-      <link>https://www.km77.com/coches/volkswagen/t-roc/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/t-roc/2026/estandar/informacion</guid>
-      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Volkswagen añade a la gama T-Roc una versión híbrida no enchufable de 170 caballos. Tiene mejores prestaciones y menor consumo que las híbridas ligeras que están a la venta en la actualidad y su precio de partida es de 36 150 euros (superior al de sus alternativas).</description>
-    </item>
-    <item>
-      <title>Maserati GranTurismo (2027) | Precios</title>
-      <link>https://www.km77.com/coches/maserati/granturismo/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/maserati/granturismo/2027/estandar/informacion</guid>
-      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Este cupé de casi 5 metros de longitud recibe una ligera actualización estética y de equipamiento. También hay cambios en el motor de la variante Trofeo —ahora tiene 590 CV, 40 más— y en la autonomía de la eléctrica Folgore —542 kilómetros, 85 más—. Se puede adquirir desde 159 500 euros.</description>
     </item>
   </channel>
 </rss>
