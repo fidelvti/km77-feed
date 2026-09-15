@@ -5,63 +5,98 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Mon, 14 Sep 2026 21:58:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 18:02:39 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Renault Twingo E-Tech (2026) | Prueba</title>
+      <link>https://www.km77.com/coches/renault/twingo/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/renault/twingo/2026/estandar/informacion</guid>
+      <pubDate>Tue, 15 Sep 2026 17:02:36 +0000</pubDate>
+      <description>Es un coche eléctrico con buenas cualidades para la ciudad sin caer en una sencillez extrema. Mide 3,79 metros y tiene un habitáculo de tamaño correcto para cuatro ocupantes. Tiene 82 caballos y 263 km de autonomía, dato que se puede reproducir en un uso urbano ya que  el consumo es muy bajo. El precio parte de 18 233 euros.</description>
+    </item>
+    <item>
+      <title>Volvo XC60 (2027)</title>
+      <link>https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</guid>
+      <pubDate>Tue, 15 Sep 2026 11:02:36 +0000</pubDate>
+      <description>Volvo actualiza este SUV de 4,71 metros con cambios de diseño y tecnología y seguridad. Las versiones híbridas enchufables estrenan una batería de 41,2 kWh que permite recorrer hasta 200 kilómetros en modo eléctrico.</description>
+    </item>
+    <item>
+      <title>Contenido patrocinado | Autonomía y eficiencia en los eléctricos de BYD</title>
+      <link>https://www.km77.com/revista/contenido-patrocinado/autonomia-y-eficiencia-las-claves-de-la-gama-electrica-de-byd-en-2026/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/contenido-patrocinado/autonomia-y-eficiencia-las-claves-de-la-gama-electrica-de-byd-en-2026/</guid>
+      <pubDate>Tue, 15 Sep 2026 10:02:36 +0000</pubDate>
+      <description>La autonomía de un coche eléctrico no depende solo del tamaño de la batería. Explicamos cómo influyen la eficiencia, la aerodinámica, la gestión térmica y la recuperación de energía, y repasamos la gama eléctrica de BYD.</description>
+    </item>
+    <item>
+      <title>Kia EV2 Long Range</title>
+      <link>https://www.km77.com/coches/kia/ev2/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/kia/ev2/2026/estandar/informacion</guid>
+      <pubDate>Tue, 15 Sep 2026 09:02:36 +0000</pubDate>
+      <description>La gama EV2 ya está disponible con una versión de 135 caballos asociada a una batería de mayor capacidad que la ofrecida en el lanzamiento, con la que la autonomía llega hasta 444 kilómetros. El precio parte de 32 240 euros. También hay dos nuevos niveles de equipamiento.</description>
+    </item>
+    <item>
+      <title>BMW Maps integrará navegación y asistentes de conducción en una vista 3D</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/bmw-maps-actualizacion-navegacion-asistentes-conduccion/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/bmw-maps-actualizacion-navegacion-asistentes-conduccion/</guid>
+      <pubDate>Tue, 15 Sep 2026 07:02:36 +0000</pubDate>
+      <description>BMW estrenará una nueva visualización 3D que combina navegación, entorno del vehículo y funcionamiento de los asistentes de conducción para facilitar la orientación y hacer más comprensible su intervención.</description>
+    </item>
     <item>
       <title>Škoda Epiq (2027) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/skoda/epiq/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/skoda/epiq/2027/estandar/informacion</guid>
-      <pubDate>Mon, 14 Sep 2026 18:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 19:02:36 +0000</pubDate>
       <description>Es un modelo eléctrico de 4,17 metros —con 211 CV y 440 kilómetros de autonomía— con un maletero especialmente grande que agrada porque no tiene ningún defecto importante. El precio de partida es de 31 350 € hasta que lleguen las versiones de 116 y 135 caballos, que además de menos potencia tendrán menos autonomía.</description>
     </item>
     <item>
       <title>Mazda CX-6e (2026) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/mazda/cx-6e/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mazda/cx-6e/2026/estandar/informacion</guid>
-      <pubDate>Mon, 14 Sep 2026 15:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 18:02:36 +0000</pubDate>
       <description>El CX-6e es un SUV eléctrico con un habitáculo amplio en sentido longitudinal y acabado con materiales de buena calidad. Dinámicamente es correcto: es relativamente cómodo, está bien aislado del exterior y su motor funciona con una suavidad excepcional, aunque el empuje no es demasiado intenso. En venta desde 42 990 euros, un precio inferior al de muchas alternativas.</description>
     </item>
     <item>
       <title>Volkswagen Mission Efficiency (prototipo)</title>
       <link>https://www.km77.com/coches/volkswagen/mission-efficiency-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/mission-efficiency-prototipo/informacion</guid>
-      <pubDate>Mon, 14 Sep 2026 12:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 18:02:36 +0000</pubDate>
       <description>Es un prototipo eléctrico basado en el ID. Polo que destaca por su excelente aerodinámica. Volkswagen anuncia un consumo de 6,48 kWh/100 km en condiciones favorables y dice que es el coche eléctrico más eficiente del mundo cercano a la producción.</description>
     </item>
     <item>
       <title>MG4 (2026) | Precios</title>
       <link>https://www.km77.com/coches/mg/mg4/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mg/mg4/2026/estandar/informacion</guid>
-      <pubDate>Mon, 14 Sep 2026 08:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 18:02:36 +0000</pubDate>
       <description>Los precios del MG4 2026 parten de 34 190 euros y están por encima de las alternativas más asequibles. La gama está formada por tres versiones, dos de tracción trasera, con 190 o 245 CV, y una de tracción total, con potencias de hasta 435 CV. La autonomía máxima es de 545 kilómetros.</description>
     </item>
     <item>
       <title>Porsche sale de Bugatti</title>
       <link>https://www.km77.com/revista/noticias/porsche-vende-su-participacion-en-bugatti-la-marca-francesa-se-desvincula-por-completo-del-grupo-volkswagen/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/porsche-vende-su-participacion-en-bugatti-la-marca-francesa-se-desvincula-por-completo-del-grupo-volkswagen/</guid>
-      <pubDate>Mon, 14 Sep 2026 08:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 18:02:36 +0000</pubDate>
       <description>Porsche ha vendido sus participaciones en Rimac Group y las de la empresa conjunta Bugatti Rimac, lo que marca el final de casi tres décadas de relación entre el Grupo Volkswagen y la marca francesa.</description>
     </item>
     <item>
       <title>Faros amarillos y opacos: por qué se ponen así</title>
       <link>https://www.km77.com/revista/engendro-mecanico/faros-amarillos-opacos-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/faros-amarillos-opacos-motivos/</guid>
-      <pubDate>Mon, 14 Sep 2026 06:58:45 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2026 18:02:36 +0000</pubDate>
       <description>Los faros de policarbonato pueden amarillear y perder transparencia con el paso del tiempo. Te explicamos por qué ocurre y cómo afecta a la iluminación del vehículo.</description>
     </item>
     <item>
       <title>XPENG G6 | Estudio77</title>
       <link>https://youtu.be/xvroEOB-YWM</link>
       <guid isPermaLink="true">https://youtu.be/xvroEOB-YWM</guid>
-      <pubDate>Sun, 13 Sep 2026 21:58:45 +0000</pubDate>
+      <pubDate>Sun, 13 Sep 2026 18:02:36 +0000</pubDate>
       <description>En este vídeo mostramos el XPENG G6 en detalle en nuestro estudio para enseñarte todos los detalles de su carrocería, su habitáculo y su sistema multimedia.</description>
     </item>
     <item>
       <title>Porsche 911 Turbo S | Prueba</title>
       <link>https://www.km77.com/coches/porsche/911/2025/coupe/turbo-s/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/porsche/911/2025/coupe/turbo-s/informacion</guid>
-      <pubDate>Sat, 12 Sep 2026 21:58:45 +0000</pubDate>
+      <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
       <description>Es el 911 de calle más potente de la historia y el primer Turbo S híbrido. Sus 711 caballos empujan con furia, su chasis controla magistralmente los movimientos de la carrocería y los frenos son excepcionales. Su precio está a la altura de lo anterior: desde 312 200 euros; 16 000 euros más si se pide con la carrocería descapotable.</description>
     </item>
     <item>
@@ -93,32 +128,11 @@
       <description>Aparece en muchos neumáticos, y sus cifras y letras esconden más información de la que parece. Te explicamos qué significan y cómo interpretar sus tres parámetros.</description>
     </item>
     <item>
-      <title>Renault Niagara</title>
-      <link>https://www.km77.com/revista/noticias/renault-niagara-una-pick-up-de-casi-cinco-metros-que-no-llegara-a-europa/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/renault-niagara-una-pick-up-de-casi-cinco-metros-que-no-llegara-a-europa/</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es una nueva pick-up desarrollada para Latinoamérica que sustituirá a la Oroch. Tiene hasta 160 CV, versiones de tracción delantera y total, una zona de carga de 938 litros y un sistema multimedia con Google y Gemini integrados.</description>
-    </item>
-    <item>
-      <title>Robotaxis en Madrid</title>
-      <link>https://www.km77.com/revista/noticias/dgt-autoriza-uber-coches-autonomos-madrid/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/dgt-autoriza-uber-coches-autonomos-madrid/</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Uber ha recibido autorización de la DGT para ensayar en vías públicas vehículos autónomos de WeRide, inicialmente con un conductor de seguridad a bordo y con el objetivo de lanzar un servicio comercial en 2026.</description>
-    </item>
-    <item>
       <title>Geely E2 (2026) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/geely/e2/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/geely/e2/2026/estandar/informacion</guid>
       <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
       <description>Es un coche pensado para ciudad por sus dimensiones, lo bien que gira y la capacidad de sus baterías. La amplitud del habitáculo es normal y la cantidad de espacios donde llevar carga y otros bultos, numerosos. Está a la venta desde 19 870 €, un precio muy asequible comparado con sus alternativas.</description>
-    </item>
-    <item>
-      <title>BMW ha eliminado un botón que no necesitamos</title>
-      <link>https://www.km77.com/revista/opinion/bmw-ha-eliminado-un-boton-que-no-necesitamos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/opinion/bmw-ha-eliminado-un-boton-que-no-necesitamos/</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Hay avances que impresionan y otros que mejoran el coche precisamente por lo contrario. Un pequeño detalle demuestra que el verdadero confort también consiste en eliminar gestos que ya no tienen sentido.</description>
     </item>
     <item>
       <title>Volkswagen ID. Polo | Primeras impresiones</title>
@@ -273,20 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/gordon-murray-automotive/s1/2027/estandar/informacion</guid>
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
       <description>Este deportivo tiene un motor V12 atmosférico de 690 caballos, una caja de cambios manual de seis relaciones y tracción trasera. Su chasis está ajustado para proporcionar un buen confort de marcha en viajes largos. Se fabricarán 64 unidades.</description>
-    </item>
-    <item>
-      <title>Hyundai Tucson (2027)</title>
-      <link>https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</guid>
-      <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
-      <description>La quinta generación de este SUV mide 4,70 metros de longitud y dispone de cinco plazas. Su diseño es diferente al del actual Tucson, tanto en el exterior como en el habitáculo. Por el momento, Hyundai no ha comunicado cuándo comenzará su comercialización en España.</description>
-    </item>
-    <item>
-      <title>McLaren McL 6GT (prototipo)</title>
-      <link>https://www.km77.com/coches/mclaren/mcl-6gt-prototipo/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mclaren/mcl-6gt-prototipo/informacion</guid>
-      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es un prototipo que anticipa un modelo de producción que McLaren tiene previsto lanzar en 2028. Está inspirado en el M6GT, un coche que nunca llegó a fabricarse.</description>
     </item>
   </channel>
 </rss>
