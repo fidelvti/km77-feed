@@ -5,70 +5,98 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 22 Sep 2026 18:12:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 18:05:21 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
-      <title>KGM Torres Actyon (2025) | Novedades en el interior</title>
-      <link>https://www.km77.com/coches/kgm/torres-actyon/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/kgm/torres-actyon/2025/estandar/informacion</guid>
-      <pubDate>Tue, 22 Sep 2026 14:01:12 +0000</pubDate>
-      <description>KGM hace algunos cambios en el interior del este SUV para mejoran la funcionalidad. El climatizador, por ejemplo, ahora se maneja desde un módulo independiente, el selector del cambio es más grande y la compatibilidad con Android Auto y CarPlay es ahora inalámbrica. Además, ahora hay un sistema de monitorización del nivel de atención del conductor. Está en venta desde 38 000 euros con un sistema híbrido de 204 caballos.</description>
+      <title>CUPRA Raval Endurance (211 CV) | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/cupra/raval/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/cupra/raval/2026/estandar/informacion</guid>
+      <pubDate>Wed, 23 Sep 2026 13:05:20 +0000</pubDate>
+      <description>Esta versión es interesante porque es la de mayor autonomía de la gama y tiene ese tacto de conducción ágil que diferencia a CUPRA de casi todas sus alternativas. Está en venta desde 33 410 euros.</description>
     </item>
     <item>
-      <title>Llega el primer fabricante de automóviles de Arabia Saudí: CEER</title>
-      <link>https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</guid>
-      <pubDate>Tue, 22 Sep 2026 12:01:12 +0000</pubDate>
-      <description>El príncipe heredero de Arabia Saudí, Mohammed bin Salman, ha presentado los dos primeros modelos de la primera marca del país, CEER. Ambos son eléctricos y comparten nombre, EXOBOT, pero sus carrocerías son distintas.</description>
+      <title>Nissan Pixo (2027)</title>
+      <link>https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</guid>
+      <pubDate>Wed, 23 Sep 2026 10:05:20 +0000</pubDate>
+      <description>Es un coche eléctrico destinado principalmente a un uso urbano. Está emparentado con los Renault Twingo y Dacia Spring. Tiene 82 CV, 259 km de autonomía y carga rápida de 50 kW de serie.</description>
+    </item>
+    <item>
+      <title>Opel Astra GSE LIne</title>
+      <link>https://www.km77.com/coches/opel/astra/2026/5-puertas/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/opel/astra/2026/5-puertas/informacion</guid>
+      <pubDate>Wed, 23 Sep 2026 10:05:20 +0000</pubDate>
+      <description>Este nivel de equipamiento sustituye al GS y aporta una imagen más deportiva mediante detalles exteriores específicos, llantas de hasta 18 pulgadas y costuras amarillas en el habitáculo. Está disponible con todos los motores.</description>
+    </item>
+    <item>
+      <title>Qué pasa si pulsas el botón de arranque en marcha</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/pulsar-boton-start-stop-en-marcha/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/pulsar-boton-start-stop-en-marcha/</guid>
+      <pubDate>Wed, 23 Sep 2026 07:05:20 +0000</pubDate>
+      <description>Los coches modernos incorporan distintas lógicas de seguridad para evitar apagados accidentales y permitir una desconexión de emergencia cuando es necesaria.</description>
+    </item>
+    <item>
+      <title>KGM Torres Actyon (2025) | Novedades</title>
+      <link>https://www.km77.com/coches/kgm/torres-actyon/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/kgm/torres-actyon/2025/estandar/informacion</guid>
+      <pubDate>Tue, 22 Sep 2026 18:05:20 +0000</pubDate>
+      <description>KGM hace algunos cambios en el interior del este SUV para mejorar la funcionalidad. El climatizador, por ejemplo, ahora se maneja desde un módulo independiente, el selector del cambio es más grande y la compatibilidad con Android Auto y CarPlay es inalámbrica. Además, hay un sistema de monitorización de atención del conductor. Está en venta desde 38 000 euros con un sistema híbrido de 204 caballos.</description>
     </item>
     <item>
       <title>Škoda Peaq (2027) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/skoda/peaq/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/skoda/peaq/2027/estandar/informacion</guid>
-      <pubDate>Tue, 22 Sep 2026 09:01:12 +0000</pubDate>
+      <pubDate>Tue, 22 Sep 2026 18:05:20 +0000</pubDate>
       <description>El SUV eléctrico más grande de Škoda mide 4,87 metros de longitud y puede tener cinco o siete plazas. Es un coche equilibrado, fácil de conducir y con una buena calidad de rodadura. La tercera fila de asientos es adecuada para niños o adultos de baja estatura. Está a la venta desde 50 450 euros.</description>
+    </item>
+    <item>
+      <title>CEER</title>
+      <link>https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</guid>
+      <pubDate>Tue, 22 Sep 2026 18:05:20 +0000</pubDate>
+      <description>El príncipe heredero de Arabia Saudí, Mohammed bin Salman, ha presentado los dos primeros modelos de la primera marca del país, CEER. Ambos son eléctricos y comparten nombre, EXOBOT, pero sus carrocerías son distintas.</description>
     </item>
     <item>
       <title>Agujeros en el parachoques: ¿qué son?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/agujeros-ciegos-parachoques-usos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/agujeros-ciegos-parachoques-usos/</guid>
-      <pubDate>Tue, 22 Sep 2026 07:01:12 +0000</pubDate>
+      <pubDate>Tue, 22 Sep 2026 18:05:20 +0000</pubDate>
       <description>Esos pequeños orificios esconden funciones muy distintas: desde el anclaje de remolque hasta sensores, lavafaros y soluciones pensadas para compartir componentes entre versiones.</description>
+    </item>
+    <item>
+      <title>Lepas L8 | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</guid>
+      <pubDate>Mon, 21 Sep 2026 18:05:20 +0000</pubDate>
+      <description>Es un SUV de cinco plazas híbrido enchufable de 279 CV que destaca por la amplitud de sus plazas traseras, su funcionamiento silencioso y el confort de marcha. Ofrece 90 kilómetros de autonomía eléctrica, tiene un maletero de 507 litros y está disponible desde 38 447 euros.</description>
     </item>
     <item>
       <title>Tesla Roadster (¿2027?)</title>
       <link>https://www.km77.com/revista/noticias/tesla-abre-las-reservas-del-viejo-nuevo-roadster-que-se-presentara-el-1-de-octubre/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/tesla-abre-las-reservas-del-viejo-nuevo-roadster-que-se-presentara-el-1-de-octubre/</guid>
-      <pubDate>Mon, 21 Sep 2026 18:01:12 +0000</pubDate>
+      <pubDate>Mon, 21 Sep 2026 18:05:20 +0000</pubDate>
       <description>Aunque Tesla mostró un primer prototipo a finales de 2017 con la promesa de llevarlo a producción en 2020, no será hasta el próximo 1 de octubre cuando se haga la presentación. Las reservas están abiertas para quien quiera adelantar 82 000 euros.</description>
     </item>
     <item>
       <title>Porsche 911 Turbo S | Imágenes interiores</title>
       <link>https://www.km77.com/coches/porsche/911/2025/coupe/turbo-s/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/porsche/911/2025/coupe/turbo-s/imagenes/interiores</guid>
-      <pubDate>Mon, 21 Sep 2026 18:01:12 +0000</pubDate>
+      <pubDate>Mon, 21 Sep 2026 18:05:20 +0000</pubDate>
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión Turbo S.</description>
     </item>
     <item>
       <title>Siglas XL en los neumáticos: qué significan</title>
       <link>https://www.km77.com/revista/engendro-mecanico/siglas-xl-neumaticos-significado/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/siglas-xl-neumaticos-significado/</guid>
-      <pubDate>Mon, 21 Sep 2026 18:01:12 +0000</pubDate>
+      <pubDate>Mon, 21 Sep 2026 18:05:20 +0000</pubDate>
       <description>Los neumáticos XL están diseñados para soportar mayores cargas que sus equivalentes convencionales. Te explicamos qué significa este marcaje, cómo se consigue esa capacidad adicional y cuándo es necesario utilizarlos.</description>
-    </item>
-    <item>
-      <title>Lepas L8 | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</guid>
-      <pubDate>Mon, 21 Sep 2026 18:01:12 +0000</pubDate>
-      <description>Es un SUV de cinco plazas híbrido enchufable de 279 CV que destaca por la amplitud de sus plazas traseras, su funcionamiento silencioso y el confort de marcha. Ofrece 90 kilómetros de autonomía eléctrica, tiene un maletero de 507 litros y está disponible desde 38 447 euros.</description>
     </item>
     <item>
       <title>Geely E5 | Maniobra de esquiva y eslalon</title>
       <link>https://youtu.be/Zor4Bnx9zd4</link>
       <guid isPermaLink="true">https://youtu.be/Zor4Bnx9zd4</guid>
-      <pubDate>Sun, 20 Sep 2026 18:01:12 +0000</pubDate>
+      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
       <description>Este SUV eléctrico de tamaño medio y origen chino ha pasado por el circuito para hacer las maniobras de esquiva y eslalon. Es un coche de reacciones seguras, pero no brilla en ninguno de los ejercicios porque su puesta a punto está muy orientada al confort.</description>
     </item>
     <item>
@@ -79,18 +107,18 @@
       <description>Ambos tiene motores de gasolina en el entorno de los 300 caballos, cambio automático y sistemas de tracción total.  ¿Cuál es el mejor para una conducción deportiva?</description>
     </item>
     <item>
-      <title>Dodge Charger (2026)</title>
-      <link>https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</guid>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es un deportivo, con carrocerías de tres y cinco puertas, que mide 5,25 metros y se va a poder comprar en España. Hay una versión eléctrica y dos de gasolina, todas con tracción total.</description>
-    </item>
-    <item>
       <title>¿Puede un parking prohibir la entrada a los coches eléctricos?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/aparcar-coche-electrico-parking-prohibicion/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/aparcar-coche-electrico-parking-prohibicion/</guid>
       <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
       <description>Algunos aparcamientos han comenzado a restringir el acceso a coches eléctricos por su peso y riesgo de incendio. Analizamos qué dice la normativa y si estas prohibiciones están justificadas.</description>
+    </item>
+    <item>
+      <title>Dodge Charger (2026)</title>
+      <link>https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</guid>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Es un deportivo, con carrocerías de tres y cinco puertas, que mide 5,25 metros y se va a poder comprar en España. Hay una versión eléctrica y dos de gasolina, todas con tracción total.</description>
     </item>
     <item>
       <title>Volvo XC40 (2027)</title>
@@ -112,13 +140,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/opel/corsa/2024/estandar/gse/informacion</guid>
       <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
       <description>Es la versión más potente y deportiva de la gama. Tiene 281 CV, tracción delantera y 354 kilómetros de autonomía. Acelera de 0 a 100 km/h en 5,5 segundos y cuesta menos que otros dos coches muy similares.</description>
-    </item>
-    <item>
-      <title>¿Por qué la dirección se endurece?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/direccion-endurece-repentinamente-motivos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/direccion-endurece-repentinamente-motivos/</guid>
-      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Un fallo en la dirección asistida puede hacer que el volante se vuelva repentinamente muy duro. Te explicamos por qué ocurre y cuáles son las averías más habituales.</description>
     </item>
     <item>
       <title>Nissan Kicks (2026)</title>
@@ -212,13 +233,6 @@
       <description>Es cómodo y tiene una buena puesta a punto de la suspensión. Su interior está bien presentado y es fácil de utilizar. Está en venta desde 25 635 euros con un motor de 116 caballos y 318 kilómetros de autonomía.</description>
     </item>
     <item>
-      <title>Nissan Pixo (2027)</title>
-      <link>https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/nissan/pixo/2027/5-puertas/informacion</guid>
-      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Próximamente Nissan presentará el nuevo Pixo, el coche eléctrico más pequeño de su gama europea y que tendrá orientación urbana. Compartirá plataforma con el Dacia Spring y el Renault Twingo.</description>
-    </item>
-    <item>
       <title>BMW Serie 3 (2027)</title>
       <link>https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/serie-3/2027/berlina/informacion</guid>
@@ -273,20 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/mitsubishi/montero/2027/estandar/informacion</guid>
       <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
       <description>Mitsubishi recupera una de las denominaciones históricas de la marca con una propuesta claramente todoterreno: chasis de largueros, motor Diesel y reductora. Por tamaño y planteamiento, su rival más directo es el Toyota Land Cruiser.</description>
-    </item>
-    <item>
-      <title>Range Rover Eléctrico (2027) | Precio</title>
-      <link>https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/range-rover/range-rover/2024/swb/electrico/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La versión eléctrica del Range Rover está a la venta desde 163 250 € con 449 CV; más adelante habrá otra versión con 551. La batería de 118 kWh proporciona una autonomía homologada de 600 kilómetros.</description>
-    </item>
-    <item>
-      <title>Volkswagen ID. California Cruise (2027)</title>
-      <link>https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/california-cruise/2027/estandar/informacion</guid>
-      <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es una camper eléctrica derivada del ID. Buzz Pro. Tiene 286 CV, baterías de 79 u 86 kWh según la longitud de la carrocería, cama doble, accesorios para acampar y una función de climatización prolongada. Las primeras entregas están previstas para 2027.</description>
     </item>
   </channel>
 </rss>
