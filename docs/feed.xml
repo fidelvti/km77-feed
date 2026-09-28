@@ -5,43 +5,71 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 27 Sep 2026 18:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 18:27:36 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>BYD Dolphin Surf | Novedades</title>
+      <link>https://www.km77.com/coches/byd/dolphin-surf/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/byd/dolphin-surf/2025/estandar/informacion</guid>
+      <pubDate>Mon, 28 Sep 2026 15:27:34 +0000</pubDate>
+      <description>Tiene mejoras de equipamiento y pequeños cambios en el interior, pero mantiene su gama de motores y baterías. Las versiones con batería de 43,2 kWh pueden tener ahora cinco plazas y toda la gama incorpora climatizador automático. También cambian el volante, el selector de marchas y algunos elementos de conectividad y presentación.</description>
+    </item>
+    <item>
+      <title>Volkswagen ID. Tiguan (2027)</title>
+      <link>https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</guid>
+      <pubDate>Mon, 28 Sep 2026 12:27:34 +0000</pubDate>
+      <description>El sustituto de los ID.4 e ID.5 se presentará de manera oficial dentro de unos días y se llamará ID. Tiguan. Será eléctrico y convivirá con el Tiguan (a secas), un modelo de tamaño similar pero con motores de combustión. Por ahora no hay detalles sobre la gama de motores y la baterías que estarán disponibles.</description>
+    </item>
+    <item>
+      <title>Comprar un coche usado</title>
+      <link>https://www.km77.com/revista/general/comprar-un-coche-usado-conocer-su-estado-es-tan-importante-como-saber-que-ocurre-si-se-averia/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/general/comprar-un-coche-usado-conocer-su-estado-es-tan-importante-como-saber-que-ocurre-si-se-averia/</guid>
+      <pubDate>Mon, 28 Sep 2026 08:27:34 +0000</pubDate>
+      <description>Al comprar un coche usado no basta con fijarse en el precio, el kilometraje o su estado. También conviene saber qué garantía ofrece el vendedor y cómo responde si aparece una avería después de la entrega.</description>
+    </item>
+    <item>
+      <title>Por qué mi coche no va recto si suelto el volante</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/coche-no-va-recto-motivos/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coche-no-va-recto-motivos/</guid>
+      <pubDate>Mon, 28 Sep 2026 06:27:34 +0000</pubDate>
+      <description>Si el coche tiende a desviarse hacia un lado en una recta, no siempre significa que haya una avería. La inclinación de la carretera, la alineación y los neumáticos pueden estar detrás del problema.</description>
+    </item>
     <item>
       <title>Mercedes-Benz GLC Eléctrico | Maniobra de esquiva y eslalon</title>
       <link>https://www.youtube.com/watch?v=T3KRFIV1Fmo</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=T3KRFIV1Fmo</guid>
-      <pubDate>Sun, 27 Sep 2026 17:12:02 +0000</pubDate>
+      <pubDate>Sun, 27 Sep 2026 18:27:34 +0000</pubDate>
       <description>Este SUV combina confort y facilidad de conducción con un rendimiento bueno en el eslalon. En la esquiva, en cambio, su resultado fue más discreto, aunque siempre con reacciones seguras y fáciles de controlar.</description>
     </item>
     <item>
       <title>Alfa Romeo Luna Rossa</title>
       <link>https://www.km77.com/revista/noticias/la-nueva-edicion-especial-luna-rossa-lleva-el-mundo-nautico-a-los-alfa-romeo-junior-tonale-giulia-y-stelvio/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/la-nueva-edicion-especial-luna-rossa-lleva-el-mundo-nautico-a-los-alfa-romeo-junior-tonale-giulia-y-stelvio/</guid>
-      <pubDate>Fri, 25 Sep 2026 18:00:02 +0000</pubDate>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
       <description>Una nueva edición especial llamada Luna Rossa lleva el mundo náutico a los Alfa Romeo Junior, Tonale, Giulia y Stelvio.</description>
-    </item>
-    <item>
-      <title>Nissan X-Trail e-POWER (2026) | Vídeo</title>
-      <link>https://youtu.be/KxGhKTrG5Yw</link>
-      <guid isPermaLink="true">https://youtu.be/KxGhKTrG5Yw</guid>
-      <pubDate>Fri, 25 Sep 2026 18:00:02 +0000</pubDate>
-      <description>Tiene un motor de gasolina que no mueve las ruedas. Entonces, ¿para qué sirve? Te explicamos al detalle cómo funciona su sistema híbrido e-POWER.</description>
     </item>
     <item>
       <title>Toyota Corolla | 60 años</title>
       <link>https://www.km77.com/revista/noticias/el-toyota-corolla-cumple-60-anos-y-la-marca-lo-celebra-renovando-la-gama-del-incombustible-superventas/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/el-toyota-corolla-cumple-60-anos-y-la-marca-lo-celebra-renovando-la-gama-del-incombustible-superventas/</guid>
-      <pubDate>Fri, 25 Sep 2026 18:00:02 +0000</pubDate>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
       <description>Toyota lanza una edición especial 60 Aniversario y actualiza la gama española con el regreso del nivel de equipamiento Style a la carrocería de cinco puertas.</description>
     </item>
     <item>
       <title>Por qué las escobillas del limpiaparabrisas dan saltos sobre el cristal</title>
       <link>https://www.km77.com/revista/engendro-mecanico/escobillas-limpiaparabrisas-dan-saltos-cristal/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/escobillas-limpiaparabrisas-dan-saltos-cristal/</guid>
-      <pubDate>Fri, 25 Sep 2026 18:00:02 +0000</pubDate>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
       <description>No siempre se debe a suciedad o falta de agua. El envejecimiento de la goma, la fricción, el ángulo de la escobilla y el estado del parabrisas también influyen.</description>
+    </item>
+    <item>
+      <title>Nissan X-Trail e-POWER (2026) | Vídeo</title>
+      <link>https://youtu.be/KxGhKTrG5Yw</link>
+      <guid isPermaLink="true">https://youtu.be/KxGhKTrG5Yw</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Tiene un motor de gasolina que no mueve las ruedas. Entonces, ¿para qué sirve? Te explicamos al detalle cómo funciona su sistema híbrido e-POWER.</description>
     </item>
     <item>
       <title>GWM ORA 5 (2026) | Primeras impresiones</title>
@@ -112,13 +140,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/skoda/peaq/2027/estandar/informacion</guid>
       <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
       <description>El SUV eléctrico más grande de Škoda mide 4,87 metros de longitud y puede tener cinco o siete plazas. Es un coche equilibrado, fácil de conducir y con una buena calidad de rodadura. La tercera fila de asientos es adecuada para niños o adultos de baja estatura. Está a la venta desde 50 450 euros.</description>
-    </item>
-    <item>
-      <title>CEER</title>
-      <link>https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/se-presenta-el-primer-fabricante-de-automoviles-de-arabia-saudi-ceer/</guid>
-      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El príncipe heredero de Arabia Saudí, Mohammed bin Salman, ha presentado los dos primeros modelos de la primera marca del país, CEER. Ambos son eléctricos y comparten nombre, EXOBOT, pero sus carrocerías son distintas.</description>
     </item>
     <item>
       <title>Lepas L8 | Primeras impresiones</title>
@@ -266,27 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/audi/a2-e-tron/2027/estandar/informacion</guid>
       <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>Está en venta este coche eléctrico de 4,32 metros de longitud desde 37 760 €. En su desarrollo, Audi ha dado importancia a que gaste poco, logrando un consumo homologado de 12,8 kWh/100 km. Hay versiones con 170, 190, 231 y 326 caballos, y tres tipos de batería.</description>
-    </item>
-    <item>
-      <title>Mercedes-Benz Clase C (2027) | Precios</title>
-      <link>https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/clase-c/2027/berlina/informacion</guid>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Ya conocemos los precios del Mercedes-Benz Clase C 2027, que llega con cambios de diseño, una gama de motores revisada y un sistema multimedia más avanzado. Sigue disponible con carrocerías Berlina y Estate y versiones gasolina, Diesel e híbridas enchufables.</description>
-    </item>
-    <item>
-      <title>Nissan Ariya (2026) | Precios</title>
-      <link>https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/nissan/ariya/2026/estandar/informacion</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Nissan actualiza este SUV eléctrico con cambios que afectan principalmente al diseño exterior, al equipamiento y al confort de marcha. Está disponible con 242 o 306 caballos y una batería de 87 kWh de capacidad. El precio parte de 59 350 euros, una cantidad elevada.</description>
-    </item>
-    <item>
-      <title>Renault Clio full hybrid E-Tech 159 CV | Prueba</title>
-      <link>https://www.km77.com/coches/renault/clio/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/renault/clio/2026/estandar/informacion</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La versión híbrida de 159 caballos tiene una excelente relación entre prestaciones y consumo en cualquier circunstancia, y un funcionamiento agradable especialmente en la ciudad. Parte de 23 269 euros, un precio intermedio entre sus alternativas.</description>
     </item>
   </channel>
 </rss>
