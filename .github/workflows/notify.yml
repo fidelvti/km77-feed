@@ -11,12 +11,22 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
+            // ntfy.sh header values must be Latin-1 (Node's fetch enforces this
+            // strictly); anything outside that range (curly quotes, en/em dashes,
+            // non-breaking hyphens, accented chars beyond Latin-1, etc.) needs the
+            // RFC 2047 encoded-word form ntfy.sh documents for this exact case.
+            function encodeHeader(value) {
+              if (/^[\x00-\xFF]*$/.test(value)) return value;
+              const b64 = Buffer.from(value, "utf-8").toString("base64");
+              return `=?UTF-8?B?${b64}?=`;
+            }
+
             const items = context.payload.client_payload.items || [];
             for (const item of items) {
               const resp = await fetch("https://ntfy.sh/km77-feed-a0efcc40", {
                 method: "POST",
                 headers: {
-                  "Title": item.title,
+                  "Title": encodeHeader(item.title),
                   "Click": item.link,
                 },
                 body: item.description || "",
