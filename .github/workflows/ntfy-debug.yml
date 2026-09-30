@@ -1,0 +1,14 @@
+name: Debug ntfy from Actions
+on:
+  workflow_dispatch: {}
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to ntfy
+        run: |
+          curl -s -o /tmp/resp.txt -w "STATUS:%{http_code}\n" \
+            -H "Title: prueba desde GitHub Actions" \
+            -d "cuerpo de prueba" \
+            https://ntfy.sh/km77-feed-a0efcc40
+          cat /tmp/resp.txt
