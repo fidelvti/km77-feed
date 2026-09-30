@@ -1,0 +1,25 @@
+name: Notify new km77 items
+
+on:
+  repository_dispatch:
+    types: [new-items]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const items = context.payload.client_payload.items || [];
+            for (const item of items) {
+              const resp = await fetch("https://ntfy.sh/km77-feed-a0efcc40", {
+                method: "POST",
+                headers: {
+                  "Title": item.title,
+                  "Click": item.link,
+                },
+                body: item.description || "",
+              });
+              console.log(`Pushed '${item.title}': HTTP ${resp.status}`);
+            }

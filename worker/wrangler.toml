@@ -1,0 +1,12 @@
+name = "km77-feed-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# 18:00 UTC = 20:00 CEST (verano) / 19:00 CET (invierno) — no se autoajusta al
+# cambio de hora, ver nota en README.
+[triggers]
+crons = ["0 18 * * *"]
+
+[[kv_namespaces]]
+binding = "SEEN_LINKS"
+id = "5b6bd74a8b7b4c2bba514f0476356c57"

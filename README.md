@@ -1,9 +1,10 @@
 # km77-feed
 
 Notificaciones push (vía [ntfy.sh](https://ntfy.sh)) con las novedades de la portada de
-[km77.com](https://www.km77.com/), generadas automáticamente una vez al día (20:00) desde
-un `launchd` local. Como subproducto también se publica un `docs/feed.xml` (RSS 2.0) vía
-GitHub Pages, aunque en la práctica no es una vía fiable — ver "Nota histórica" más abajo.
+[km77.com](https://www.km77.com/), generadas automáticamente una vez al día por un
+**Cloudflare Worker con Cron Trigger** — sin depender de que ningún Mac esté encendido.
+Como subproducto también se publica un `docs/feed.xml` (RSS 2.0) vía GitHub Pages, aunque
+en la práctica no es una vía fiable — ver "Nota histórica" más abajo.
 
 km77.com no ofrece ni RSS ni notificaciones propias. La portada mezcla en una sola lista
 cronológica artículos de la revista (WordPress), fichas de "novedades" de modelos nuevos
@@ -38,56 +39,83 @@ así que el riesgo es solo que alguien más reciba las mismas notificaciones de 
 https://fidelvti.github.io/km77-feed/feed.xml?v=5
 ```
 
-## Por qué no corre en GitHub Actions
+## Arquitectura (Cloudflare Worker)
 
 km77.com está detrás de Cloudflare, cuyo desafío anti-bot devuelve 403 a cualquier
 petición que llegue desde las IPs de los runners de GitHub-hosted Actions (todo el
-dominio, no solo la API). Por eso la generación corre en local (este Mac, con IP
-residencial) mediante un `launchd` agent, y solo el resultado (`docs/feed.xml`,
-`state/seen_links.json`) se sube a GitHub. GitHub Pages sirve `feed.xml` e `index.html`
-desde la carpeta `docs/` de la rama `main`.
+dominio, no solo la API) — por eso el scraping no puede correr en GitHub Actions.
+Comprobado empíricamente que **un Cloudflare Worker sí puede leer km77.com sin problema**
+(probablemente porque Cloudflare no trata el tráfico saliente de sus propios Workers igual
+que el de rangos de IP de otros proveedores cloud conocidos y bloqueados). De ahí la
+arquitectura actual, con dos piezas:
 
-## Cómo funciona
+1. **`worker/` (Cloudflare Worker + Cron Trigger, `0 18 * * *` UTC = 20:00 CEST / 19:00
+   CET):** hace todo el trabajo que necesita alcanzar km77.com — scraping con
+   `HTMLRewriter`, parseo de fechas relativas, generación del RSS, comparación con el
+   estado anterior (Workers KV) para detectar artículos nuevos. Publica `docs/feed.xml` y
+   `docs/index.html` en este repo vía la API de contenidos de GitHub (para que GitHub
+   Pages los siga sirviendo en la misma URL de siempre), y si hay artículos nuevos dispara
+   un evento `repository_dispatch` con sus datos.
+   - El cron en UTC no se autoajusta al cambio de hora: en invierno la ejecución pasará a
+     ser a las 19:00 hora española en vez de las 20:00. Cambiar esto exigiría dos entradas
+     de cron distintas activas/inactivas según la época del año — no se ha hecho, el
+     desfase de una hora dos veces al año no se considera un problema real.
+2. **`.github/workflows/notify.yml` (GitHub Actions, disparado por ese
+   `repository_dispatch`):** envía las notificaciones a ntfy.sh. Se hace desde aquí y no
+   desde el propio Worker porque **ntfy.sh limita las publicaciones (`POST`) por IP, y las
+   IPs de salida de los Workers de Cloudflare son compartidas por muchísimos usuarios
+   distintos** — en pruebas, el `POST` devolvía `429` de forma consistente desde un Worker,
+   mientras que desde un runner de GitHub Actions funciona sin problema (comprobado). Cada
+   plataforma se usa para lo que sí puede hacer: el Worker llega a km77.com (que bloquea a
+   GitHub Actions); GitHub Actions llega a ntfy.sh sin que le afecte el límite de IP
+   compartida de Cloudflare.
 
-- `scripts/generate_feed.py`: descarga la portada (`/` y `/page/2`), extrae cada tarjeta
-  (`li.js-relocation-destination`) con título, enlace, resumen y fecha relativa ("hace X
-  horas/días"). Compara contra `state/seen_links.json` (estado de la ejecución anterior) y
-  envía un push a ntfy.sh por cada artículo genuinamente nuevo. También genera
-  `docs/feed.xml` con la lista completa y sabe avisar al hub de WebSub con `--ping-only`
-  (ver nota histórica más abajo).
-- `scripts/write_index.py`: genera una página `docs/index.html` mínima con enlace al feed.
-- `scripts/update_and_push.sh`: ejecuta ambos scripts, y si hay cambios hace commit, push,
-  espera ~90s a que GitHub Pages despliegue, y avisa al hub de WebSub.
-- `~/Library/LaunchAgents/com.fidelvti.km77feed.plist`: agente de `launchd` que llama a
-  `update_and_push.sh` todos los días a las 20:00 (`StartCalendarInterval`). Requiere que
-  el Mac esté encendido y con red en ese momento; si estaba dormido, macOS lo ejecuta en
-  cuanto despierta. Si el Mac está despierto pero por lo que sea `launchd` no dispara ese
-  día en concreto (ha pasado alguna vez, sin causa clara), simplemente no hay actualización
-  ese día — no hay ahora mismo un mecanismo de reintento automático para ese caso. Si te lo
-  has perdido (por ejemplo, el Mac estaba apagado a las 20:00), lánzalo a mano en cualquier
-  momento con el comando de ejecución manual de abajo.
+### Secretos y estado
 
-## Ejecutar en local
+- `GITHUB_TOKEN` (secreto del Worker, `wrangler secret put GITHUB_TOKEN` desde `worker/`):
+  fine-grained PAT limitado únicamente a este repo, con permiso "Contents: Read and write".
+  Se usa tanto para el `PUT` a la API de contenidos como para disparar el
+  `repository_dispatch`.
+- KV namespace `SEEN_LINKS` (binding en `worker/wrangler.toml`): guarda la lista de enlaces
+  ya notificados, equivalente al antiguo `state/seen_links.json`.
+
+### Desplegar/actualizar el Worker
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
-./scripts/update_and_push.sh
+cd worker
+npx wrangler deploy
 ```
 
-Si el venv ya existe (uso normal, para recuperar una ejecución que te hayas perdido), basta
-con la última línea:
+## Vía histórica: Mac + `launchd` (en desuso)
+
+Antes de migrar a Cloudflare Workers, todo esto corría en local desde este Mac, vía un
+agente de `launchd` que ejecutaba `scripts/update_and_push.sh` cada día a las 20:00. Ese
+camino sigue existiendo en el repo (`scripts/generate_feed.py`,
+`scripts/update_and_push.sh`, `state/seen_links.json`) como referencia y respaldo. Una vez
+confirmado que el Worker funciona de forma fiable, hay que descargar el agente para que no
+corran ambos a la vez (haría doble trabajo, aunque no debería romper nada al ser ambos
+idempotentes):
 
 ```bash
-./scripts/update_and_push.sh
+launchctl unload ~/Library/LaunchAgents/com.fidelvti.km77feed.plist
 ```
+
+y, si se confirma que el Worker es estable a largo plazo, este apartado y los scripts de
+Python pueden borrarse del todo. Para revivirlo si el Worker da problemas:
+
+```bash
+launchctl load ~/Library/LaunchAgents/com.fidelvti.km77feed.plist
+```
+
+(revisa `~/Library/Logs/km77-feed.log` para ver su actividad pasada).
 
 ## Notas
 
 - Este proyecto no es oficial ni está afiliado a km77.com.
 - Al ser scraping de HTML (no una API estable), si km77.com cambia las clases CSS de su
-  plantilla el parser puede romperse o dejar de encontrar tarjetas; revisa los logs en
-  `~/Library/Logs/km77-feed.log`.
+  plantilla el parser puede romperse o dejar de encontrar tarjetas; revisa los logs del
+  Worker (`npx wrangler tail` desde `worker/`, o la pestaña Logs en el dashboard de
+  Cloudflare).
 - Las fechas de los artículos son aproximadas: se derivan de texto relativo ("hace X
   horas/días") tal y como lo muestra la web, no de una marca de tiempo exacta.
 
@@ -100,19 +128,19 @@ feed personal con un único suscriptor ese ciclo puede ser de muchas horas, sin 
 ajuste desde nuestro lado (cabeceras, `ttl`) que lo fuerce a mirar más a menudo.
 
 Se probó WebSub (antes PubSubHubbub) para que el feed avisara activamente al hub tras cada
-push — el XML declara `<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />` y
-`update_and_push.sh` hace un POST a ese hub tras cada `git push` exitoso — pero tras varios
-días Feedly siguió sin enterarse: no implementa el lado "suscriptor" de WebSub para este
-feed (o no de forma fiable). Se mantiene el aviso al hub porque no hace daño, pero para uso
-real se pasó a las notificaciones push de ntfy.sh descritas en "Uso", que no dependen de
-que ningún tercero decida escuchar.
+publicación — el XML declara `<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />`
+y tanto el Worker como (antes) `update_and_push.sh` hacen un POST a ese hub tras cada
+actualización — pero tras varios días Feedly siguió sin enterarse: no implementa el lado
+"suscriptor" de WebSub para este feed (o no de forma fiable). Se mantiene el aviso al hub
+porque no hace daño, pero para uso real se pasó a las notificaciones push de ntfy.sh
+descritas en "Uso", que no dependen de que ningún tercero decida escuchar.
 
 Truco manual si aún así quieres forzar a Feedly a rastrear el feed RSS: cambia el `?v=N` de
 la URL a un número que nunca haya visto y vuelve a suscribirte con esa URL — al ser
 desconocida, la rastrea desde cero al instante (quitar y volver a añadir la *misma* URL no
 sirve, te reconecta a la caché vieja). Si algún día se cambia ese número, hay que
-actualizar `FEED_SELF_URL` en `scripts/generate_feed.py` a la vez que la URL usada en el
-lector.
+actualizar `FEED_SELF_URL` tanto en `worker/src/index.js` como en
+`scripts/generate_feed.py`, a la vez que la URL usada en el lector.
 
 ## Comandos útiles
 
