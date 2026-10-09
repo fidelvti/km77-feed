@@ -5,134 +5,141 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Thu, 08 Oct 2026 18:01:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 18:01:12 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
-      <title>Jaecoo 5 SHS: así funciona su sistema «superhíbrido» de 224 CV</title>
-      <link>https://youtu.be/ODw5BiMOBLM</link>
-      <guid isPermaLink="true">https://youtu.be/ODw5BiMOBLM</guid>
-      <pubDate>Thu, 08 Oct 2026 17:01:13 +0000</pubDate>
-      <description>¿Cómo funciona el sistema híbrido no enchufable del Jaecoo 5 SHS? En este vídeo te explicamos todos los detalles de una manera sencilla y clara. Además, también hablamos de sus prestaciones y consumos.</description>
+      <title>Lancia Gamma (2026)</title>
+      <link>https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</guid>
+      <pubDate>Fri, 09 Oct 2026 15:01:11 +0000</pubDate>
+      <description>El Lancia Gamma es un SUV de 4,67 metros de longitud. La gama está formada por una versión híbrida de 145 CV y tres eléctricas de 260, 280 y 375 CV. En el mejor de los casos la autonomía es de 741 kilómetros.</description>
+    </item>
+    <item>
+      <title>Volkswagen ID. Tiguan (2027)</title>
+      <link>https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</guid>
+      <pubDate>Fri, 09 Oct 2026 12:01:11 +0000</pubDate>
+      <description>El sustituto de los ID.4 e ID.5 se llama ID.Tiguan y mide 4,58 metros de longitud. Es eléctrico y se podrá pedir con uno o dos motores y con tres niveles de potencia, así como con dos baterías. La autonomía máxima homologada es de 605 kilómetros. Volkswagen ha eliminado mandos táctiles del habitáculo en favor de botones y mandos físicos para las funciones más habituales. Estará a la venta en breve.</description>
+    </item>
+    <item>
+      <title>BMW iX4 (2027) | Precios</title>
+      <link>https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</guid>
+      <pubDate>Fri, 09 Oct 2026 10:01:11 +0000</pubDate>
+      <description>Es un SUV de 4,78 metros de longitud derivado del iX3, pero con una caída de techo más pronunciada. Hay versiones de 374, 469 y 612 caballos, así como baterías de 83 o 109 kWh de capacidad. La autonomía es de hasta 828 kilómetros. Está a la venta desde 71 850 euros.</description>
     </item>
     <item>
       <title>Hyundai IONIQ 3 (2027) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</guid>
-      <pubDate>Thu, 08 Oct 2026 12:01:13 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 08:01:11 +0000</pubDate>
       <description>Es un coche eléctrico de 4,16 metros de longitud. Es agradable y fácil de manejar. Su interior es amplio en comparación con muchas de sus alternativas, aunque tiene algunas limitaciones de visibilidad desde el puesto de conducción. Está disponible con dos baterías, dos niveles de potencia y una autonomía de hasta 497 kilómetros. Su precio parte de 29 995 euros.</description>
+    </item>
+    <item>
+      <title>Novedades de CarPlay con iOS 27</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/carplay-ios-27-novedades/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/carplay-ios-27-novedades/</guid>
+      <pubDate>Fri, 09 Oct 2026 06:01:11 +0000</pubDate>
+      <description>iOS 27 mejora CarPlay con nuevos widgets, cambios de interfaz, funciones ampliadas de Siri y una mayor integración entre la navegación del iPhone y los sistemas del vehículo.</description>
+    </item>
+    <item>
+      <title>Jaecoo 5 SHS: así funciona su sistema «superhíbrido» de 224 CV</title>
+      <link>https://youtu.be/ODw5BiMOBLM</link>
+      <guid isPermaLink="true">https://youtu.be/ODw5BiMOBLM</guid>
+      <pubDate>Thu, 08 Oct 2026 18:01:11 +0000</pubDate>
+      <description>¿Cómo funciona el sistema híbrido no enchufable del Jaecoo 5 SHS? En este vídeo te explicamos todos los detalles de una manera sencilla y clara. Además, también hablamos de sus prestaciones y consumos.</description>
     </item>
     <item>
       <title>Škoda Octavia full hybrid | Novedad</title>
       <link>https://www.km77.com/coches/skoda/octavia/2024/berlina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/skoda/octavia/2024/berlina/informacion</guid>
-      <pubDate>Thu, 08 Oct 2026 11:01:13 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2026 18:01:11 +0000</pubDate>
       <description>Škoda añade a la gama una versión híbrida no enchufable de la que hay dos niveles de potencia: 136 y 170 caballos. Va siempre asociada a una caja de cambios automática y estará disponible tanto con la carrocería berlina como con la familiar (Combi).</description>
-    </item>
-    <item>
-      <title>BMW iX4 (2027)</title>
-      <link>https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</guid>
-      <pubDate>Thu, 08 Oct 2026 10:01:13 +0000</pubDate>
-      <description>Es un SUV de 4,78 metros de longitud derivado del iX3, pero con una caída de techo más pronunciada. Hay versiones de 374, 469 y 612 caballos, así como baterías de 83 o 109 kWh de capacidad. La autonomía es de hasta 828 kilómetros. Estará a la venta en marzo de 2027.</description>
     </item>
     <item>
       <title>Renault Twingo | Imágenes interiores</title>
       <link>https://www.km77.com/coches/renault/twingo/2026/estandar/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/renault/twingo/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Thu, 08 Oct 2026 09:01:13 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2026 18:01:11 +0000</pubDate>
       <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 60 kW (82 CV) autonomía urbana techno.</description>
     </item>
     <item>
       <title>¿Por qué un coche automático reduce de marcha al bajar una pendiente?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/coche-frenado-solo-modo-automatico-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coche-frenado-solo-modo-automatico-motivos/</guid>
-      <pubDate>Thu, 08 Oct 2026 07:01:13 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2026 18:01:11 +0000</pubDate>
       <description>Muchas cajas automáticas reducen una o varias marchas al detectar una bajada para aumentar la retención y descargar de trabajo a los frenos. Te explicamos cómo y por qué lo hacen.</description>
-    </item>
-    <item>
-      <title>¿Cuánto gasta el Renault Clio full hybrid E-Tech 160 CV?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</guid>
-      <pubDate>Wed, 07 Oct 2026 18:01:13 +0000</pubDate>
-      <description>Con este coche hemos conseguido consumos muy bajos en autovía y en la ciudad. En esta entrada contamos todos los detalles.</description>
     </item>
     <item>
       <title>Toyota Hilux Hybrid 48V 2.8D (2026) | Precios</title>
       <link>https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</guid>
-      <pubDate>Wed, 07 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2026 18:01:11 +0000</pubDate>
       <description>Toyota añade una versión Diesel a la gama. Tiene un motor de 2,8 litros de cilindrada con 204 caballos que va asociado a un sistema de hibridación ligera, por lo que le corresponde el distintivo medioambiental ECO de la DGT. Está a la venta desde 45 000 euros, un precio inferior al de sus alternativas. En la gama Hilux también hay una versión eléctrica de 196 CV con 255 km de autonomía.</description>
+    </item>
+    <item>
+      <title>¿Cuánto gasta el Renault Clio full hybrid E-Tech 160 CV?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</guid>
+      <pubDate>Wed, 07 Oct 2026 18:01:11 +0000</pubDate>
+      <description>Con este coche hemos conseguido consumos muy bajos en autovía y en la ciudad. En esta entrada contamos todos los detalles.</description>
     </item>
     <item>
       <title>Jaguar Type 01 (2027)</title>
       <link>https://www.km77.com/coches/jaguar/type-01/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/jaguar/type-01/2027/estandar/informacion</guid>
-      <pubDate>Wed, 07 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2026 18:01:11 +0000</pubDate>
       <description>A principios de 2027, Jaguar iniciará la venta de esta berlina eléctrica desde «unos 165 000 euros». Mide más de cinco metros de longitud, tiene tres motores que desarrollan 1030 caballos de potencia conjunta y su autonomía es de 720 kilómetros. Es el primer modelo de la nueva etapa de Jaguar.</description>
     </item>
     <item>
       <title>MINI Countryman Untamed Edition</title>
       <link>https://www.km77.com/coches/mini/mini-countryman/2024/estandar/informacion/mini-countryman-edition-todoterreno-untamed-edition</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mini/mini-countryman/2024/estandar/informacion/mini-countryman-edition-todoterreno-untamed-edition</guid>
-      <pubDate>Wed, 07 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2026 18:01:11 +0000</pubDate>
       <description>Es una versión pensada para poder circular con más garantías por vías sin asfaltar. Tiene diversos cambios estéticos, unos neumáticos todoterreno opcionales y, el el caso de las versiones eléctricas, más altura libre al suelo. En venta desde 40 020 euros.</description>
     </item>
     <item>
       <title>¿Por qué aparece corrosión en los bornes de la batería?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/sulfatacion-bornes-bateria-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/sulfatacion-bornes-bateria-motivos/</guid>
-      <pubDate>Wed, 07 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2026 18:01:11 +0000</pubDate>
       <description>Los depósitos blancos, azulados o verdosos alrededor de los bornes no son solo un problema estético: pueden aumentar la resistencia eléctrica, dificultar el arranque y provocar fallos en la red de 12 voltios.</description>
     </item>
     <item>
       <title>EBRO s900 PHEV 4x4 426 CV | Prueba</title>
       <link>https://www.km77.com/coches/ebro/s900/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/ebro/s900/2026/estandar/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV cómodo, silencioso, no muy veloz para su potencia y que se desenvuelve mejor en vías rápidas que en las lentas. El interior es amplio y está recubierto con materiales que dejan buena impresión a la vista y al tacto. Está a la venta desde 49 773 euros y tiene un sistema de impulsión híbrido de 426 caballos y 140 kilómetros de autonomía eléctrica.</description>
-    </item>
-    <item>
-      <title>Leapmotor D19</title>
-      <link>https://www.km77.com/revista/noticias/leapmotor-d19-la-marca-china-lanza-en-europa-un-suv-mas-grande-que-el-bmw-x7/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/leapmotor-d19-la-marca-china-lanza-en-europa-un-suv-mas-grande-que-el-bmw-x7/</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
-      <description>El vehículo de mayor tamaño de Leapmotor es un SUV de 5,25 metros de longitud con seis plazas. Al mercado europeo llegará con un sistema propulsor híbrido enchufable con más de 300 km de autonomía en modo eléctrico.</description>
     </item>
     <item>
       <title>MG ZS Hybrid+ | Novedades</title>
       <link>https://www.km77.com/coches/mg/zs/2025/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mg/zs/2025/estandar/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>MG hace cambios en el sistema propulsor híbrido no enchufable de este modelo: los dos motores eléctricos tienen más potencia, la refrigeración de los mismos es ahora por aceite y la gestión de la energía es diferente. Gracias a ello, MG dice que la respuesta del sistema es más consistente ante pendientes pronunciadas y el ruido que se filtra al interior es menor. La potencia máxima no cambia: 194 caballos.</description>
+    </item>
+    <item>
+      <title>Leapmotor D19</title>
+      <link>https://www.km77.com/revista/noticias/leapmotor-d19-la-marca-china-lanza-en-europa-un-suv-mas-grande-que-el-bmw-x7/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/leapmotor-d19-la-marca-china-lanza-en-europa-un-suv-mas-grande-que-el-bmw-x7/</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+      <description>El vehículo de mayor tamaño de Leapmotor es un SUV de 5,25 metros de longitud con seis plazas. Al mercado europeo llegará con un sistema propulsor híbrido enchufable con más de 300 km de autonomía en modo eléctrico.</description>
     </item>
     <item>
       <title>Renault E-Space Concept (prototipo)</title>
       <link>https://www.km77.com/coches/renault/e-space-concept/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/renault/e-space-concept/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un prototipo que recupera los rasgos de diseño del Espace de primera generación, cuyo lanzamiento al mercado fue hace más de 40 años. Mide 4,70 metros de longitud, tiene un sistema propulsor electrificado y estará presente en el Salón del Automóvil de París 2026.</description>
-    </item>
-    <item>
-      <title>Significado de los números del aceite del motor</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/significado-siglas-tapon-aceite/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/significado-siglas-tapon-aceite/</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
-      <description>La viscosidad del aceite influye directamente en cómo protege y lubrica el motor en frío y en caliente. Te explicamos qué significan las cifras SAE y por qué no conviene elegir un grado distinto al recomendado.</description>
     </item>
     <item>
       <title>BMW i3 40 xDrive | Precio</title>
       <link>https://www.km77.com/coches/bmw/i3/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/i3/2027/estandar/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 18:01:13 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>BMW pone a la venta la versión 40 xDrive de 374 caballos. Tiene dos motores, una batería de 82,8 kWh de capacidad y una autonomía homologada de 710 kilómetros. Está a la venta por 58 400 euros, un precio intermedio frente a sus rivales.</description>
-    </item>
-    <item>
-      <title>Primeras imágenes del nuevo 2CV</title>
-      <link>https://www.km77.com/revista/noticias/citroen-comienza-a-revelar-el-nuevo-2cv-primeras-imagenes-del-regreso-mas-esperado-del-ano/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/citroen-comienza-a-revelar-el-nuevo-2cv-primeras-imagenes-del-regreso-mas-esperado-del-ano/</guid>
-      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
-      <description>En el Salón del Automóvil de París 2026, Citroën mostrará un prototipo cuya estética hace guiños muy evidentes al modelo original. El modelo de producción será eléctrico y formará parte del programa E-Car de Stellantis.</description>
     </item>
     <item>
       <title>Geely Monjaro (2026)</title>
@@ -203,13 +210,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/byd/dolphin-surf/2025/estandar/informacion</guid>
       <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
       <description>Tiene mejoras de equipamiento y pequeños cambios en el interior, pero mantiene su gama de motores y baterías. Las versiones con batería de 43,2 kWh pueden tener ahora cinco plazas y toda la gama incorpora climatizador automático. También cambian el volante, el selector de marchas y algunos elementos de conectividad y presentación.</description>
-    </item>
-    <item>
-      <title>Volkswagen ID. Tiguan (2027)</title>
-      <link>https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</guid>
-      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El sustituto de los ID.4 e ID.5 se presentará de manera oficial dentro de unos días y se llamará ID. Tiguan. Será eléctrico y convivirá con el Tiguan (a secas), un modelo de tamaño similar pero con motores de combustión. Por ahora no hay detalles sobre la gama de motores y la baterías que estarán disponibles.</description>
     </item>
     <item>
       <title>GWM ORA 5 (2026) | Primeras impresiones</title>
