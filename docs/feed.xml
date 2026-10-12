@@ -5,50 +5,113 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 11 Oct 2026 18:01:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 18:01:29 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>BYD ATTO 8 (2027)</title>
+      <link>https://www.km77.com/coches/byd/atto-8/2025/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/byd/atto-8/2025/estandar/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 13:01:28 +0000</pubDate>
+      <description>Es un SUV eléctrico de siete plazas y 5,04 metros de longitud. Habrá una versión de 462 CV y tracción trasera, con 653 km de autonomía, y otra de 775 CV y tracción total, con 602 km. Su batería de 115 kWh se puede cargar del 10 al 97 % en nueve minutos.</description>
+    </item>
+    <item>
+      <title>Omoda 4 (2027)</title>
+      <link>https://www.km77.com/coches/omoda/4/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/omoda/4/2026/estandar/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 12:01:28 +0000</pubDate>
+      <description>Llegará al mercado a principios de 2027 en versión híbrida de 224 caballos y en eléctrica de 218 caballos, ambas con tracción delantera. Mide 4,42 metros de longitud y tiene detalles en el exterior e interior que recuerdan a algunos modelos de Lamborghini.</description>
+    </item>
+    <item>
+      <title>Omoda 5 (2027)</title>
+      <link>https://www.km77.com/coches/omoda/5/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/omoda/5/2027/estandar/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 12:01:28 +0000</pubDate>
+      <description>Es una actualización del modelo que está actualmente en venta. Presenta cambios importantes en el diseño y tecnología de infoentretenimiento. La gama estará compuesta por una versión híbrida no enchufable y otra eléctrica, de 224 y 211 caballos, respectivamente. A la venta a principios de 2027.</description>
+    </item>
+    <item>
+      <title>Alpine A310 VISION (prototipo)</title>
+      <link>https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 11:01:28 +0000</pubDate>
+      <description>Es un prototipo eléctrico de 4,55 metros inspirado en el A310 original y construido sobre la plataforma del próximo A110. No anticipa un modelo de producción.</description>
+    </item>
+    <item>
+      <title>smart #2 2027</title>
+      <link>https://www.km77.com/coches/smart/2/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/smart/2/2027/estandar/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 10:01:28 +0000</pubDate>
+      <description>Es un coche eléctrico de 2,74 metros de longitud y dos plazas. Tiene 82 CV, 290 km de autonomía y su precio parte de 19 990 euros.</description>
+    </item>
+    <item>
+      <title>Fiat Multiplay (prototipo)</title>
+      <link>https://www.km77.com/coches/fiat/multiplay-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/fiat/multiplay-prototipo/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 09:01:28 +0000</pubDate>
+      <description>Es un prototipo de 4,45 metros de longitud que destaca por su modularidad. Puede pasar de tener seis plazas distribuidas en tres filas a una configuración de cuatro plazas con una caja de carga al estilo de un pick-up.</description>
+    </item>
+    <item>
+      <title>AVATR llegará a España en 2027</title>
+      <link>https://www.km77.com/revista/noticias/estos-son-los-precios-de-los-dos-modelos-con-los-que-avatr-llegara-a-espana-en-2027/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/estos-son-los-precios-de-los-dos-modelos-con-los-que-avatr-llegara-a-espana-en-2027/</guid>
+      <pubDate>Sun, 11 Oct 2026 22:01:28 +0000</pubDate>
+      <description>Los modelos 06T y 07L serán los primeros y su precio será de unos 56 000 euros. La marca china —propiedad de Changan y CATL, y con Huawei como socio tecnológico— también ha presentado el prototipo Concept T09.</description>
+    </item>
+    <item>
+      <title>Citroën 2 CV Concept (prototipo)</title>
+      <link>https://www.km77.com/coches/citroen/2-cv-concept/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/citroen/2-cv-concept/informacion</guid>
+      <pubDate>Sun, 11 Oct 2026 21:01:28 +0000</pubDate>
+      <description>Citroën recupera el espíritu del mítico 2 CV con un prototipo eléctrico de 3,76 metros de longitud. Anticipa un modelo que llegará en 2028, pesará alrededor de una tonelada y tendrá un precio de partida previsto de unos 15 000 euros.</description>
+    </item>
+    <item>
+      <title>Alfa Romeo Cuorerosso (prototipo)</title>
+      <link>https://www.km77.com/coches/alfa-romeo/cuorerosso-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/alfa-romeo/cuorerosso-prototipo/informacion</guid>
+      <pubDate>Sun, 11 Oct 2026 20:01:28 +0000</pubDate>
+      <description>Es un prototipo deportivo de cuatro plazas que anticipa el diseño y algunas tecnologías de los futuros modelos de la marca. Mide 4,70 metros, pesa 1750 kg y tiene suspensión neumática, frenos carbocerámicos y dirección por cable.</description>
+    </item>
     <item>
       <title>Salón del automóvil de París 2026</title>
       <link>https://www.km77.com/revista/noticias/salon-del-automovil-de-paris-2026-las-novedades-mas-relevantes/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/salon-del-automovil-de-paris-2026-las-novedades-mas-relevantes/</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>Listado con las novedades más destacadas de El Mondial de l&apos;Automobile Paris 2026.</description>
     </item>
     <item>
       <title>Lancia Gamma (2026)</title>
       <link>https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>El Lancia Gamma es un SUV de 4,67 metros de longitud. La gama está formada por una versión híbrida de 145 CV y tres eléctricas de 260, 280 y 375 CV. En el mejor de los casos la autonomía es de 741 kilómetros.</description>
     </item>
     <item>
       <title>Volkswagen ID. Tiguan (2027)</title>
       <link>https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>El sustituto de los ID.4 e ID.5 se llama ID.Tiguan y mide 4,58 metros de longitud. Es eléctrico y se podrá pedir con uno o dos motores y con tres niveles de potencia, así como con dos baterías. La autonomía máxima homologada es de 605 kilómetros. Volkswagen ha eliminado mandos táctiles del habitáculo en favor de botones y mandos físicos para las funciones más habituales. Estará a la venta en breve.</description>
     </item>
     <item>
       <title>BMW iX4 (2027) | Precios</title>
       <link>https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV de 4,78 metros de longitud derivado del iX3, pero con una caída de techo más pronunciada. Hay versiones de 374, 469 y 612 caballos, así como baterías de 83 o 109 kWh de capacidad. La autonomía es de hasta 828 kilómetros. Está a la venta desde 71 850 euros.</description>
-    </item>
-    <item>
-      <title>Hyundai IONIQ 3 (2027) | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
-      <description>Es un coche eléctrico de 4,16 metros de longitud. Es agradable y fácil de manejar. Su interior es amplio en comparación con muchas de sus alternativas, aunque tiene algunas limitaciones de visibilidad desde el puesto de conducción. Está disponible con dos baterías, dos niveles de potencia y una autonomía de hasta 497 kilómetros. Su precio parte de 29 995 euros.</description>
     </item>
     <item>
       <title>Novedades de CarPlay con iOS 27</title>
       <link>https://www.km77.com/revista/engendro-mecanico/carplay-ios-27-novedades/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/carplay-ios-27-novedades/</guid>
-      <pubDate>Fri, 09 Oct 2026 18:01:21 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>iOS 27 mejora CarPlay con nuevos widgets, cambios de interfaz, funciones ampliadas de Siri y una mayor integración entre la navegación del iPhone y los sistemas del vehículo.</description>
+    </item>
+    <item>
+      <title>Hyundai IONIQ 3 (2027) | Primeras impresiones</title>
+      <link>https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</guid>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Es un coche eléctrico de 4,16 metros de longitud. Es agradable y fácil de manejar. Su interior es amplio en comparación con muchas de sus alternativas, aunque tiene algunas limitaciones de visibilidad desde el puesto de conducción. Está disponible con dos baterías, dos niveles de potencia y una autonomía de hasta 497 kilómetros. Su precio parte de 29 995 euros.</description>
     </item>
     <item>
       <title>Jaecoo 5 SHS: así funciona su sistema «superhíbrido» de 224 CV</title>
@@ -65,20 +128,6 @@
       <description>Škoda añade a la gama una versión híbrida no enchufable de la que hay dos niveles de potencia: 136 y 170 caballos. Va siempre asociada a una caja de cambios automática y estará disponible tanto con la carrocería berlina como con la familiar (Combi).</description>
     </item>
     <item>
-      <title>Renault Twingo | Imágenes interiores</title>
-      <link>https://www.km77.com/coches/renault/twingo/2026/estandar/imagenes/interiores</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/renault/twingo/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión 60 kW (82 CV) autonomía urbana techno.</description>
-    </item>
-    <item>
-      <title>¿Por qué un coche automático reduce de marcha al bajar una pendiente?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/coche-frenado-solo-modo-automatico-motivos/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/coche-frenado-solo-modo-automatico-motivos/</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Muchas cajas automáticas reducen una o varias marchas al detectar una bajada para aumentar la retención y descargar de trabajo a los frenos. Te explicamos cómo y por qué lo hacen.</description>
-    </item>
-    <item>
       <title>Toyota Hilux Hybrid 48V 2.8D (2026) | Precios</title>
       <link>https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</guid>
@@ -86,25 +135,11 @@
       <description>Toyota añade una versión Diesel a la gama. Tiene un motor de 2,8 litros de cilindrada con 204 caballos que va asociado a un sistema de hibridación ligera, por lo que le corresponde el distintivo medioambiental ECO de la DGT. Está a la venta desde 45 000 euros, un precio inferior al de sus alternativas. En la gama Hilux también hay una versión eléctrica de 196 CV con 255 km de autonomía.</description>
     </item>
     <item>
-      <title>¿Cuánto gasta el Renault Clio full hybrid E-Tech 160 CV?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-renault-clio-full-hybrid-e-tech-160-cv/</guid>
-      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Con este coche hemos conseguido consumos muy bajos en autovía y en la ciudad. En esta entrada contamos todos los detalles.</description>
-    </item>
-    <item>
       <title>Jaguar Type 01 (2027)</title>
       <link>https://www.km77.com/coches/jaguar/type-01/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/jaguar/type-01/2027/estandar/informacion</guid>
       <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
       <description>A principios de 2027, Jaguar iniciará la venta de esta berlina eléctrica desde «unos 165 000 euros». Mide más de cinco metros de longitud, tiene tres motores que desarrollan 1030 caballos de potencia conjunta y su autonomía es de 720 kilómetros. Es el primer modelo de la nueva etapa de Jaguar.</description>
-    </item>
-    <item>
-      <title>MINI Countryman Untamed Edition</title>
-      <link>https://www.km77.com/coches/mini/mini-countryman/2024/estandar/informacion/mini-countryman-edition-todoterreno-untamed-edition</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mini/mini-countryman/2024/estandar/informacion/mini-countryman-edition-todoterreno-untamed-edition</guid>
-      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es una versión pensada para poder circular con más garantías por vías sin asfaltar. Tiene diversos cambios estéticos, unos neumáticos todoterreno opcionales y, el el caso de las versiones eléctricas, más altura libre al suelo. En venta desde 40 020 euros.</description>
     </item>
     <item>
       <title>EBRO s900 PHEV 4x4 426 CV | Prueba</title>
@@ -252,41 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/kgm/torres-actyon/2025/estandar/informacion</guid>
       <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
       <description>KGM hace algunos cambios en el interior del este SUV para mejorar la funcionalidad. El climatizador, por ejemplo, ahora se maneja desde un módulo independiente, el selector del cambio es más grande y la compatibilidad con Android Auto y CarPlay es inalámbrica. Además, hay un sistema de monitorización de atención del conductor. Está en venta desde 38 000 euros con un sistema híbrido de 204 caballos.</description>
-    </item>
-    <item>
-      <title>Škoda Peaq (2027) | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/skoda/peaq/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/skoda/peaq/2027/estandar/informacion</guid>
-      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El SUV eléctrico más grande de Škoda mide 4,87 metros de longitud y puede tener cinco o siete plazas. Es un coche equilibrado, fácil de conducir y con una buena calidad de rodadura. La tercera fila de asientos es adecuada para niños o adultos de baja estatura. Está a la venta desde 50 450 euros.</description>
-    </item>
-    <item>
-      <title>Lepas L8 | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/lepas/l8/2025/estandar/informacion</guid>
-      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de cinco plazas híbrido enchufable de 279 CV que destaca por la amplitud de sus plazas traseras, su funcionamiento silencioso y el confort de marcha. Ofrece 90 kilómetros de autonomía eléctrica, tiene un maletero de 507 litros y está disponible desde 38 447 euros.</description>
-    </item>
-    <item>
-      <title>Dodge Charger (2026)</title>
-      <link>https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/dodge/charger/2026/2-puertas/informacion</guid>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es un deportivo, con carrocerías de tres y cinco puertas, que mide 5,25 metros y se va a poder comprar en España. Hay una versión eléctrica y dos de gasolina, todas con tracción total.</description>
-    </item>
-    <item>
-      <title>Volvo XC40 (2027)</title>
-      <link>https://www.km77.com/coches/volvo/xc40/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/volvo/xc40/2027/estandar/informacion</guid>
-      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Volvo actualiza este SUV de 4,44 metros con cambios de diseño, una pantalla central más grande y mejoras en los asistentes a la conducción. Llegará a finales de 2026 únicamente con motores de combustión.</description>
-    </item>
-    <item>
-      <title>Hyundai Bayon (2027)</title>
-      <link>https://www.km77.com/coches/hyundai/bayon/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/bayon/2027/estandar/informacion</guid>
-      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Hyundai da a conocer algunos bocetos de la segunda generación del Bayon, el SUV más pequeño de su gama. Su aspecto será muy distinto al modelo actual y similar al del nuevo Tucson, con formas más angulosas.</description>
     </item>
   </channel>
 </rss>
