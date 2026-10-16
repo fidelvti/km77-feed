@@ -5,126 +5,147 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Thu, 15 Oct 2026 18:01:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 18:00:55 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Tesla Roadster (prototipo)</title>
+      <link>https://www.km77.com/coches/tesla/roadster-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/tesla/roadster-prototipo/informacion</guid>
+      <pubDate>Fri, 16 Oct 2026 11:00:52 +0000</pubDate>
+      <description>No es un descapotable, pero puede volar. Este prototipo anticipa un modelo que llegará al mercado en 2028 capaz de realizar cosas que nunca antes se habían visto en un coche de producción. Tesla ya ha abierto el libro de reservas.</description>
+    </item>
+    <item>
+      <title>Android Auto 18.0 prepara una renovación profunda</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</guid>
+      <pubDate>Fri, 16 Oct 2026 07:00:52 +0000</pubDate>
+      <description>La nueva versión beta de Android Auto anticipa cambios en su interfaz, una mejor adaptación a los distintos formatos de pantalla y nuevas funciones para Gemini.</description>
+    </item>
+    <item>
+      <title>Porsche Mission S (prototipo)</title>
+      <link>https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</guid>
+      <pubDate>Thu, 15 Oct 2026 22:00:52 +0000</pubDate>
+      <description>Este prototipo adelanta las líneas maestras de un futuro deportivo de motor central que se situará en la gama por encima del 911. Contará con propulsión de combustión pura o híbrida (ligera o enchufable), pero prescindirá por completo de versiones 100 % eléctricas.</description>
+    </item>
     <item>
       <title>Leapmotor B05 | Vídeo en Estudio77</title>
       <link>https://www.youtube.com/watch?v=-c6t3XPBgn8</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=-c6t3XPBgn8</guid>
-      <pubDate>Thu, 15 Oct 2026 17:13:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>Analizamos el Leapmotor B05 en nuestro Estudio77. Es un turismo eléctrico de cinco puertas que está disponible con un motor de 218 caballos y baterías de 56 o 67 kWh.</description>
     </item>
     <item>
       <title>Ebro s700 PHEV | Novedades</title>
       <link>https://www.km77.com/coches/ebro/s700/2025/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/ebro/s700/2025/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 15:01:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>Ebro realiza pequeños cambios en la versión híbrida enchufable del s700. Son de carácter estético, excepto uno que afecta a la consola central, donde los mandos táctiles del climatizador dejan paso a unos botones físicos. No hay novedades en lo que concierne al sistema propulsor (279 caballos y 90 kilómetros de autonomía eléctrica).</description>
     </item>
     <item>
       <title>Changan Nevo Q06 (2027)</title>
       <link>https://www.km77.com/coches/changan/nevo-q06/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/nevo-q06/2027/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 12:01:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>Es un SUV de 4,84 metros de longitud que, en China, se comercializa como eléctrico e híbrido enchufable. Llegará a España en el año 2028.</description>
     </item>
     <item>
       <title>Changan Deepal S07 PHEV</title>
       <link>https://www.km77.com/coches/changan/deepal-s07/2024/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/deepal-s07/2024/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 11:01:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>A finales de 2026, Changan iniciará la comercialización del Deepal S07 PHEV, la versión híbrida enchufable de este SUV de 4,75 metros de longitud. Tiene 254 caballos y una autonomía eléctrica de 100 kilómetros.</description>
     </item>
     <item>
       <title>BMW iX3 M60 xDrive</title>
       <link>https://www.km77.com/coches/bmw/ix3/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix3/2026/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 10:01:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>Tiene dos motores, 612 caballos, tracción en las cuatro ruedas y 754 kilómetros de autonomía. Esta versión es la más potente de la gama iX3 y tiene un ajuste de chasis específico para mejorar su rendimiento dinámico. Su comercialización comenzará a finales de enero de 2027.</description>
     </item>
     <item>
       <title>Por qué la autonomía restante sube y baja bruscamente</title>
       <link>https://www.km77.com/revista/engendro-mecanico/autonomia-restante-cambia-bruscamente/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/autonomia-restante-cambia-bruscamente/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:01:49 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 18:00:52 +0000</pubDate>
       <description>La autonomía estimada puede bajar mucho más rápido que los kilómetros recorridos o incluso aumentar durante la marcha. Te explicamos qué factores influyen en estas variaciones.</description>
     </item>
     <item>
       <title>Geely se quedará con un tercio de Almussafes</title>
       <link>https://www.km77.com/revista/engendro-mecanico/geely-producira-coches-en-la-planta-de-ford-de-valencia/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/geely-producira-coches-en-la-planta-de-ford-de-valencia/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:00:52 +0000</pubDate>
       <description>En julio conocimos el acuerdo entre Geely y Ford relativo a la factoría de Almussafes. Ahora ya cuenta con la aprobación del Gobierno chino: Geely asumirá un 34 % del capital de la planta valenciana y Ford mantendrá el 66 % restante.</description>
     </item>
     <item>
       <title>Changan Nevo Q05 (2027)</title>
       <link>https://www.km77.com/coches/changan/nevo-q05/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/nevo-q05/2027/estandar/informacion</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:00:52 +0000</pubDate>
       <description>Nevo es una nueva línea de modelos de Changan, más asequible que Deepal. El primer modelo que llegará a España será el Q05, durante el primer trimestre de 2027. Es un SUV eléctrico de 4,43 metros que tendrá una autonomía de 450 kilómetros.</description>
     </item>
     <item>
       <title>Citroën 2 CV FOURGONNETTE Concept (prototipo)</title>
       <link>https://www.km77.com/coches/citroen/2-cv-fourgonnette-concept/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/citroen/2-cv-fourgonnette-concept/informacion</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:00:52 +0000</pubDate>
       <description>Este prototipo es la versión comercial del Citroën 2CV Concept. Citroën lo define como un ejercicio de estilo que no adelanta un futuro modelo de producción a corto plazo.</description>
     </item>
     <item>
       <title>XPENG G9L (2027)</title>
       <link>https://www.km77.com/coches/xpeng/g9l/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/xpeng/g9l/2027/estandar/informacion</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:00:52 +0000</pubDate>
       <description>Es un SUV eléctrico de más de cinco metros de longitud con un habitáculo de siete plazas. Hay dos versiones, una de tracción trasera (367 caballos) y otra de tracción total (585 caballos). Ambas tienen más de 550 kilómetros de autonomía.</description>
     </item>
     <item>
       <title>Recirculación del aire: cuándo usarla y cuándo evitarla</title>
       <link>https://www.km77.com/revista/engendro-mecanico/errores-comunes-boton-recirculacion-aire/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/errores-comunes-boton-recirculacion-aire/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2026 18:00:52 +0000</pubDate>
       <description>Permite enfriar más rápidamente el habitáculo y evitar la entrada de olores, humo o polvo del exterior. Sin embargo, mantenerla activada durante demasiado tiempo puede tener consecuencias negativas.</description>
     </item>
     <item>
       <title>Geely Monjaro (2026)</title>
       <link>https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV grande, mide 4,80 metros de longitud, con un habitáculo de cinco plazas. Está movido por un sistema de impulsión híbrido enchufable de 334 caballos y tiene una autonomía eléctrica de 116 kilómetros.</description>
     </item>
     <item>
       <title>Peugeot E-T16 CONCEPT (prototipo)</title>
       <link>https://www.km77.com/coches/peugeot/e-t16-concept/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/peugeot/e-t16-concept/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Peugeot rinde homenaje al Peugeot 205 T16 de los años 80 con este prototipo eléctrico de 816 caballos que alcanza más de 300 kilómetros por hora.</description>
     </item>
     <item>
       <title>Dacia Striker (2027) | Precios</title>
       <link>https://www.km77.com/coches/dacia/striker/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/dacia/striker/2027/estandar/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es el modelo más largo de Dacia hoy en día, aunque no el más caro. Mide 4,62 metros de longitud y tiene una carrocería de tipo crossover. Está disponible con versiones híbridas de entre 140 y 156 caballos, algunas de ellas con tracción en las cuatro ruedas y cambio automático. El precio de partida es 22 720 euros.</description>
     </item>
     <item>
       <title>Peugeot RCZ Vision (prototipo)</title>
       <link>https://www.km77.com/coches/peugeot/rcz-vision-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/peugeot/rcz-vision-prototipo/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un prototipo eléctrico que recupera algunos rasgos de diseño del RCZ original. Tiene 500 CV, una batería de estado sólido y su autonomía es de 600 kilómetros. Usa tecnologías que Peugeot llevará en futuros modelos de producción.</description>
     </item>
     <item>
       <title>Leapmotor B03 (2027)</title>
       <link>https://www.km77.com/coches/leapmotor/b03/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/leapmotor/b03/2027/estandar/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un vehículo eléctrico de 4,20 metros de longitud, con 197 caballos y una autonomía homologada de 390 kilómetros. Tiene un maletero de 495 litros y soluciones prácticas en su interior para facilitar el transporte de objetos grandes.</description>
     </item>
     <item>
       <title>Hyundai Bayon (2027)</title>
       <link>https://www.km77.com/coches/hyundai/bayon/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/hyundai/bayon/2027/estandar/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 18:01:49 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es más grande que el anterior, tiene un maletero de hasta 440 litros y, en el lanzamiento, habrá motores de gasolina de 90 y 115 CV. Más adelante llegará una versión híbrida de 138 CV.</description>
     </item>
     <item>
@@ -266,27 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/i3/2027/estandar/informacion</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>BMW pone a la venta la versión 40 xDrive de 374 caballos. Tiene dos motores, una batería de 82,8 kWh de capacidad y una autonomía homologada de 710 kilómetros. Está a la venta por 58 400 euros, un precio intermedio frente a sus rivales.</description>
-    </item>
-    <item>
-      <title>Kia XCeed (2026) | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/kia/xceed/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/kia/xceed/2026/estandar/informacion</guid>
-      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Kia vuelve a actualizar el XCeed. Además de los cambios estéticos, hay una mejora evidente en la suspensión, ahora más refinada. La versión de 115 CV da unas prestaciones suficientes salvo que el entorno o el conductor sean exigentes con la demanda de potencia.</description>
-    </item>
-    <item>
-      <title>Zeekr 9X | Precios</title>
-      <link>https://www.km77.com/coches/zeekr/9x/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/zeekr/9x/2026/estandar/informacion</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de 5,24 metros de longitud y seis plazas impulsado por un sistema híbrido enchufable de 897 caballos. Tiene una autonomía eléctrica de 179 kilómetros y está a la venta por 121 500 euros. Es el modelo más asequible entre los de sus características.</description>
-    </item>
-    <item>
-      <title>Hyundai Tucson (2027)</title>
-      <link>https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/tucson/2027/estandar/informacion</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>La quinta generación del Hyundai Tucson crece ligeramente de tamaño, estrena un diseño completamente nuevo y llegará con versiones de gasolina, microhíbrida, híbrida de 245 CV e híbrida enchufable de 292 CV y 81 km de autonomía eléctrica. En el interior también cambia el aspecto, el tamaño de las pantallas y hay nuevos elementos de equipamiento.</description>
     </item>
   </channel>
 </rss>
