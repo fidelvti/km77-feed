@@ -5,70 +5,77 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sat, 17 Oct 2026 18:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:00:49 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Salón de París 2026 | Opinión</title>
+      <link>https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</guid>
+      <pubDate>Sat, 17 Oct 2026 20:00:47 +0000</pubDate>
+      <description>El Salón del Automóvil de París de 2026 me ha dejado dos sensaciones. La primera es positiva: los salones del automóvil todavía pueden ilusionar. La otra, no tanto.</description>
+    </item>
     <item>
       <title>Tesla Roadster (prototipo)</title>
       <link>https://www.km77.com/coches/tesla/roadster-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/tesla/roadster-prototipo/informacion</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
       <description>No es un descapotable, pero puede volar. Este prototipo anticipa un modelo que llegará al mercado en 2028 capaz de realizar cosas que nunca antes se habían visto en un coche de producción. Tesla ya ha abierto el libro de reservas.</description>
-    </item>
-    <item>
-      <title>Porsche Mission S (prototipo)</title>
-      <link>https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:56 +0000</pubDate>
-      <description>Este prototipo adelanta las líneas maestras de un futuro deportivo de motor central que se situará en la gama por encima del 911. Contará con propulsión de combustión pura o híbrida (ligera o enchufable), pero prescindirá por completo de versiones 100 % eléctricas.</description>
     </item>
     <item>
       <title>Android Auto 18.0 prepara una renovación profunda</title>
       <link>https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
       <description>La nueva versión beta de Android Auto anticipa cambios en su interfaz, una mejor adaptación a los distintos formatos de pantalla y nuevas funciones para Gemini.</description>
+    </item>
+    <item>
+      <title>Porsche Mission S (prototipo)</title>
+      <link>https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</guid>
+      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
+      <description>Este prototipo adelanta las líneas maestras de un futuro deportivo de motor central que se situará en la gama por encima del 911. Contará con propulsión de combustión pura o híbrida (ligera o enchufable), pero prescindirá por completo de versiones 100 % eléctricas.</description>
     </item>
     <item>
       <title>Leapmotor B05 | Vídeo en Estudio77</title>
       <link>https://www.youtube.com/watch?v=-c6t3XPBgn8</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=-c6t3XPBgn8</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>Analizamos el Leapmotor B05 en nuestro Estudio77. Es un turismo eléctrico de cinco puertas que está disponible con un motor de 218 caballos y baterías de 56 o 67 kWh.</description>
     </item>
     <item>
       <title>Ebro s700 PHEV | Novedades</title>
       <link>https://www.km77.com/coches/ebro/s700/2025/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/ebro/s700/2025/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>Ebro realiza pequeños cambios en la versión híbrida enchufable del s700. Son de carácter estético, excepto uno que afecta a la consola central, donde los mandos táctiles del climatizador dejan paso a unos botones físicos. No hay novedades en lo que concierne al sistema propulsor (279 caballos y 90 kilómetros de autonomía eléctrica).</description>
     </item>
     <item>
       <title>Changan Nevo Q06 (2027)</title>
       <link>https://www.km77.com/coches/changan/nevo-q06/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/nevo-q06/2027/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV de 4,84 metros de longitud que, en China, se comercializa como eléctrico e híbrido enchufable. Llegará a España en el año 2028.</description>
     </item>
     <item>
       <title>Changan Deepal S07 PHEV</title>
       <link>https://www.km77.com/coches/changan/deepal-s07/2024/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/deepal-s07/2024/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>A finales de 2026, Changan iniciará la comercialización del Deepal S07 PHEV, la versión híbrida enchufable de este SUV de 4,75 metros de longitud. Tiene 254 caballos y una autonomía eléctrica de 100 kilómetros.</description>
     </item>
     <item>
       <title>BMW iX3 M60 xDrive</title>
       <link>https://www.km77.com/coches/bmw/ix3/2026/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix3/2026/estandar/informacion</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>Tiene dos motores, 612 caballos, tracción en las cuatro ruedas y 754 kilómetros de autonomía. Esta versión es la más potente de la gama iX3 y tiene un ajuste de chasis específico para mejorar su rendimiento dinámico. Su comercialización comenzará a finales de enero de 2027.</description>
     </item>
     <item>
       <title>Por qué la autonomía restante sube y baja bruscamente</title>
       <link>https://www.km77.com/revista/engendro-mecanico/autonomia-restante-cambia-bruscamente/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/autonomia-restante-cambia-bruscamente/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:56 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>La autonomía estimada puede bajar mucho más rápido que los kilómetros recorridos o incluso aumentar durante la marcha. Te explicamos qué factores influyen en estas variaciones.</description>
     </item>
     <item>
@@ -98,13 +105,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/xpeng/g9l/2027/estandar/informacion</guid>
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV eléctrico de más de cinco metros de longitud con un habitáculo de siete plazas. Hay dos versiones, una de tracción trasera (367 caballos) y otra de tracción total (585 caballos). Ambas tienen más de 550 kilómetros de autonomía.</description>
-    </item>
-    <item>
-      <title>Recirculación del aire: cuándo usarla y cuándo evitarla</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/errores-comunes-boton-recirculacion-aire/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/errores-comunes-boton-recirculacion-aire/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Permite enfriar más rápidamente el habitáculo y evitar la entrada de olores, humo o polvo del exterior. Sin embargo, mantenerla activada durante demasiado tiempo puede tener consecuencias negativas.</description>
     </item>
     <item>
       <title>Geely Monjaro (2026)</title>
