@@ -5,36 +5,71 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:00:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 18:00:19 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>DS F3VER Concept (prototipo)</title>
+      <link>https://www.km77.com/coches/ds/f3ver-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/ds/f3ver-prototipo/informacion</guid>
+      <pubDate>Mon, 19 Oct 2026 15:00:16 +0000</pubDate>
+      <description>Es un prototipo con el que la marca francesa explora nuevas posibilidades de diseño para sus futuros automóviles. Su carrocería y sus soluciones estilísticas anticipan una posible evolución de la identidad de DS.</description>
+    </item>
+    <item>
+      <title>Volkswagen ID. Cross (2027) | Precios</title>
+      <link>https://www.km77.com/coches/volkswagen/id-cross/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-cross/2027/estandar/informacion</guid>
+      <pubDate>Mon, 19 Oct 2026 11:00:16 +0000</pubDate>
+      <description>Volkswagen inicia la comercialización de las versiones de acceso a la gama, con potencias de 116 y 135 caballos. Sus precios parten de 28 680 euros, un cifra similar a la de sus alternativas. El Volkswagen ID.Cross es un SUV eléctrico de cinco plazas y 4,16 metros de longitud.</description>
+    </item>
+    <item>
+      <title>Mercedes-AMG GT SUV (2027)</title>
+      <link>https://www.km77.com/coches/mercedes/amg-gt/2027/suv/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/mercedes/amg-gt/2027/suv/informacion</guid>
+      <pubDate>Mon, 19 Oct 2026 10:00:16 +0000</pubDate>
+      <description>Es un SUV eléctrico de altas prestaciones disponible en tres versiones de hasta 1169 CV. Cuenta con baterías de hasta 128 kWh, una autonomía máxima de 700 kilómetros y una potencia de recarga de hasta  710 kW.</description>
+    </item>
+    <item>
+      <title>¿Por qué se activan los limpiaparabrisas automáticos cuando no llueve?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/activacion-limpiaparabrisas-error-motivos/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/activacion-limpiaparabrisas-error-motivos/</guid>
+      <pubDate>Mon, 19 Oct 2026 07:00:16 +0000</pubDate>
+      <description>Aunque los sensores de lluvia suelen funcionar con precisión, en ocasiones pueden activar los limpiaparabrisas sin que caiga una sola gota de agua. La explicación está en cómo detectan la lluvia y en algunos factores que pueden alterar su funcionamiento.</description>
+    </item>
+    <item>
+      <title>Salón de París 2026 | Vídeo</title>
+      <link>https://www.youtube.com/watch?v=WnWyRzemnH0</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=WnWyRzemnH0</guid>
+      <pubDate>Sun, 18 Oct 2026 21:00:16 +0000</pubDate>
+      <description>Recorremos el salón para conocer las novedades principales, tanto de prototipos como de modelos de producción.</description>
+    </item>
     <item>
       <title>Salón de París 2026 | Opinión</title>
       <link>https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</guid>
-      <pubDate>Sat, 17 Oct 2026 20:00:47 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 18:00:16 +0000</pubDate>
       <description>El Salón del Automóvil de París de 2026 me ha dejado dos sensaciones. La primera es positiva: los salones del automóvil todavía pueden ilusionar. La otra, no tanto.</description>
+    </item>
+    <item>
+      <title>Geely Monjaro (2026) | Precio</title>
+      <link>https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</guid>
+      <pubDate>Sun, 18 Oct 2026 18:00:16 +0000</pubDate>
+      <description>Es un SUV de 4,80 metros de longitud con un habitáculo de cinco plazas. Está movido por un sistema de impulsión híbrido enchufable de 334 caballos y tiene una autonomía eléctrica de 116 kilómetros. Su precio, 40 240 euros, es uno de los más bajos de su segmento.</description>
     </item>
     <item>
       <title>Tesla Roadster (prototipo)</title>
       <link>https://www.km77.com/coches/tesla/roadster-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/tesla/roadster-prototipo/informacion</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
       <description>No es un descapotable, pero puede volar. Este prototipo anticipa un modelo que llegará al mercado en 2028 capaz de realizar cosas que nunca antes se habían visto en un coche de producción. Tesla ya ha abierto el libro de reservas.</description>
     </item>
     <item>
       <title>Android Auto 18.0 prepara una renovación profunda</title>
       <link>https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
       <description>La nueva versión beta de Android Auto anticipa cambios en su interfaz, una mejor adaptación a los distintos formatos de pantalla y nuevas funciones para Gemini.</description>
-    </item>
-    <item>
-      <title>Porsche Mission S (prototipo)</title>
-      <link>https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</guid>
-      <pubDate>Fri, 16 Oct 2026 18:00:47 +0000</pubDate>
-      <description>Este prototipo adelanta las líneas maestras de un futuro deportivo de motor central que se situará en la gama por encima del 911. Contará con propulsión de combustión pura o híbrida (ligera o enchufable), pero prescindirá por completo de versiones 100 % eléctricas.</description>
     </item>
     <item>
       <title>Leapmotor B05 | Vídeo en Estudio77</title>
@@ -42,6 +77,13 @@
       <guid isPermaLink="true">https://www.youtube.com/watch?v=-c6t3XPBgn8</guid>
       <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>Analizamos el Leapmotor B05 en nuestro Estudio77. Es un turismo eléctrico de cinco puertas que está disponible con un motor de 218 caballos y baterías de 56 o 67 kWh.</description>
+    </item>
+    <item>
+      <title>Porsche Mission S (prototipo)</title>
+      <link>https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/porsche/mission-s-prototipo/informacion</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Este prototipo adelanta las líneas maestras de un futuro deportivo de motor central que se situará en la gama por encima del 911. Contará con propulsión de combustión pura o híbrida (ligera o enchufable), pero prescindirá por completo de versiones 100 % eléctricas.</description>
     </item>
     <item>
       <title>Ebro s700 PHEV | Novedades</title>
@@ -79,13 +121,6 @@
       <description>La autonomía estimada puede bajar mucho más rápido que los kilómetros recorridos o incluso aumentar durante la marcha. Te explicamos qué factores influyen en estas variaciones.</description>
     </item>
     <item>
-      <title>Geely se quedará con un tercio de Almussafes</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/geely-producira-coches-en-la-planta-de-ford-de-valencia/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/geely-producira-coches-en-la-planta-de-ford-de-valencia/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>En julio conocimos el acuerdo entre Geely y Ford relativo a la factoría de Almussafes. Ahora ya cuenta con la aprobación del Gobierno chino: Geely asumirá un 34 % del capital de la planta valenciana y Ford mantendrá el 66 % restante.</description>
-    </item>
-    <item>
       <title>Changan Nevo Q05 (2027)</title>
       <link>https://www.km77.com/coches/changan/nevo-q05/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/changan/nevo-q05/2027/estandar/informacion</guid>
@@ -105,13 +140,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/xpeng/g9l/2027/estandar/informacion</guid>
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV eléctrico de más de cinco metros de longitud con un habitáculo de siete plazas. Hay dos versiones, una de tracción trasera (367 caballos) y otra de tracción total (585 caballos). Ambas tienen más de 550 kilómetros de autonomía.</description>
-    </item>
-    <item>
-      <title>Geely Monjaro (2026)</title>
-      <link>https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</guid>
-      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV grande, mide 4,80 metros de longitud, con un habitáculo de cinco plazas. Está movido por un sistema de impulsión híbrido enchufable de 334 caballos y tiene una autonomía eléctrica de 116 kilómetros.</description>
     </item>
     <item>
       <title>Peugeot E-T16 CONCEPT (prototipo)</title>
@@ -205,13 +233,6 @@
       <description>Es un prototipo deportivo de cuatro plazas que anticipa el diseño y algunas tecnologías de los futuros modelos de la marca. Mide 4,70 metros, pesa 1750 kg y tiene suspensión neumática, frenos carbocerámicos y dirección por cable.</description>
     </item>
     <item>
-      <title>Salón del automóvil de París 2026</title>
-      <link>https://www.km77.com/revista/noticias/salon-del-automovil-de-paris-2026-las-novedades-mas-relevantes/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/noticias/salon-del-automovil-de-paris-2026-las-novedades-mas-relevantes/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Listado con las novedades más destacadas de El Mondial de l&apos;Automobile Paris 2026.</description>
-    </item>
-    <item>
       <title>Lancia Gamma (2026)</title>
       <link>https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/lancia/gamma/2027/estandar/informacion</guid>
@@ -266,27 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/ebro/s900/2026/estandar/informacion</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV cómodo, silencioso, no muy veloz para su potencia y que se desenvuelve mejor en vías rápidas que en las lentas. El interior es amplio y está recubierto con materiales que dejan buena impresión a la vista y al tacto. Está a la venta desde 49 773 euros y tiene un sistema de impulsión híbrido de 426 caballos y 140 kilómetros de autonomía eléctrica.</description>
-    </item>
-    <item>
-      <title>MG ZS Hybrid+ | Novedades</title>
-      <link>https://www.km77.com/coches/mg/zs/2025/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/mg/zs/2025/estandar/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>MG hace cambios en el sistema propulsor híbrido no enchufable de este modelo: los dos motores eléctricos tienen más potencia, la refrigeración de los mismos es ahora por aceite y la gestión de la energía es diferente. Gracias a ello, MG dice que la respuesta del sistema es más consistente ante pendientes pronunciadas y el ruido que se filtra al interior es menor. La potencia máxima no cambia: 194 caballos.</description>
-    </item>
-    <item>
-      <title>Renault E-Space Concept (prototipo)</title>
-      <link>https://www.km77.com/coches/renault/e-space-concept/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/renault/e-space-concept/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un prototipo que recupera los rasgos de diseño del Espace de primera generación, cuyo lanzamiento al mercado fue hace más de 40 años. Mide 4,70 metros de longitud, tiene un sistema propulsor electrificado y estará presente en el Salón del Automóvil de París 2026.</description>
-    </item>
-    <item>
-      <title>BMW i3 40 xDrive | Precio</title>
-      <link>https://www.km77.com/coches/bmw/i3/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/bmw/i3/2027/estandar/informacion</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>BMW pone a la venta la versión 40 xDrive de 374 caballos. Tiene dos motores, una batería de 82,8 kWh de capacidad y una autonomía homologada de 710 kilómetros. Está a la venta por 58 400 euros, un precio intermedio frente a sus rivales.</description>
     </item>
   </channel>
 </rss>
