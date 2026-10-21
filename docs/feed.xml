@@ -5,84 +5,119 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 20 Oct 2026 18:00:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 18:01:04 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
-      <title>Geely Monjaro (2026) | Precio</title>
-      <link>https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</guid>
-      <pubDate>Tue, 20 Oct 2026 15:00:16 +0000</pubDate>
-      <description>Es un SUV de 4,80 metros de longitud con un habitáculo de cinco plazas. Está movido por un sistema de impulsión híbrido enchufable de 334 caballos y tiene una autonomía eléctrica de 116 kilómetros. Su precio, 40 240 euros, es uno de los más bajos de su segmento.</description>
+      <title>Omoda X (prototipo)</title>
+      <link>https://www.km77.com/coches/omoda/x-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/omoda/x-prototipo/informacion</guid>
+      <pubDate>Wed, 21 Oct 2026 15:01:01 +0000</pubDate>
+      <description>Adelanta un futuro SUV de la marca. Mide 4,95 metros de longitud, tiene un diseño de formas muy angulosas, un habitáculo con abundante tecnología y algunas soluciones poco habituales, como una cámara térmica para detectar obstáculos. También ofrece ciertas aptitudes para circular fuera del asfalto.</description>
+    </item>
+    <item>
+      <title>Ferrari 12Cilindri Manuale | Primeras impresiones en circuito</title>
+      <link>https://www.km77.com/coches/ferrari/12cilindri/2024/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/ferrari/12cilindri/2024/estandar/informacion</guid>
+      <pubDate>Wed, 21 Oct 2026 13:01:01 +0000</pubDate>
+      <description>Es más difícil de conducir que con el cambio automático y resulta mucho más caro, pero añade un componente fundamental para este tipo de vehículos: emoción. Es una edición limitada a 1499 unidades para todo el mundo, con un precio de partida (en Italia) de 590 000 euros. Tiene el mismo motor V12 atmosférico de doce cilindros y 830 caballos de la versión automática.</description>
+    </item>
+    <item>
+      <title>Lexus TZ (2027) | Precios</title>
+      <link>https://www.km77.com/coches/lexus/tz/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/lexus/tz/2027/estandar/informacion</guid>
+      <pubDate>Wed, 21 Oct 2026 11:01:01 +0000</pubDate>
+      <description>Es un SUV eléctrico de 5,1 metros de longitud cuyo interior tiene seis asientos y, según la marca, mucho espacio para adultos. Hay versiones de 313 y 408 caballos. Está disponible desde 88 00 euros.</description>
+    </item>
+    <item>
+      <title>XPENG G6 | Imágenes interiores</title>
+      <link>https://www.km77.com/coches/xpeng/g6/2025/estandar/imagenes/interiores</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/xpeng/g6/2025/estandar/imagenes/interiores</guid>
+      <pubDate>Wed, 21 Oct 2026 09:01:01 +0000</pubDate>
+      <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión RWD Long Range.</description>
+    </item>
+    <item>
+      <title>¿Quién paga los daños de tu coche si resulta afectado por una inundación?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/que-cubre-seguro-coche-catastrofes-naturales/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/que-cubre-seguro-coche-catastrofes-naturales/</guid>
+      <pubDate>Wed, 21 Oct 2026 08:01:01 +0000</pubDate>
+      <description>Si tu coche sufre daños por una inundación u otra catástrofe natural, es posible que tengas derecho a una indemnización. Te explicamos qué situaciones están cubiertas, quién se hace cargo de los daños y cómo reclamar.</description>
     </item>
     <item>
       <title>Gasóleo A, B y C: qué diferencias hay</title>
       <link>https://www.km77.com/revista/engendro-mecanico/tipos-gasoleo-a-b-c-diferencias/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/tipos-gasoleo-a-b-c-diferencias/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:16 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2026 18:01:01 +0000</pubDate>
       <description>Aunque parecen combustibles similares, tienen diferencias importantes que van más allá del precio y el color. Utilizar un gasóleo inadecuado puede provocar averías costosas y acarrear sanciones económicas.</description>
+    </item>
+    <item>
+      <title>Geely Monjaro (2026) | Precio</title>
+      <link>https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/geely/monjaro/2026/estandar/informacion</guid>
+      <pubDate>Tue, 20 Oct 2026 18:01:01 +0000</pubDate>
+      <description>Es un SUV de 4,80 metros de longitud con un habitáculo de cinco plazas. Está movido por un sistema de impulsión híbrido enchufable de 334 caballos y tiene una autonomía eléctrica de 116 kilómetros. Su precio, 40 240 euros, es uno de los más bajos de su segmento.</description>
     </item>
     <item>
       <title>Opel STX Concept (prototipo)</title>
       <link>https://www.km77.com/coches/opel/stx-concept/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/opel/stx-concept/informacion</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:16 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2026 18:01:01 +0000</pubDate>
       <description>Con este prototipo de turismo familiar, Opel da a conocer algunos detalles del diseño que tendrán sus modelos del futuro. Es eléctrico y tiene tracción total.</description>
     </item>
     <item>
       <title>Inicio de producción de Leapmotor en España</title>
       <link>https://www.km77.com/revista/engendro-mecanico/stellantis-comienza-a-fabricar-el-leapmotor-b10-en-zaragoza-y-confirma-que-el-b05-se-hara-en-la-misma-planta/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/stellantis-comienza-a-fabricar-el-leapmotor-b10-en-zaragoza-y-confirma-que-el-b05-se-hara-en-la-misma-planta/</guid>
-      <pubDate>Tue, 20 Oct 2026 10:00:16 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2026 18:01:01 +0000</pubDate>
       <description>Stellantis ha comenzado a fabricar en su planta de Zaragoza el Leapmotor B10, al que se unirá más adelante el B05. La asignación de ambos modelos a la factoría aragonesa refleja la cada vez más estrecha relación entre ambos grupos.</description>
     </item>
     <item>
       <title>Geely E5 MAX+ | Prueba</title>
       <link>https://www.km77.com/coches/geely/e5/2024/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/geely/e5/2024/estandar/informacion</guid>
-      <pubDate>Tue, 20 Oct 2026 05:00:16 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2026 18:01:01 +0000</pubDate>
       <description>Mide 4,62 metros de longitud y está movido por un motor eléctrico de 218 caballos que proporciona una buena aceleración. La autonomía real por autopista está en el entorno de los 300 km. La suspensión es confortable y el habitáculo amplio. Está a la venta desde 37 490 euros, un precio que lo sitúa entre los modelos de características similares más asequibles.</description>
-    </item>
-    <item>
-      <title>DS F3VER Concept (prototipo)</title>
-      <link>https://www.km77.com/coches/ds/f3ver-prototipo/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/ds/f3ver-prototipo/informacion</guid>
-      <pubDate>Mon, 19 Oct 2026 18:00:16 +0000</pubDate>
-      <description>Es un prototipo con el que la marca francesa explora nuevas posibilidades de diseño para sus futuros automóviles. Su carrocería y sus soluciones estilísticas anticipan una posible evolución de la identidad de DS.</description>
     </item>
     <item>
       <title>Salón de París 2026 | Vídeo</title>
       <link>https://www.youtube.com/watch?v=WnWyRzemnH0</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=WnWyRzemnH0</guid>
-      <pubDate>Mon, 19 Oct 2026 18:00:16 +0000</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:01:01 +0000</pubDate>
       <description>Recorremos el salón para conocer las novedades principales, tanto de prototipos como de modelos de producción.</description>
+    </item>
+    <item>
+      <title>DS F3VER Concept (prototipo)</title>
+      <link>https://www.km77.com/coches/ds/f3ver-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/ds/f3ver-prototipo/informacion</guid>
+      <pubDate>Mon, 19 Oct 2026 18:01:01 +0000</pubDate>
+      <description>Es un prototipo con el que la marca francesa explora nuevas posibilidades de diseño para sus futuros automóviles. Su carrocería y sus soluciones estilísticas anticipan una posible evolución de la identidad de DS.</description>
     </item>
     <item>
       <title>Volkswagen ID. Cross (2027) | Precios</title>
       <link>https://www.km77.com/coches/volkswagen/id-cross/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-cross/2027/estandar/informacion</guid>
-      <pubDate>Mon, 19 Oct 2026 18:00:16 +0000</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:01:01 +0000</pubDate>
       <description>Volkswagen inicia la comercialización de las versiones de acceso a la gama, con potencias de 116 y 135 caballos. Sus precios parten de 28 680 euros, un cifra similar a la de sus alternativas. El Volkswagen ID.Cross es un SUV eléctrico de cinco plazas y 4,16 metros de longitud.</description>
     </item>
     <item>
       <title>Mercedes-AMG GT SUV (2027)</title>
       <link>https://www.km77.com/coches/mercedes/amg-gt/2027/suv/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/amg-gt/2027/suv/informacion</guid>
-      <pubDate>Mon, 19 Oct 2026 18:00:16 +0000</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:01:01 +0000</pubDate>
       <description>Es un SUV eléctrico de altas prestaciones disponible en tres versiones de hasta 1169 CV. Cuenta con baterías de hasta 128 kWh, una autonomía máxima de 700 kilómetros y una potencia de recarga de hasta  710 kW.</description>
     </item>
     <item>
       <title>¿Por qué se activan los limpiaparabrisas automáticos cuando no llueve?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/activacion-limpiaparabrisas-error-motivos/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/activacion-limpiaparabrisas-error-motivos/</guid>
-      <pubDate>Mon, 19 Oct 2026 18:00:16 +0000</pubDate>
+      <pubDate>Mon, 19 Oct 2026 18:01:01 +0000</pubDate>
       <description>Aunque los sensores de lluvia suelen funcionar con precisión, en ocasiones pueden activar los limpiaparabrisas sin que caiga una sola gota de agua. La explicación está en cómo detectan la lluvia y en algunos factores que pueden alterar su funcionamiento.</description>
     </item>
     <item>
       <title>Salón de París 2026 | Opinión</title>
       <link>https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/opinion/paris-2026-vuelven-a-brillar-los-ojos-a-pesar-del-estrabismo/</guid>
-      <pubDate>Sun, 18 Oct 2026 18:00:16 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
       <description>El Salón del Automóvil de París de 2026 me ha dejado dos sensaciones. La primera es positiva: los salones del automóvil todavía pueden ilusionar. La otra, no tanto.</description>
     </item>
     <item>
@@ -91,13 +126,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/tesla/roadster-prototipo/informacion</guid>
       <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
       <description>No es un descapotable, pero puede volar. Este prototipo anticipa un modelo que llegará al mercado en 2028 capaz de realizar cosas que nunca antes se habían visto en un coche de producción. Tesla ya ha abierto el libro de reservas.</description>
-    </item>
-    <item>
-      <title>Android Auto 18.0 prepara una renovación profunda</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/android-18-beta-novedades/</guid>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-      <description>La nueva versión beta de Android Auto anticipa cambios en su interfaz, una mejor adaptación a los distintos formatos de pantalla y nuevas funciones para Gemini.</description>
     </item>
     <item>
       <title>Porsche Mission S (prototipo)</title>
@@ -259,34 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/volkswagen/id-tiguan/2027/estandar/informacion</guid>
       <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>El sustituto de los ID.4 e ID.5 se llama ID.Tiguan y mide 4,58 metros de longitud. Es eléctrico y se podrá pedir con uno o dos motores y con tres niveles de potencia, así como con dos baterías. La autonomía máxima homologada es de 605 kilómetros. Volkswagen ha eliminado mandos táctiles del habitáculo en favor de botones y mandos físicos para las funciones más habituales. Estará a la venta en breve.</description>
-    </item>
-    <item>
-      <title>BMW iX4 (2027) | Precios</title>
-      <link>https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/bmw/ix4/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un SUV de 4,78 metros de longitud derivado del iX3, pero con una caída de techo más pronunciada. Hay versiones de 374, 469 y 612 caballos, así como baterías de 83 o 109 kWh de capacidad. La autonomía es de hasta 828 kilómetros. Está a la venta desde 71 850 euros.</description>
-    </item>
-    <item>
-      <title>Hyundai IONIQ 3 (2027) | Primeras impresiones</title>
-      <link>https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/hyundai/ioniq-3/2027/estandar/informacion</guid>
-      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un coche eléctrico de 4,16 metros de longitud. Es agradable y fácil de manejar. Su interior es amplio en comparación con muchas de sus alternativas, aunque tiene algunas limitaciones de visibilidad desde el puesto de conducción. Está disponible con dos baterías, dos niveles de potencia y una autonomía de hasta 497 kilómetros. Su precio parte de 29 995 euros.</description>
-    </item>
-    <item>
-      <title>Škoda Octavia full hybrid | Novedad</title>
-      <link>https://www.km77.com/coches/skoda/octavia/2024/berlina/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/skoda/octavia/2024/berlina/informacion</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Škoda añade a la gama una versión híbrida no enchufable de la que hay dos niveles de potencia: 136 y 170 caballos. Va siempre asociada a una caja de cambios automática y estará disponible tanto con la carrocería berlina como con la familiar (Combi).</description>
-    </item>
-    <item>
-      <title>Toyota Hilux Hybrid 48V 2.8D (2026) | Precios</title>
-      <link>https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/toyota/hilux/2026/doble-cabina/informacion</guid>
-      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Toyota añade una versión Diesel a la gama. Tiene un motor de 2,8 litros de cilindrada con 204 caballos que va asociado a un sistema de hibridación ligera, por lo que le corresponde el distintivo medioambiental ECO de la DGT. Está a la venta desde 45 000 euros, un precio inferior al de sus alternativas. En la gama Hilux también hay una versión eléctrica de 196 CV con 255 km de autonomía.</description>
     </item>
   </channel>
 </rss>
