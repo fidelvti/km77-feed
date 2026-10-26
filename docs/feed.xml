@@ -5,42 +5,77 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 25 Oct 2026 18:00:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:00:47 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Audi S3 Sedan | Prueba</title>
+      <link>https://www.km77.com/coches/audi/a3/2024/sportback/s3/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/audi/a3/2024/sportback/s3/informacion</guid>
+      <pubDate>Mon, 26 Oct 2026 15:00:45 +0000</pubDate>
+      <description>Tiene un motor de gasolina de 333 caballos, tracción en las cuatro ruedas y un sistema de reparto de par en el eje posterior (torque splitter) con el que es muy sencillo provocar sobreviraje. El S3 cumple muy bien con su faceta de vehículo de uso diario y también de deportivo. Está a la venta por 69 390 euros, un precio superior al de sus alternativas.</description>
+    </item>
+    <item>
+      <title>ZEEKR X | Imágenes interiores</title>
+      <link>https://www.km77.com/coches/zeekr/x/2024/estandar/imagenes/interiores</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/zeekr/x/2024/estandar/imagenes/interiores</guid>
+      <pubDate>Mon, 26 Oct 2026 12:00:45 +0000</pubDate>
+      <description>Galería con la sesión de 24 fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión Long Range RWD.</description>
+    </item>
+    <item>
+      <title>Volvo XC60 (2027) | Precios</title>
+      <link>https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:45 +0000</pubDate>
+      <description>Volvo actualiza este SUV de 4,71 metros con cambios de diseño y tecnología y seguridad. Las versiones híbridas enchufables estrenan una batería de 41,2 kWh que permite recorrer hasta 200 kilómetros en modo eléctrico. En venta desde 64 688 euros.</description>
+    </item>
+    <item>
+      <title>¿Por qué la gasolinera te retiene hasta 150 euros al repostar?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/gasolinera-retienen-150-euros-motivo/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/gasolinera-retienen-150-euros-motivo/</guid>
+      <pubDate>Mon, 26 Oct 2026 06:00:45 +0000</pubDate>
+      <description>Al pagar con tarjeta en una gasolinera de autoservicio, es posible que aparezca una retención de 100 o 150 euros, aunque solo hayas repostado 20. No se trata de un error ni de un cobro indebido, sino de un procedimiento bancario que tiene una explicación.</description>
+    </item>
+    <item>
+      <title>BMW iX3 2026 | Esquiva y eslalon</title>
+      <link>https://youtu.be/bJm1eiD-Mlw</link>
+      <guid isPermaLink="true">https://youtu.be/bJm1eiD-Mlw</guid>
+      <pubDate>Sun, 25 Oct 2026 18:00:45 +0000</pubDate>
+      <description>La versión 50 xDrive de 469 caballos y 805 kilómetros de autonomía homologada ha pasado por el circuito para realizar estas pruebas.</description>
+    </item>
     <item>
       <title>Lotus Eletre X (2027) | Primeras impresiones</title>
       <link>https://www.km77.com/coches/lotus/eletre-x/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/lotus/eletre-x/2027/estandar/informacion</guid>
-      <pubDate>Fri, 23 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV de 5,1 metros y casi 2,7 toneladas que resulta más ágil de lo que sus dimensiones y peso sugieren. Su principal ventaja frente al Eletre es que permite hacer los desplazamientos habituales utilizando únicamente electricidad y afrontar viajes largos sin depender de cargadores. Hay una versión de 549 caballos y otra de 952. Está disponible desde 98 990 euros.</description>
     </item>
     <item>
       <title>Toyota Corolla vs Volkswagen Golf: ¿cuál elijo?</title>
       <link>https://www.km77.com/revista/comparativas/toyota-corolla-vs-volkswagen-golf-cual-elijo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/comparativas/toyota-corolla-vs-volkswagen-golf-cual-elijo/</guid>
-      <pubDate>Fri, 23 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
       <description>Comparamos el Toyota Corolla y el Volkswagen Golf en sus versiones híbridas. Tienen unas prestaciones y un consumo prácticamente idénticos, pero presentan diferencias en precio, equipamiento, tecnología y maletero. Analizamos sus puntos fuertes y débiles para descubrir cuál resulta más interesante.</description>
     </item>
     <item>
       <title>CUPRA Raval VZ CUSTOM by ABT</title>
       <link>https://www.km77.com/revista/noticias/el-cupra-raval-vz-pasa-por-las-manos-de-abt-para-sacar-a-relucir-su-lado-mas-salvaje/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/noticias/el-cupra-raval-vz-pasa-por-las-manos-de-abt-para-sacar-a-relucir-su-lado-mas-salvaje/</guid>
-      <pubDate>Fri, 23 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
       <description>CUPRA presenta una nueva versión del Raval con un kit de carrocería específico y novedades en el habitáculo. No hay cambios en el motor ni en la batería. Está en venta desde 39 310 euros.</description>
     </item>
     <item>
       <title>Freelander 8 (2027)</title>
       <link>https://www.km77.com/coches/freelander/8/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/freelander/8/2027/estandar/informacion</guid>
-      <pubDate>Fri, 23 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
       <description>El primer modelo fruto de la colaboración entre JLR (grupo Jaguar-Land Rover) y Chery es un SUV de 5,10 metros de longitud que se mueve mediante un sistema híbrido enchufable de 620 caballos. La batería es de tipo LFP, tiene 34 kWh de capacidad y permite recorrer 112 km en modo eléctrico.</description>
     </item>
     <item>
       <title>Android Auto da un paso más hacia las conversaciones naturales</title>
       <link>https://www.km77.com/revista/engendro-mecanico/gemini-gmail-calendario-android-auto/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/gemini-gmail-calendario-android-auto/</guid>
-      <pubDate>Fri, 23 Oct 2026 18:00:47 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
       <description>Gemini mejora su capacidad para entender lo que necesita el conductor, incluso cuando no proporciona todos los detalles. Además, puede utilizar información de Gmail y Google Calendar para responder a determinadas peticiones.</description>
     </item>
     <item>
@@ -65,13 +100,6 @@
       <description>El sustituto de los ID.4 e ID.5 se llama ID.Tiguan y mide 4,58 metros de longitud. Es eléctrico, tiene tres niveles de potencia y dos baterías de distinta capacidad. La autonomía máxima homologada es de 605 kilómetros. Volkswagen ha eliminado mandos táctiles del habitáculo en favor de botones y mandos físicos para las funciones más habituales. Está a la venta desde 39 590 €, un precio intermedio frente al de sus rivales.</description>
     </item>
     <item>
-      <title>Tesla Model Y | Consumo real</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-model-y/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/cual-es-el-consumo-real-del-model-y/</guid>
-      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Medimos el consumo de este SUV eléctrico en ciudad y autovía.</description>
-    </item>
-    <item>
       <title>Omoda X (prototipo)</title>
       <link>https://www.km77.com/coches/omoda/x-prototipo/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/omoda/x-prototipo/informacion</guid>
@@ -91,34 +119,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/lexus/tz/2027/estandar/informacion</guid>
       <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV eléctrico de 5,1 metros de longitud cuyo interior tiene seis asientos y, según la marca, mucho espacio para adultos. Hay versiones de 313 y 408 caballos. Está disponible desde 88 00 euros.</description>
-    </item>
-    <item>
-      <title>XPENG G6 | Imágenes interiores</title>
-      <link>https://www.km77.com/coches/xpeng/g6/2025/estandar/imagenes/interiores</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/xpeng/g6/2025/estandar/imagenes/interiores</guid>
-      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Galería con la sesión de fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión RWD Long Range.</description>
-    </item>
-    <item>
-      <title>¿Quién paga los daños de tu coche si resulta afectado por una inundación?</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/que-cubre-seguro-coche-catastrofes-naturales/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/que-cubre-seguro-coche-catastrofes-naturales/</guid>
-      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Si tu coche sufre daños por una inundación u otra catástrofe natural, es posible que tengas derecho a una indemnización. Te explicamos qué situaciones están cubiertas, quién se hace cargo de los daños y cómo reclamar.</description>
-    </item>
-    <item>
-      <title>Gasóleo A, B y C: qué diferencias hay</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/tipos-gasoleo-a-b-c-diferencias/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/tipos-gasoleo-a-b-c-diferencias/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Aunque parecen combustibles similares, tienen diferencias importantes que van más allá del precio y el color. Utilizar un gasóleo inadecuado puede provocar averías costosas y acarrear sanciones económicas.</description>
-    </item>
-    <item>
-      <title>Inicio de producción de Leapmotor en España</title>
-      <link>https://www.km77.com/revista/engendro-mecanico/stellantis-comienza-a-fabricar-el-leapmotor-b10-en-zaragoza-y-confirma-que-el-b05-se-hara-en-la-misma-planta/</link>
-      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/stellantis-comienza-a-fabricar-el-leapmotor-b10-en-zaragoza-y-confirma-que-el-b05-se-hara-en-la-misma-planta/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Stellantis ha comenzado a fabricar en su planta de Zaragoza el Leapmotor B10, al que se unirá más adelante el B05. La asignación de ambos modelos a la factoría aragonesa refleja la cada vez más estrecha relación entre ambos grupos.</description>
     </item>
     <item>
       <title>Geely Monjaro (2026) | Precio</title>
@@ -161,13 +161,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/mercedes/amg-gt/2027/suv/informacion</guid>
       <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es un SUV eléctrico de altas prestaciones disponible en tres versiones de hasta 1169 CV. Cuenta con baterías de hasta 128 kWh, una autonomía máxima de 700 kilómetros y una potencia de recarga de hasta  710 kW.</description>
-    </item>
-    <item>
-      <title>Salón de París 2026 | Vídeo</title>
-      <link>https://www.youtube.com/watch?v=WnWyRzemnH0</link>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=WnWyRzemnH0</guid>
-      <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Recorremos el salón para conocer las novedades principales, tanto de prototipos como de modelos de producción.</description>
     </item>
     <item>
       <title>Tesla Roadster (prototipo)</title>
@@ -287,6 +280,13 @@
       <guid isPermaLink="true">https://www.km77.com/coches/omoda/5/2027/estandar/informacion</guid>
       <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es una actualización del modelo que está actualmente en venta. Presenta cambios importantes en el diseño y tecnología de infoentretenimiento. La gama estará compuesta por una versión híbrida no enchufable y otra eléctrica, de 224 y 211 caballos, respectivamente. A la venta a principios de 2027.</description>
+    </item>
+    <item>
+      <title>Alpine A310 VISION (prototipo)</title>
+      <link>https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</guid>
+      <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Es un prototipo eléctrico de 4,55 metros inspirado en el A310 original y construido sobre la plataforma del próximo A110. No anticipa un modelo de producción.</description>
     </item>
   </channel>
 </rss>
