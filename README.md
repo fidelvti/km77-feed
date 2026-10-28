@@ -59,10 +59,12 @@ arquitectura actual, con tres piezas:
    - El mismo `fetch()` del Worker hace de servidor: una petición normal a `/` o
      `/feed.xml` (sin la cabecera de secreto) simplemente devuelve lo último guardado en
      KV, sin volver a rascar km77.com ni tener ningún efecto secundario.
-   - El cron en UTC no se autoajusta al cambio de hora: en invierno la ejecución pasará a
-     ser a las 19:00 hora española en vez de las 20:00. Cambiar esto exigiría dos entradas
-     de cron distintas activas/inactivas según la época del año — no se ha hecho, el
-     desfase de una hora dos veces al año no se considera un problema real.
+   - Cloudflare Cron Triggers solo admiten UTC, sin concepto de zona horaria ni cambio de
+     hora automático. Para que la ejecución real caiga siempre a las 20:00 en España, el
+     `wrangler.toml` registra **dos** horarios (`0 18 * * *` y `0 19 * * *` UTC — uno por
+     cada posible desfase, verano/invierno), así que cada día se dispara dos veces: la que
+     toca (20:00 locales) y una de más (19:00 o 21:00) que, al ser la pipeline idempotente,
+     normalmente no encuentra novedades y no hace nada.
 2. **`.github/workflows/notify.yml` (GitHub Actions, disparado por ese
    `repository_dispatch`):** envía las notificaciones a ntfy.sh. Se hace desde aquí y no
    desde el propio Worker porque **ntfy.sh limita las publicaciones (`POST`) por IP, y las
