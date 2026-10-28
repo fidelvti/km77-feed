@@ -5,18 +5,20 @@ const FEED_LINK = `${BASE_URL}/`;
 const FEED_DESCRIPTION =
   "Feed no oficial generado a partir de la portada de km77.com: " +
   "noticias, pruebas y novedades de modelos";
-const FEED_SELF_URL = "https://fidelvti.github.io/km77-feed/feed.xml?v=5";
+const FEED_SELF_URL = "https://km77-feed-worker.fidelvti.workers.dev/feed.xml";
 const HUB_URL = "https://pubsubhubbub.appspot.com/";
 const MAX_ITEMS = 40;
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36";
 
+// GITHUB_REPO is still needed for repository_dispatch (the ntfy notify
+// workflow) — only the feed/index file pushes were dropped in favor of
+// serving them straight from this Worker's own KV store.
 const GITHUB_REPO = "fidelvti/km77-feed";
-const GITHUB_BRANCH = "main";
-const FEED_PATH = "docs/feed.xml";
-const INDEX_PATH = "docs/index.html";
 const KV_SEEN_KEY = "seen_links";
+const KV_FEED_KEY = "feed_xml";
+const KV_INDEX_KEY = "index_html";
 
 function escapeXml(str) {
   return str
@@ -179,13 +181,6 @@ function buildIndexHtml() {
 `;
 }
 
-function toBase64Utf8(str) {
-  const bytes = new TextEncoder().encode(str);
-  let binary = "";
-  for (const byte of bytes) binary += String.fromCharCode(byte);
-  return btoa(binary);
-}
-
 async function githubRequest(env, path, options = {}) {
   const resp = await fetch(`https://api.github.com${path}`, {
     ...options,
@@ -197,32 +192,6 @@ async function githubRequest(env, path, options = {}) {
     },
   });
   return resp;
-}
-
-async function putGithubFile(env, path, content, message) {
-  const getResp = await githubRequest(
-    env,
-    `/repos/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`
-  );
-  let sha;
-  if (getResp.status === 200) {
-    sha = (await getResp.json()).sha;
-  } else if (getResp.status !== 404) {
-    throw new Error(`GET ${path} failed: HTTP ${getResp.status}`);
-  }
-
-  const putResp = await githubRequest(env, `/repos/${GITHUB_REPO}/contents/${path}`, {
-    method: "PUT",
-    body: JSON.stringify({
-      message,
-      content: toBase64Utf8(content),
-      branch: GITHUB_BRANCH,
-      ...(sha ? { sha } : {}),
-    }),
-  });
-  if (!putResp.ok) {
-    throw new Error(`PUT ${path} failed: HTTP ${putResp.status}: ${await putResp.text()}`);
-  }
 }
 
 async function dispatchNotifyEvent(env, newItems) {
@@ -265,9 +234,9 @@ async function runPipeline(env) {
 
   const rss = buildRss(items);
   const indexHtml = buildIndexHtml();
-  await putGithubFile(env, FEED_PATH, rss, `Update feed ${new Date().toISOString()}`);
-  await putGithubFile(env, INDEX_PATH, indexHtml, `Update index ${new Date().toISOString()}`);
-  log.push("Pushed docs/feed.xml and docs/index.html to GitHub");
+  await env.SEEN_LINKS.put(KV_FEED_KEY, rss);
+  await env.SEEN_LINKS.put(KV_INDEX_KEY, indexHtml);
+  log.push("Stored feed.xml and index.html in KV");
 
   const seenRaw = await env.SEEN_LINKS.get(KV_SEEN_KEY);
   const currentLinks = items.map((i) => i.link);
@@ -290,23 +259,46 @@ async function runPipeline(env) {
 }
 
 export default {
-  // The fetch() handler is reachable by anyone on the public internet (it's
-  // what lets the GitHub Actions backup-trigger invoke the same pipeline as
-  // the Cron Trigger). Without this check, any bot/scanner hitting the bare
-  // *.workers.dev URL runs the real pipeline — including real pushes to
-  // ntfy.sh and commits to GitHub. This is exactly what caused duplicate
-  // notification bursts on 2026-10-28.
+  // Two completely different things can hit this same URL:
+  //  1. Public readers (RSS clients, browsers) requesting /feed.xml or / —
+  //     these just get whatever was last stored in KV, no side effects, no
+  //     secret required.
+  //  2. The trigger invocation (Cloudflare Cron's scheduled() below, or the
+  //     GitHub Actions backup-trigger hitting this same fetch() handler) —
+  //     this is what actually re-scrapes km77.com and can send real pushes,
+  //     so it requires X-Trigger-Secret. Without this check, any bot/scanner
+  //     hitting the bare *.workers.dev URL would run the real pipeline —
+  //     which is exactly what caused duplicate notification bursts on
+  //     2026-10-28, back when this endpoint ran the pipeline unconditionally.
   async fetch(request, env) {
-    const provided = request.headers.get("X-Trigger-Secret");
-    if (!env.TRIGGER_SECRET || provided !== env.TRIGGER_SECRET) {
-      return new Response("Unauthorized\n", { status: 401 });
+    const url = new URL(request.url);
+    const providedSecret = request.headers.get("X-Trigger-Secret");
+
+    if (providedSecret) {
+      if (!env.TRIGGER_SECRET || providedSecret !== env.TRIGGER_SECRET) {
+        return new Response("Unauthorized\n", { status: 401 });
+      }
+      try {
+        const log = await runPipeline(env);
+        return new Response(log.join("\n") + "\n", { status: 200 });
+      } catch (e) {
+        return new Response(`ERROR: ${e.stack || e}\n`, { status: 500 });
+      }
     }
-    try {
-      const log = await runPipeline(env);
-      return new Response(log.join("\n") + "\n", { status: 200 });
-    } catch (e) {
-      return new Response(`ERROR: ${e.stack || e}\n`, { status: 500 });
+
+    if (url.pathname === "/feed.xml") {
+      const rss = await env.SEEN_LINKS.get(KV_FEED_KEY);
+      if (!rss) return new Response("Feed not generated yet\n", { status: 404 });
+      return new Response(rss, { headers: { "Content-Type": "application/rss+xml; charset=utf-8" } });
     }
+
+    if (url.pathname === "/" || url.pathname === "/index.html") {
+      const indexHtml = await env.SEEN_LINKS.get(KV_INDEX_KEY);
+      if (!indexHtml) return new Response("Not generated yet\n", { status: 404 });
+      return new Response(indexHtml, { headers: { "Content-Type": "text/html; charset=utf-8" } });
+    }
+
+    return new Response("Not found\n", { status: 404 });
   },
 
   async scheduled(event, env, ctx) {

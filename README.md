@@ -2,9 +2,9 @@
 
 Notificaciones push (vía [ntfy.sh](https://ntfy.sh)) con las novedades de la portada de
 [km77.com](https://www.km77.com/), generadas automáticamente una vez al día por un
-**Cloudflare Worker con Cron Trigger** — sin depender de que ningún Mac esté encendido.
-Como subproducto también se publica un `docs/feed.xml` (RSS 2.0) vía GitHub Pages, aunque
-en la práctica no es una vía fiable — ver "Nota histórica" más abajo.
+**Cloudflare Worker con Cron Trigger** — sin depender de ningún ordenador encendido. El
+propio Worker también sirve un `feed.xml` (RSS 2.0) desde su propia URL, como alternativa
+RSS, aunque en la práctica no es una vía fiable — ver "Nota histórica" más abajo.
 
 km77.com no ofrece ni RSS ni notificaciones propias. La portada mezcla en una sola lista
 cronológica artículos de la revista (WordPress), fichas de "novedades" de modelos nuevos
@@ -36,7 +36,7 @@ así que el riesgo es solo que alguien más reciba las mismas notificaciones de 
 **Vía alternativa, RSS (poco fiable, ver nota histórica):**
 
 ```
-https://fidelvti.github.io/km77-feed/feed.xml?v=5
+https://km77-feed-worker.fidelvti.workers.dev/feed.xml
 ```
 
 ## Arquitectura (Cloudflare Worker)
@@ -47,15 +47,18 @@ dominio, no solo la API) — por eso el scraping no puede correr en GitHub Actio
 Comprobado empíricamente que **un Cloudflare Worker sí puede leer km77.com sin problema**
 (probablemente porque Cloudflare no trata el tráfico saliente de sus propios Workers igual
 que el de rangos de IP de otros proveedores cloud conocidos y bloqueados). De ahí la
-arquitectura actual, con dos piezas:
+arquitectura actual, con tres piezas:
 
 1. **`worker/` (Cloudflare Worker + Cron Trigger, `0 18 * * *` UTC = 20:00 CEST / 19:00
    CET):** hace todo el trabajo que necesita alcanzar km77.com — scraping con
    `HTMLRewriter`, parseo de fechas relativas, generación del RSS, comparación con el
-   estado anterior (Workers KV) para detectar artículos nuevos. Publica `docs/feed.xml` y
-   `docs/index.html` en este repo vía la API de contenidos de GitHub (para que GitHub
-   Pages los siga sirviendo en la misma URL de siempre), y si hay artículos nuevos dispara
-   un evento `repository_dispatch` con sus datos.
+   estado anterior (Workers KV) para detectar artículos nuevos. Guarda el `feed.xml` y el
+   `index.html` generados **en su propio almacén KV** (no en este repo — ver "Por qué el
+   Worker se sirve a sí mismo" más abajo) y, si hay artículos nuevos, dispara un evento
+   `repository_dispatch` con sus datos.
+   - El mismo `fetch()` del Worker hace de servidor: una petición normal a `/` o
+     `/feed.xml` (sin la cabecera de secreto) simplemente devuelve lo último guardado en
+     KV, sin volver a rascar km77.com ni tener ningún efecto secundario.
    - El cron en UTC no se autoajusta al cambio de hora: en invierno la ejecución pasará a
      ser a las 19:00 hora española en vez de las 20:00. Cambiar esto exigiría dos entradas
      de cron distintas activas/inactivas según la época del año — no se ha hecho, el
@@ -70,34 +73,55 @@ arquitectura actual, con dos piezas:
    GitHub Actions); GitHub Actions llega a ntfy.sh sin que le afecte el límite de IP
    compartida de Cloudflare.
 3. **`.github/workflows/backup-trigger.yml` (GitHub Actions, `schedule` propio a las 21:00
-   UTC):** solo hace un `curl` a la URL pública del Worker. Es una red de seguridad: el
-   Cron Trigger de Cloudflare ha tenido tres incidencias de "delayed, missed, and
-   duplicated" en menos de dos semanas (16/23/26 de octubre de 2026, reconocidas en
-   [cloudflarestatus.com](https://www.cloudflarestatus.com)) — lo bastante seguido como
-   para no fiarse de un único disparador. Al ser una plataforma distinta (GitHub Actions en
-   vez de Cloudflare), un fallo de Cloudflare no se lleva también a este disparador de
-   repuesto por delante. Como la pipeline es idempotente (compara contra el estado en KV),
-   no pasa nada si un día se ejecutan los dos — el segundo simplemente no encuentra
-   novedades y no manda nada.
+   UTC):** hace un `curl` autenticado a la URL del Worker para forzar una ejecución real.
+   Es una red de seguridad: el Cron Trigger de Cloudflare ha tenido tres incidencias de
+   "delayed, missed, and duplicated" en menos de dos semanas (16/23/26 de octubre de 2026,
+   reconocidas en [cloudflarestatus.com](https://www.cloudflarestatus.com)) — lo bastante
+   seguido como para no fiarse de un único disparador. Al ser una plataforma distinta
+   (GitHub Actions en vez de Cloudflare), un fallo de Cloudflare no se lleva también a este
+   disparador de repuesto por delante. Como la pipeline es idempotente (compara contra el
+   estado en KV), no pasa nada si un día se ejecutan los dos — el segundo simplemente no
+   encuentra novedades y no manda nada.
+
+### Por qué el Worker se sirve a sí mismo (y no GitHub Pages)
+
+Hasta el 2026-10-29, el Worker publicaba `docs/feed.xml`/`docs/index.html` en este repo vía
+la API de contenidos de GitHub, y GitHub Pages los servía desde ahí. Funcionaba, pero cada
+ejecución generaba 1-2 commits automáticos directos a `main` — la misma rama donde se
+trabaja en local — así que cualquier clon local se quedaba "atrasado" tras cada ejecución
+diaria, y si alguna vez había algo sin subir en local, acababa en conflicto de merge al
+hacer `pull` (pasó de verdad, con un commit suelto de una ejecución manual del antiguo
+script de Python). La alternativa habría sido mover esos commits a una rama aparte
+(`gh-pages`), pero se optó por quitar git de la ecuación del todo: el Worker guarda el
+`feed.xml`/`index.html` generados en su propio almacén (Workers KV) y los sirve él mismo
+desde su propia URL. Cero commits automáticos — este repo solo cambia cuando se edita
+código de verdad. A cambio, la URL pública del feed pasó de
+`fidelvti.github.io/km77-feed/feed.xml` a `km77-feed-worker.fidelvti.workers.dev/feed.xml`
+(un cambio de dirección, una vez; bajo impacto porque las notificaciones push, el canal
+principal, no dependen de esta URL en absoluto).
 
 ### Secretos y estado
 
 - `GITHUB_TOKEN` (secreto del Worker, `wrangler secret put GITHUB_TOKEN` desde `worker/`):
   fine-grained PAT limitado únicamente a este repo, con permiso "Contents: Read and write".
-  Se usa tanto para el `PUT` a la API de contenidos como para disparar el
-  `repository_dispatch`.
+  Ya no se usa para subir archivos (eso lo quitamos), solo para disparar el
+  `repository_dispatch` que activa `notify.yml`.
 - `TRIGGER_SECRET` (secreto del Worker **y** secreto del repo en GitHub Actions, deben
-  coincidir): el handler `fetch()` del Worker es una URL pública
-  (`km77-feed-worker.fidelvti.workers.dev`) sin esto — y `fetch()` ejecuta la pipeline real
-  (commits + pushes de verdad) ante cualquier `GET`. El 2026-10-28 algo externo la golpeó
-  varias veces y mandó tandas de notificaciones duplicadas (confirmado con el historial real
-  de ntfy, `GET https://ntfy.sh/km77-feed-a0efcc40/json?poll=1&since=24h`, no solo con los
-  logs de GitHub Actions). Ahora hace falta mandar la cabecera `X-Trigger-Secret` con el
-  valor correcto o responde `401` sin tocar nada; `backup-trigger.yml` ya la manda. El
-  `scheduled()` (el cron real de Cloudflare) no necesita esto — nunca es alcanzable por
-  HTTP, solo lo invoca Cloudflare internamente.
-- KV namespace `SEEN_LINKS` (binding en `worker/wrangler.toml`): guarda la lista de enlaces
-  ya notificados, equivalente al antiguo `state/seen_links.json`.
+  coincidir): protege la parte del `fetch()` del Worker que ejecuta la pipeline real
+  (scraping + posibles pushes). Sin esto, cualquiera que hiciera un `GET` a la URL pública
+  del Worker disparaba una ejecución real — pasó de verdad el 2026-10-28: algo externo
+  golpeó la URL varias veces y mandó tandas de notificaciones duplicadas (confirmado con el
+  historial real de ntfy, `GET https://ntfy.sh/km77-feed-a0efcc40/json?poll=1&since=24h`,
+  no solo con los logs de GitHub Actions). Ahora, una petición con la cabecera
+  `X-Trigger-Secret` correcta ejecuta la pipeline; sin esa cabecera, se trata como una
+  petición de lectura normal y solo se sirve el `feed.xml`/`index.html` ya guardado (sin
+  volver a rascar km77.com); con la cabecera pero incorrecta, `401`. `backup-trigger.yml`
+  ya la manda. El `scheduled()` (el cron real de Cloudflare) no necesita esto — nunca es
+  alcanzable por HTTP, solo lo invoca Cloudflare internamente.
+- KV namespace `SEEN_LINKS` (binding en `worker/wrangler.toml`): además de la lista de
+  enlaces ya notificados (`seen_links`), guarda también el `feed.xml` y el `index.html` más
+  recientes (`feed_xml`, `index_html`) — es lo que sirve el `fetch()` del Worker a los
+  lectores normales.
 
 ### Desplegar/actualizar el Worker
 
@@ -105,29 +129,6 @@ arquitectura actual, con dos piezas:
 cd worker
 npx wrangler deploy
 ```
-
-## Vía histórica: Mac + `launchd` (en desuso)
-
-Antes de migrar a Cloudflare Workers, todo esto corría en local desde este Mac, vía un
-agente de `launchd` que ejecutaba `scripts/update_and_push.sh` cada día a las 20:00. Ese
-camino sigue existiendo en el repo (`scripts/generate_feed.py`,
-`scripts/update_and_push.sh`, `state/seen_links.json`) como referencia y respaldo. Una vez
-confirmado que el Worker funciona de forma fiable, hay que descargar el agente para que no
-corran ambos a la vez (haría doble trabajo, aunque no debería romper nada al ser ambos
-idempotentes):
-
-```bash
-launchctl unload ~/Library/LaunchAgents/com.fidelvti.km77feed.plist
-```
-
-y, si se confirma que el Worker es estable a largo plazo, este apartado y los scripts de
-Python pueden borrarse del todo. Para revivirlo si el Worker da problemas:
-
-```bash
-launchctl load ~/Library/LaunchAgents/com.fidelvti.km77feed.plist
-```
-
-(revisa `~/Library/Logs/km77-feed.log` para ver su actividad pasada).
 
 ## Notas
 
@@ -149,25 +150,18 @@ ajuste desde nuestro lado (cabeceras, `ttl`) que lo fuerce a mirar más a menudo
 
 Se probó WebSub (antes PubSubHubbub) para que el feed avisara activamente al hub tras cada
 publicación — el XML declara `<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />`
-y tanto el Worker como (antes) `update_and_push.sh` hacen un POST a ese hub tras cada
-actualización — pero tras varios días Feedly siguió sin enterarse: no implementa el lado
-"suscriptor" de WebSub para este feed (o no de forma fiable). Se mantiene el aviso al hub
-porque no hace daño, pero para uso real se pasó a las notificaciones push de ntfy.sh
-descritas en "Uso", que no dependen de que ningún tercero decida escuchar.
-
-Truco manual si aún así quieres forzar a Feedly a rastrear el feed RSS: cambia el `?v=N` de
-la URL a un número que nunca haya visto y vuelve a suscribirte con esa URL — al ser
-desconocida, la rastrea desde cero al instante (quitar y volver a añadir la *misma* URL no
-sirve, te reconecta a la caché vieja). Si algún día se cambia ese número, hay que
-actualizar `FEED_SELF_URL` tanto en `worker/src/index.js` como en
-`scripts/generate_feed.py`, a la vez que la URL usada en el lector.
+y el Worker hace un POST a ese hub tras cada actualización — pero tras varios días Feedly
+siguió sin enterarse: no implementa el lado "suscriptor" de WebSub para este feed (o no de
+forma fiable). Se mantiene el aviso al hub porque no hace daño, pero para uso real se pasó
+a las notificaciones push de ntfy.sh descritas en "Uso", que no dependen de que ningún
+tercero decida escuchar.
 
 ## Comandos útiles
 
-Ver las últimas ejecuciones del despliegue de GitHub Pages y detectar si alguna falló:
+Ver las últimas ejecuciones de los workflows y detectar si alguno falló:
 
 ```bash
-gh run list --repo fidelvti/km77-feed --limit 5
+gh run list --repo fidelvti/km77-feed --limit 10
 ```
 
 Relanzar una que haya fallado (copia su ID de la columna numérica larga):
@@ -177,5 +171,11 @@ gh run rerun <RUN_ID> --repo fidelvti/km77-feed
 gh run watch <RUN_ID> --repo fidelvti/km77-feed --exit-status   # opcional, para verla en directo
 ```
 
-No hace falta estar dentro de la carpeta del repo para estos comandos (usan `--repo`
+Invocar el Worker a mano (requiere el valor de `TRIGGER_SECRET`):
+
+```bash
+curl -H "X-Trigger-Secret: <valor>" https://km77-feed-worker.fidelvti.workers.dev
+```
+
+No hace falta estar dentro de la carpeta del repo para los comandos de `gh` (usan `--repo`
 explícito), solo tener `gh` autenticado (ya lo está en este Mac).
