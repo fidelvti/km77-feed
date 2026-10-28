@@ -5,42 +5,56 @@
     <link>https://www.km77.com/</link>
     <description>Feed no oficial generado a partir de la portada de km77.com: noticias, pruebas y novedades de modelos</description>
     <language>es-ES</language>
-    <lastBuildDate>Mon, 26 Oct 2026 18:00:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:42:53 +0000</lastBuildDate>
     <atom:link rel="self" type="application/rss+xml" href="https://fidelvti.github.io/km77-feed/feed.xml?v=5" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Waymo llega a España</title>
+      <link>https://www.km77.com/revista/noticias/waymo-llega-a-espana-la-empresa-de-conduccion-autonoma-de-google-comenzara-a-prestar-servicio-en-madrid-para-2027/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/noticias/waymo-llega-a-espana-la-empresa-de-conduccion-autonoma-de-google-comenzara-a-prestar-servicio-en-madrid-para-2027/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:42:52 +0000</pubDate>
+      <description>Waymo, la empresa de conducción autónoma de Google, ha confirmado que comenzará a prestar servicio en la Comunidad de Madrid de cara al año 2027.</description>
+    </item>
+    <item>
+      <title>¿Por qué la pintura roja de los coches se deteriora antes que las demás?</title>
+      <link>https://www.km77.com/revista/engendro-mecanico/pintura-coches-rojos-mas-desgaste-motivos/</link>
+      <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/pintura-coches-rojos-mas-desgaste-motivos/</guid>
+      <pubDate>Tue, 27 Oct 2026 05:42:52 +0000</pubDate>
+      <description>Con el paso de los años, muchos coches rojos pierden su brillo y adquieren un tono rosáceo o blanquecino, mientras que otros colores se conservan mejor. La explicación está en la composición de los pigmentos y en cómo reaccionan a la luz solar.</description>
+    </item>
     <item>
       <title>Audi S3 Sedan | Prueba</title>
       <link>https://www.km77.com/coches/audi/a3/2024/sportback/s3/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/audi/a3/2024/sportback/s3/informacion</guid>
-      <pubDate>Mon, 26 Oct 2026 15:00:45 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:42:52 +0000</pubDate>
       <description>Tiene un motor de gasolina de 333 caballos, tracción en las cuatro ruedas y un sistema de reparto de par en el eje posterior (torque splitter) con el que es muy sencillo provocar sobreviraje. El S3 cumple muy bien con su faceta de vehículo de uso diario y también de deportivo. Está a la venta por 69 390 euros, un precio superior al de sus alternativas.</description>
     </item>
     <item>
       <title>ZEEKR X | Imágenes interiores</title>
       <link>https://www.km77.com/coches/zeekr/x/2024/estandar/imagenes/interiores</link>
       <guid isPermaLink="true">https://www.km77.com/coches/zeekr/x/2024/estandar/imagenes/interiores</guid>
-      <pubDate>Mon, 26 Oct 2026 12:00:45 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:42:52 +0000</pubDate>
       <description>Galería con la sesión de 24 fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión Long Range RWD.</description>
     </item>
     <item>
       <title>Volvo XC60 (2027) | Precios</title>
       <link>https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</link>
       <guid isPermaLink="true">https://www.km77.com/coches/volvo/xc60/2027/estandar/informacion</guid>
-      <pubDate>Mon, 26 Oct 2026 09:00:45 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:42:52 +0000</pubDate>
       <description>Volvo actualiza este SUV de 4,71 metros con cambios de diseño y tecnología y seguridad. Las versiones híbridas enchufables estrenan una batería de 41,2 kWh que permite recorrer hasta 200 kilómetros en modo eléctrico. En venta desde 64 688 euros.</description>
     </item>
     <item>
       <title>¿Por qué la gasolinera te retiene hasta 150 euros al repostar?</title>
       <link>https://www.km77.com/revista/engendro-mecanico/gasolinera-retienen-150-euros-motivo/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/gasolinera-retienen-150-euros-motivo/</guid>
-      <pubDate>Mon, 26 Oct 2026 06:00:45 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:42:52 +0000</pubDate>
       <description>Al pagar con tarjeta en una gasolinera de autoservicio, es posible que aparezca una retención de 100 o 150 euros, aunque solo hayas repostado 20. No se trata de un error ni de un cobro indebido, sino de un procedimiento bancario que tiene una explicación.</description>
     </item>
     <item>
       <title>BMW iX3 2026 | Esquiva y eslalon</title>
       <link>https://youtu.be/bJm1eiD-Mlw</link>
       <guid isPermaLink="true">https://youtu.be/bJm1eiD-Mlw</guid>
-      <pubDate>Sun, 25 Oct 2026 18:00:45 +0000</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:42:52 +0000</pubDate>
       <description>La versión 50 xDrive de 469 caballos y 805 kilómetros de autonomía homologada ha pasado por el circuito para realizar estas pruebas.</description>
     </item>
     <item>
@@ -65,13 +79,6 @@
       <description>CUPRA presenta una nueva versión del Raval con un kit de carrocería específico y novedades en el habitáculo. No hay cambios en el motor ni en la batería. Está en venta desde 39 310 euros.</description>
     </item>
     <item>
-      <title>Freelander 8 (2027)</title>
-      <link>https://www.km77.com/coches/freelander/8/2027/estandar/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/freelander/8/2027/estandar/informacion</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-      <description>El primer modelo fruto de la colaboración entre JLR (grupo Jaguar-Land Rover) y Chery es un SUV de 5,10 metros de longitud que se mueve mediante un sistema híbrido enchufable de 620 caballos. La batería es de tipo LFP, tiene 34 kWh de capacidad y permite recorrer 112 km en modo eléctrico.</description>
-    </item>
-    <item>
       <title>Android Auto da un paso más hacia las conversaciones naturales</title>
       <link>https://www.km77.com/revista/engendro-mecanico/gemini-gmail-calendario-android-auto/</link>
       <guid isPermaLink="true">https://www.km77.com/revista/engendro-mecanico/gemini-gmail-calendario-android-auto/</guid>
@@ -79,18 +86,18 @@
       <description>Gemini mejora su capacidad para entender lo que necesita el conductor, incluso cuando no proporciona todos los detalles. Además, puede utilizar información de Gmail y Google Calendar para responder a determinadas peticiones.</description>
     </item>
     <item>
+      <title>Freelander 8 (2027)</title>
+      <link>https://www.km77.com/coches/freelander/8/2027/estandar/informacion</link>
+      <guid isPermaLink="true">https://www.km77.com/coches/freelander/8/2027/estandar/informacion</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+      <description>El primer modelo fruto de la colaboración entre JLR (grupo Jaguar-Land Rover) y Chery es un SUV de 5,10 metros de longitud que se mueve mediante un sistema híbrido enchufable de 620 caballos. La batería es de tipo LFP, tiene 34 kWh de capacidad y permite recorrer 112 km en modo eléctrico.</description>
+    </item>
+    <item>
       <title>Volkswagen ID. Polo | Vídeo</title>
       <link>https://www.youtube.com/watch?v=VHQljolLMr8</link>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=VHQljolLMr8</guid>
       <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
       <description>Probamos la versión de 211 caballos con batería de 52 kilovatios-hora. Este turismo eléctrico de 4,05 metros de longitud tiene una conducción agradable, un interior bien confeccionado y un maletero muy amplio.</description>
-    </item>
-    <item>
-      <title>Ebro s900  | Imágenes interiores</title>
-      <link>https://www.km77.com/coches/ebro/s900/2026/estandar/imagenes/interiores</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/ebro/s900/2026/estandar/imagenes/interiores</guid>
-      <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Galería con la sesión de 30 fotografías del habitáculo y el maletero realizadas en nuestro estudio de la versión PHEV 4x4 Luxury.</description>
     </item>
     <item>
       <title>Volkswagen ID. Tiguan (2027) | Precios</title>
@@ -280,13 +287,6 @@
       <guid isPermaLink="true">https://www.km77.com/coches/omoda/5/2027/estandar/informacion</guid>
       <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
       <description>Es una actualización del modelo que está actualmente en venta. Presenta cambios importantes en el diseño y tecnología de infoentretenimiento. La gama estará compuesta por una versión híbrida no enchufable y otra eléctrica, de 224 y 211 caballos, respectivamente. A la venta a principios de 2027.</description>
-    </item>
-    <item>
-      <title>Alpine A310 VISION (prototipo)</title>
-      <link>https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</link>
-      <guid isPermaLink="true">https://www.km77.com/coches/alpine/a310-vision-prototipo/informacion</guid>
-      <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Es un prototipo eléctrico de 4,55 metros inspirado en el A310 original y construido sobre la plataforma del próximo A110. No anticipa un modelo de producción.</description>
     </item>
   </channel>
 </rss>
