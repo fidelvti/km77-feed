@@ -1,0 +1,24 @@
+name: Backup trigger for km77 Worker
+
+# Cloudflare's own Worker Cron Trigger has had three separate "delayed, missed,
+# and duplicated" incidents in under two weeks (see README). This is an
+# independent, redundant trigger on a completely different platform: it just
+# invokes the Worker's fetch() handler, which runs the exact same pipeline as
+# the scheduled() handler. Safe to run even if the Cloudflare cron already
+# fired that day — the pipeline diffs against KV state, so a second run the
+# same day finds zero new items and sends zero duplicate pushes.
+on:
+  schedule:
+    # 21:00 UTC, three hours after the Worker's own 18:00 UTC cron, so this
+    # only ends up doing real work on days the Cloudflare trigger was missed.
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke km77-feed-worker
+        run: |
+          curl -s -o /tmp/resp.txt -w "\nHTTP_STATUS:%{http_code}\n" https://km77-feed-worker.fidelvti.workers.dev
+          cat /tmp/resp.txt

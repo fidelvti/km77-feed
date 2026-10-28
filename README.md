@@ -69,6 +69,16 @@ arquitectura actual, con dos piezas:
    plataforma se usa para lo que sí puede hacer: el Worker llega a km77.com (que bloquea a
    GitHub Actions); GitHub Actions llega a ntfy.sh sin que le afecte el límite de IP
    compartida de Cloudflare.
+3. **`.github/workflows/backup-trigger.yml` (GitHub Actions, `schedule` propio a las 21:00
+   UTC):** solo hace un `curl` a la URL pública del Worker. Es una red de seguridad: el
+   Cron Trigger de Cloudflare ha tenido tres incidencias de "delayed, missed, and
+   duplicated" en menos de dos semanas (16/23/26 de octubre de 2026, reconocidas en
+   [cloudflarestatus.com](https://www.cloudflarestatus.com)) — lo bastante seguido como
+   para no fiarse de un único disparador. Al ser una plataforma distinta (GitHub Actions en
+   vez de Cloudflare), un fallo de Cloudflare no se lleva también a este disparador de
+   repuesto por delante. Como la pipeline es idempotente (compara contra el estado en KV),
+   no pasa nada si un día se ejecutan los dos — el segundo simplemente no encuentra
+   novedades y no manda nada.
 
 ### Secretos y estado
 
