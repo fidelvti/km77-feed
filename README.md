@@ -86,6 +86,16 @@ arquitectura actual, con dos piezas:
   fine-grained PAT limitado únicamente a este repo, con permiso "Contents: Read and write".
   Se usa tanto para el `PUT` a la API de contenidos como para disparar el
   `repository_dispatch`.
+- `TRIGGER_SECRET` (secreto del Worker **y** secreto del repo en GitHub Actions, deben
+  coincidir): el handler `fetch()` del Worker es una URL pública
+  (`km77-feed-worker.fidelvti.workers.dev`) sin esto — y `fetch()` ejecuta la pipeline real
+  (commits + pushes de verdad) ante cualquier `GET`. El 2026-10-28 algo externo la golpeó
+  varias veces y mandó tandas de notificaciones duplicadas (confirmado con el historial real
+  de ntfy, `GET https://ntfy.sh/km77-feed-a0efcc40/json?poll=1&since=24h`, no solo con los
+  logs de GitHub Actions). Ahora hace falta mandar la cabecera `X-Trigger-Secret` con el
+  valor correcto o responde `401` sin tocar nada; `backup-trigger.yml` ya la manda. El
+  `scheduled()` (el cron real de Cloudflare) no necesita esto — nunca es alcanzable por
+  HTTP, solo lo invoca Cloudflare internamente.
 - KV namespace `SEEN_LINKS` (binding en `worker/wrangler.toml`): guarda la lista de enlaces
   ya notificados, equivalente al antiguo `state/seen_links.json`.
 
