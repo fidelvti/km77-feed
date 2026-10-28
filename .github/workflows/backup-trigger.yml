@@ -19,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Invoke km77-feed-worker
+        env:
+          TRIGGER_SECRET: ${{ secrets.TRIGGER_SECRET }}
         run: |
-          curl -s -o /tmp/resp.txt -w "\nHTTP_STATUS:%{http_code}\n" https://km77-feed-worker.fidelvti.workers.dev
+          curl -s -o /tmp/resp.txt -w "\nHTTP_STATUS:%{http_code}\n" \
+            -H "X-Trigger-Secret: $TRIGGER_SECRET" \
+            https://km77-feed-worker.fidelvti.workers.dev
           cat /tmp/resp.txt

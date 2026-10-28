@@ -290,7 +290,17 @@ async function runPipeline(env) {
 }
 
 export default {
+  // The fetch() handler is reachable by anyone on the public internet (it's
+  // what lets the GitHub Actions backup-trigger invoke the same pipeline as
+  // the Cron Trigger). Without this check, any bot/scanner hitting the bare
+  // *.workers.dev URL runs the real pipeline — including real pushes to
+  // ntfy.sh and commits to GitHub. This is exactly what caused duplicate
+  // notification bursts on 2026-10-28.
   async fetch(request, env) {
+    const provided = request.headers.get("X-Trigger-Secret");
+    if (!env.TRIGGER_SECRET || provided !== env.TRIGGER_SECRET) {
+      return new Response("Unauthorized\n", { status: 401 });
+    }
     try {
       const log = await runPipeline(env);
       return new Response(log.join("\n") + "\n", { status: 200 });
