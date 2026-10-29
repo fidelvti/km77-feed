@@ -240,17 +240,28 @@ async function runPipeline(env) {
 
   const seenRaw = await env.SEEN_LINKS.get(KV_SEEN_KEY);
   const currentLinks = items.map((i) => i.link);
+  const previousLinks = seenRaw ? JSON.parse(seenRaw) : [];
 
   if (seenRaw === null) {
     log.push("No previous state found, bootstrapping without sending pushes");
   } else {
-    const seen = new Set(JSON.parse(seenRaw));
+    const seen = new Set(previousLinks);
     const newItems = items.filter((i) => !seen.has(i.link));
     await dispatchNotifyEvent(env, newItems);
     log.push(`Dispatched notify event for ${newItems.length} new item(s)`);
   }
 
-  await env.SEEN_LINKS.put(KV_SEEN_KEY, JSON.stringify(currentLinks));
+  // Keep a rolling history much larger than MAX_ITEMS. Replacing the seen
+  // state with just today's top-MAX_ITEMS snapshot (as before) meant an
+  // article that temporarily dropped below rank 40 and later re-entered the
+  // top 40 (km77's homepage ranking shifts between runs) got "forgotten" and
+  // re-flagged as new, even though it was already pushed days earlier — this
+  // is what caused a 2026-10-12 article to be re-notified on 2026-10-29.
+  // currentLinks go first (already newest-first) so the cap favors the most
+  // recently seen links.
+  const SEEN_HISTORY_CAP = 500;
+  const updatedSeen = [...new Set([...currentLinks, ...previousLinks])].slice(0, SEEN_HISTORY_CAP);
+  await env.SEEN_LINKS.put(KV_SEEN_KEY, JSON.stringify(updatedSeen));
 
   const hubStatus = await pingHub();
   log.push(`Pinged hub: ${hubStatus}`);
