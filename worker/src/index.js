@@ -210,6 +210,22 @@ async function dispatchNotifyEvent(env, newItems) {
   }
 }
 
+// Cloudflare Cron Triggers only understand UTC, so wrangler.toml registers
+// both possible UTC offsets for 20:00 Madrid time (one for CEST, one for
+// CET) and scheduled() fires at both daily. Without this guard, both firings
+// found genuinely new items (not just leftovers from the other run) and each
+// dispatched its own notification batch, so "once a day at 20:00" became two
+// separate push bursts an hour apart. Checking the actual Madrid wall-clock
+// hour makes the "wrong" firing a true no-op again, regardless of DST.
+function isScheduledRunHour(now) {
+  const madridHour = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Madrid",
+    hour: "numeric",
+    hour12: false,
+  }).format(now);
+  return Number(madridHour) === 20;
+}
+
 async function pingHub() {
   try {
     const resp = await fetch(HUB_URL, {
@@ -313,6 +329,10 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
+    // Only one of the two registered crons matches 20:00 Madrid time on any
+    // given day (see isScheduledRunHour); the other fires an hour off due to
+    // the fixed UTC offset and is skipped entirely here.
+    if (!isScheduledRunHour(new Date(event.scheduledTime))) return;
     ctx.waitUntil(runPipeline(env));
   },
 };

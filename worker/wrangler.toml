@@ -3,17 +3,19 @@ main = "src/index.js"
 compatibility_date = "2025-01-01"
 
 # Cloudflare Cron Triggers solo admiten UTC, no hay forma de decir "20:00 hora
-# española" directamente. Para que la ejecución "de verdad" caiga siempre a
-# las 20:00 en España pase lo que pase con el cambio de hora, se registran
-# las DOS horas UTC posibles:
+# española" directamente. Para que la ejecución caiga siempre a las 20:00 en
+# España pase lo que pase con el cambio de hora, se registran las DOS horas
+# UTC posibles:
 #   - 18:00 UTC = 20:00 CEST (verano, marzo-octubre aprox.)
 #   - 19:00 UTC = 20:00 CET  (invierno, octubre-marzo aprox.)
-# El resultado es que cada día se dispara dos veces: una a las 20:00 locales
-# (la que toca) y otra a las 19:00 o 21:00 (la de la otra estación, "de más").
-# No pasa nada porque la pipeline es idempotente (compara contra el estado en
-# KV) — la ejecución sobrante simplemente no encuentra novedades y no manda
-# nada, salvo que km77 publique algo justo en esa hora de diferencia, en cuyo
-# caso ese artículo llega una hora antes/después de lo normal, no dos veces.
+# Cada día el Worker recibe las dos invocaciones, pero scheduled() en
+# src/index.js comprueba la hora local real de Madrid (isScheduledRunHour) y
+# descarta sin más la que no sea las 20:00 — así solo se ejecuta la pipeline
+# de verdad una vez al día. (Antes se confiaba en que la ejecución "de más"
+# fuera un no-op porque la pipeline es idempotente, pero en la práctica las
+# dos encontraban novedades genuinas —cada una desde la última vez que se
+# comprobó—, así que salían dos tandas de avisos separadas por una hora en
+# vez de una sola a las 20:00.)
 [triggers]
 crons = ["0 18 * * *", "0 19 * * *"]
 
